@@ -11,7 +11,7 @@ TMP_DIR="$CI_DIR/tmp"
 
 GODOT_VERSION="${GODOT_VERSION:-4.6-stable}"
 GODOT_TEMPLATE_VERSION="${GODOT_TEMPLATE_VERSION:-${GODOT_VERSION//-/.}}"
-GODOT_RELEASE_BASE="${GODOT_RELEASE_BASE:-https://github.com/godotengine/godot/releases/download/$GODOT_VERSION}"
+GODOT_RELEASE_BASE="${GODOT_RELEASE_BASE:-https://github.com/godotengine/godot-builds/releases/download/$GODOT_VERSION}"
 GODOT_ZIP="Godot_v${GODOT_VERSION}_linux.x86_64.zip"
 GODOT_TEMPLATES_TPZ="Godot_v${GODOT_VERSION}_export_templates.tpz"
 
