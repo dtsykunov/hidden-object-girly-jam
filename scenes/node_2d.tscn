@@ -64,13 +64,12 @@ libraries/ = SubResource("AnimationLibrary_4vge2")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/PickableArea2D" unique_id=806964986]
 shape = SubResource("RectangleShape2D_04qyp")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1552761570 node_paths=PackedStringArray("camera_bounds", "node")]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1552761570 node_paths=PackedStringArray("node")]
 limit_left = -1500
 limit_top = -779
 limit_right = 3242
 limit_bottom = 1800
 editor_draw_limits = true
 script = ExtResource("2_4dvvg")
-camera_bounds = NodePath("")
 max_zoom = 2.0
 node = NodePath("../Sprite2D")

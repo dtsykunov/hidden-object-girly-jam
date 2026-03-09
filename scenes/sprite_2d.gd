@@ -14,4 +14,3 @@ func _on_pickable_area_2d_input_event(viewport: Node, event: InputEvent, shape_i
 
 	if event is InputEventScreenTouch:
 		pass
-

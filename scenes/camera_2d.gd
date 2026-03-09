@@ -1,6 +1,5 @@
 extends Camera2D
 
-@export var camera_bounds: CameraBounds
 @export var min_zoom := 0.5
 @export var max_zoom := 3.0
 @export var zoom_step := 0.1
@@ -8,15 +7,6 @@ extends Camera2D
 
 var dragging := false
 var last_pointer := Vector2.ZERO
-
-
-func _ready():
-	if camera_bounds:
-		var r: Rect2 = camera_bounds.get_rect()
-		limit_left = r.position.x
-		limit_top = r.position.y
-		limit_right = r.end.x
-		limit_bottom = r.end.y
 
 
 func _input(event: InputEvent):
