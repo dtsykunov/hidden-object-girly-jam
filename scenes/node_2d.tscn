@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://w2h78nbeedp6"]
+
+[ext_resource type="Texture2D" uid="uid://tq0wccnjm0cc" path="res://icon.svg" id="1_6e84v"]
+[ext_resource type="Script" uid="uid://hqsl55d3w0p" path="res://scenes/camera_2d.gd" id="2_4dvvg"]
+
+[node name="World" type="Node2D" unique_id=893542957]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=736441570]
+position = Vector2(876, 600)
+scale = Vector2(13.546876, 9.359375)
+texture = ExtResource("1_6e84v")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=908766690]
+position = Vector2(261, 119)
+texture = ExtResource("1_6e84v")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1552761570 node_paths=PackedStringArray("camera_bounds", "node")]
+limit_left = -1500
+limit_top = -779
+limit_right = 3242
+limit_bottom = 1800
+editor_draw_limits = true
+script = ExtResource("2_4dvvg")
+camera_bounds = NodePath("")
+max_zoom = 2.0
+node = NodePath("../Sprite2D")

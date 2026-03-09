@@ -11,8 +11,21 @@ config_version=5
 [application]
 
 config/name="girly-game"
+run/main_scene="uid://w2h78nbeedp6"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/handheld/orientation=1
+
+[input_devices]
+
+pointing/android/enable_pan_and_scale_gestures=true
+
+[layer_names]
+
+2d_physics/layer_4="Camera"
 
 [physics]
 
