@@ -2,6 +2,47 @@
 
 [ext_resource type="Texture2D" uid="uid://tq0wccnjm0cc" path="res://icon.svg" id="1_6e84v"]
 [ext_resource type="Script" uid="uid://hqsl55d3w0p" path="res://scenes/camera_2d.gd" id="2_4dvvg"]
+[ext_resource type="Script" uid="uid://btv8ijxx4lyd6" path="res://scenes/sprite_2d.gd" id="2_rnjyy"]
+
+[sub_resource type="Animation" id="Animation_4dvvg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_rnjyy"]
+resource_name = "new_animation"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.2831855]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4vge2"]
+_data = {
+&"RESET": SubResource("Animation_4dvvg"),
+&"spin": SubResource("Animation_rnjyy")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_04qyp"]
+size = Vector2(125, 125)
 
 [node name="World" type="Node2D" unique_id=893542957]
 
@@ -13,6 +54,15 @@ texture = ExtResource("1_6e84v")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=908766690]
 position = Vector2(261, 119)
 texture = ExtResource("1_6e84v")
+script = ExtResource("2_rnjyy")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D" unique_id=1820003553]
+libraries/ = SubResource("AnimationLibrary_4vge2")
+
+[node name="PickableArea2D" type="Area2D" parent="Sprite2D" unique_id=1757919733]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/PickableArea2D" unique_id=806964986]
+shape = SubResource("RectangleShape2D_04qyp")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1552761570 node_paths=PackedStringArray("camera_bounds", "node")]
 limit_left = -1500
