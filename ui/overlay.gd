@@ -13,7 +13,10 @@ func _ready() -> void:
 
 
 func _on_options_button_pressed() -> void:
-	_options_menu.visible = not _options_menu.visible
+	if _options_menu.visible:
+		PanelAnimator.hide(_options_menu)
+	else:
+		PanelAnimator.show(_options_menu)
 
 
 func _init_sliders() -> void:
@@ -49,20 +52,20 @@ func _to_db(value: float) -> float:
 
 func _on_play_button_pressed() -> void:
 	GameState.start()
-	_play_button.hide()
+	await PanelAnimator.dismiss(_play_button)
 
 
 func _on_restart_button_pressed() -> void:
-	_options_menu.hide()
-	_confirm_panel.visible = true
+	await PanelAnimator.hide(_options_menu)
+	PanelAnimator.show(_confirm_panel)
 
 
 func _on_continue_button_pressed() -> void:
-	_on_options_button_pressed()
+	PanelAnimator.hide(_options_menu)
 
 
 func _on_confirm_cancel_pressed() -> void:
-	_confirm_panel.visible = false
+	PanelAnimator.hide(_confirm_panel)
 
 
 func _on_confirm_restart_pressed() -> void:
