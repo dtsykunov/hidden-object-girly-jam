@@ -26,8 +26,13 @@ window/handheld/orientation=1
 [file_customization]
 
 folder_colors={
+"res://assets/": "blue",
 "res://ui/": "green"
 }
+
+[gui]
+
+theme/custom_font="uid://dlr1snjo0mf4s"
 
 [input_devices]
 
