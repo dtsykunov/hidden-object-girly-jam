@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://tq0wccnjm0cc" path="res://icon.svg" id="1_6e84v"]
 [ext_resource type="Script" uid="uid://hqsl55d3w0p" path="res://scenes/camera_2d.gd" id="2_4dvvg"]
 [ext_resource type="Script" uid="uid://btv8ijxx4lyd6" path="res://scenes/sprite_2d.gd" id="2_rnjyy"]
+[ext_resource type="PackedScene" uid="uid://bk0bdkp62huy3" path="res://ui/Overlay.tscn" id="4_4vge2"]
 
 [sub_resource type="Animation" id="Animation_4dvvg"]
 length = 0.001
@@ -73,3 +74,8 @@ editor_draw_limits = true
 script = ExtResource("2_4dvvg")
 max_zoom = 2.0
 node = NodePath("../Sprite2D")
+
+[node name="UILayer" type="CanvasLayer" parent="." unique_id=1898423097]
+layer = 10
+
+[node name="Overlay" parent="UILayer" unique_id=2132565030 instance=ExtResource("4_4vge2")]

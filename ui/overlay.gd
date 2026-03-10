@@ -54,5 +54,14 @@ func _on_continue_button_pressed() -> void:
 	_on_options_button_pressed()
 
 
+func _on_fullscreen_button_pressed() -> void:
+	var is_fullscreen := DisplayServer.window_get_mode() in [
+		DisplayServer.WINDOW_MODE_FULLSCREEN,
+		DisplayServer.WINDOW_MODE_EXCLUSIVE_FULLSCREEN,
+	]
+	var target := DisplayServer.WINDOW_MODE_WINDOWED if is_fullscreen else DisplayServer.WINDOW_MODE_FULLSCREEN
+	DisplayServer.window_set_mode(target)
+
+
 func _on_restart_confirmed() -> void:
 	get_tree().reload_current_scene()

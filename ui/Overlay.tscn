@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bk0bdkp62huy3"]
 
 [ext_resource type="Texture2D" uid="uid://dlhgnigb04dsk" path="res://assets/icons/vector_whiteIcons.svg" id="1_7pliq"]
-[ext_resource type="Theme" uid="uid://h1f7iqhh7ycb" path="res://assets/theme/FlatUI4/kenneyUI-yellow.tres" id="1_x1eqy"]
+[ext_resource type="Theme" uid="uid://h1f7iqhh7ycb" path="res://assets/theme/FlatUI4/kenneyUI-yellow.tres" id="1_7qdid"]
 [ext_resource type="Script" uid="uid://b8ssp3j5k0847" path="res://ui/overlay.gd" id="2_overlay"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1eqy"]
@@ -31,7 +31,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme = ExtResource("1_x1eqy")
+theme = ExtResource("1_7qdid")
 script = ExtResource("2_overlay")
 
 [node name="PlayButton" type="Button" parent="." unique_id=667169842]
@@ -49,7 +49,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 50
+theme_override_font_sizes/font_size = 90
 text = "Play"
 
 [node name="OptionsButton" type="TextureButton" parent="." unique_id=1013076780]
@@ -57,13 +57,13 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -124.0
+offset_left = -198.0
 offset_top = 25.0
 offset_right = -28.0
-offset_bottom = 121.0
+offset_bottom = 195.0
 grow_horizontal = 0
 texture_normal = SubResource("AtlasTexture_x1eqy")
-stretch_mode = 0
+stretch_mode = 5
 
 [node name="FullscreenButton" type="TextureButton" parent="." unique_id=1381456293]
 layout_mode = 1
@@ -72,50 +72,42 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -131.0
-offset_top = -125.0
+offset_left = -205.0
+offset_top = -200.0
 offset_right = -35.0
-offset_bottom = -29.0
+offset_bottom = -30.0
 grow_horizontal = 0
 grow_vertical = 0
 texture_normal = SubResource("AtlasTexture_7qdid")
-stretch_mode = 0
+stretch_mode = 5
 
 [node name="OptionsMenu" type="CenterContainer" parent="." unique_id=1186729032]
-visible = false
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -150.0
-offset_top = -133.0
-offset_right = 150.0
-offset_bottom = 133.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Panel" type="PanelContainer" parent="OptionsMenu" unique_id=1902359427]
-custom_minimum_size = Vector2(500, 0)
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_7qdid")
 
 [node name="MarginContainer" type="MarginContainer" parent="OptionsMenu/Panel" unique_id=475621727]
 layout_mode = 2
-theme_override_constants/margin_left = 15
-theme_override_constants/margin_top = 15
-theme_override_constants/margin_right = 15
-theme_override_constants/margin_bottom = 15
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 25
+theme_override_constants/margin_bottom = 25
 
 [node name="VBoxContainer" type="VBoxContainer" parent="OptionsMenu/Panel/MarginContainer" unique_id=1594586040]
-custom_minimum_size = Vector2(300, 0)
+custom_minimum_size = Vector2(540, 0)
 layout_mode = 2
-theme_override_constants/separation = 12
+theme_override_constants/separation = 20
 
 [node name="TitleLabel" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1267601669]
 layout_mode = 2
-theme_override_font_sizes/font_size = 30
+theme_override_font_sizes/font_size = 55
 text = "Options"
 horizontal_alignment = 1
 
@@ -124,7 +116,7 @@ layout_mode = 2
 
 [node name="TitleLabel2" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=91074211]
 layout_mode = 2
-theme_override_font_sizes/font_size = 27
+theme_override_font_sizes/font_size = 48
 text = "Volume"
 horizontal_alignment = 1
 
@@ -132,17 +124,19 @@ horizontal_alignment = 1
 layout_mode = 2
 
 [node name="MasterLabel" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow" unique_id=483033559]
-custom_minimum_size = Vector2(70, 0)
+custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
-size_flags_horizontal = 3
-theme_override_font_sizes/font_size = 25
+size_flags_horizontal = 2
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 45
 text = "Overall"
 
 [node name="MasterSlider" type="HSlider" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow" unique_id=749909522]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(300, 0)
+custom_minimum_size = Vector2(500, 0)
 layout_mode = 2
 size_flags_horizontal = 10
+size_flags_vertical = 1
 max_value = 1.0
 step = 0.01
 value = 1.0
@@ -151,17 +145,19 @@ value = 1.0
 layout_mode = 2
 
 [node name="MusicLabel" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/MusicRow" unique_id=1576022301]
-custom_minimum_size = Vector2(70, 0)
+custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
 size_flags_horizontal = 2
-theme_override_font_sizes/font_size = 25
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 45
 text = "Music"
 
 [node name="MusicSlider" type="HSlider" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/MusicRow" unique_id=495026327]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(300, 0)
+custom_minimum_size = Vector2(500, 0)
 layout_mode = 2
 size_flags_horizontal = 10
+size_flags_vertical = 1
 max_value = 1.0
 step = 0.01
 value = 1.0
@@ -170,17 +166,19 @@ value = 1.0
 layout_mode = 2
 
 [node name="SFXLabel" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/SFXRow" unique_id=1969202714]
-custom_minimum_size = Vector2(70, 0)
+custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
 size_flags_horizontal = 2
-theme_override_font_sizes/font_size = 25
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 45
 text = "SFX"
 
 [node name="SFXSlider" type="HSlider" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/SFXRow" unique_id=1100401969]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(300, 0)
+custom_minimum_size = Vector2(500, 0)
 layout_mode = 2
 size_flags_horizontal = 10
+size_flags_vertical = 1
 max_value = 1.0
 step = 0.01
 value = 1.0
@@ -192,24 +190,26 @@ layout_mode = 2
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 25
+theme_override_font_sizes/font_size = 45
 text = "Restart"
 
 [node name="ContinueButton" type="Button" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1926228998]
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 25
+theme_override_font_sizes/font_size = 45
 text = "Continue"
 
 [node name="RestartConfirmation" type="ConfirmationDialog" parent="." unique_id=1455437133]
 oversampling_override = 1.0
 title = "Restart Game"
-size = Vector2i(404, 100)
+size = Vector2i(720, 200)
+min_size = Vector2i(720, 200)
 ok_button_text = "Restart"
 dialog_text = "Are you sure you want to restart?"
 
 [connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow/MasterSlider" to="." method="_on_master_slider_changed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MusicRow/MusicSlider" to="." method="_on_music_slider_changed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/SFXRow/SFXSlider" to="." method="_on_sfx_slider_changed"]

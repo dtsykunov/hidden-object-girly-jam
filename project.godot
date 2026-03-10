@@ -13,15 +13,16 @@ config_version=5
 config/name="girly-game"
 run/main_scene="uid://w2h78nbeedp6"
 config/features=PackedStringArray("4.6", "GL Compatibility")
+run/max_fps=120
 config/icon="res://icon.svg"
-
-[autoload]
-
-SoundManager="res://autoload/sound_manager.tscn"
 
 [audio]
 
 buses/default_bus_layout="uid://bpsjdsf3nofk4"
+
+[autoload]
+
+SoundManager="res://autoload/sound_manager.tscn"
 
 [display]
 
