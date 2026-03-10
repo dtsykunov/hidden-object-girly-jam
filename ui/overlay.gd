@@ -1,7 +1,8 @@
 extends Control
 
+@onready var _play_button: Button = $PlayButton
 @onready var _options_menu: CenterContainer = $OptionsMenu
-@onready var _restart_confirmation: ConfirmationDialog = $RestartConfirmation
+@onready var _confirm_panel: CenterContainer = $ConfirmPanel
 @onready var _master_slider: HSlider = %MasterSlider
 @onready var _music_slider: HSlider = %MusicSlider
 @onready var _sfx_slider: HSlider = %SFXSlider
@@ -46,12 +47,27 @@ func _to_db(value: float) -> float:
 	return -80.0 if value <= 0.0 else linear_to_db(value)
 
 
+func _on_play_button_pressed() -> void:
+	GameState.start()
+	_play_button.hide()
+
+
 func _on_restart_button_pressed() -> void:
-	_restart_confirmation.popup_centered()
+	_options_menu.hide()
+	_confirm_panel.visible = true
 
 
 func _on_continue_button_pressed() -> void:
 	_on_options_button_pressed()
+
+
+func _on_confirm_cancel_pressed() -> void:
+	_confirm_panel.visible = false
+
+
+func _on_confirm_restart_pressed() -> void:
+	GameState.reset()
+	get_tree().reload_current_scene()
 
 
 func _on_fullscreen_button_pressed() -> void:
@@ -61,7 +77,3 @@ func _on_fullscreen_button_pressed() -> void:
 	]
 	var target := DisplayServer.WINDOW_MODE_WINDOWED if is_fullscreen else DisplayServer.WINDOW_MODE_FULLSCREEN
 	DisplayServer.window_set_mode(target)
-
-
-func _on_restart_confirmed() -> void:
-	get_tree().reload_current_scene()

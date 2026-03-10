@@ -82,10 +82,17 @@ texture_normal = SubResource("AtlasTexture_7qdid")
 stretch_mode = 5
 
 [node name="OptionsMenu" type="CenterContainer" parent="." unique_id=1186729032]
+visible = false
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -408.0
+offset_top = -321.5
+offset_right = 408.0
+offset_bottom = 321.5
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -200,14 +207,61 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 45
 text = "Continue"
 
-[node name="RestartConfirmation" type="ConfirmationDialog" parent="." unique_id=1455437133]
-oversampling_override = 1.0
-title = "Restart Game"
-size = Vector2i(720, 200)
-min_size = Vector2i(720, 200)
-ok_button_text = "Restart"
-dialog_text = "Are you sure you want to restart?"
+[node name="ConfirmPanel" type="CenterContainer" parent="." unique_id=2001000001]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
+[node name="Panel" type="PanelContainer" parent="ConfirmPanel" unique_id=2001000002]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_7qdid")
+
+[node name="MarginContainer" type="MarginContainer" parent="ConfirmPanel/Panel" unique_id=2001000003]
+layout_mode = 2
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 25
+theme_override_constants/margin_bottom = 25
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ConfirmPanel/Panel/MarginContainer" unique_id=2001000004]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="MessageLabel" type="Label" parent="ConfirmPanel/Panel/MarginContainer/VBoxContainer" unique_id=2001000005]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+text = "Are you sure?"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="ConfirmPanel/Panel/MarginContainer/VBoxContainer" unique_id=2001000006]
+layout_mode = 2
+
+[node name="ButtonRow" type="HBoxContainer" parent="ConfirmPanel/Panel/MarginContainer/VBoxContainer" unique_id=2001000007]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="RestartButton" type="Button" parent="ConfirmPanel/Panel/MarginContainer/VBoxContainer/ButtonRow" unique_id=2001000009]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+text = "Restart"
+
+[node name="CancelButton" type="Button" parent="ConfirmPanel/Panel/MarginContainer/VBoxContainer/ButtonRow" unique_id=2001000008]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+text = "Cancel"
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
 [connection signal="pressed" from="FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow/MasterSlider" to="." method="_on_master_slider_changed"]
@@ -215,4 +269,5 @@ dialog_text = "Are you sure you want to restart?"
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/SFXRow/SFXSlider" to="." method="_on_sfx_slider_changed"]
 [connection signal="pressed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/RestartButton" to="." method="_on_restart_button_pressed"]
 [connection signal="pressed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/ContinueButton" to="." method="_on_continue_button_pressed"]
-[connection signal="confirmed" from="RestartConfirmation" to="." method="_on_restart_confirmed"]
+[connection signal="pressed" from="ConfirmPanel/Panel/MarginContainer/VBoxContainer/ButtonRow/RestartButton" to="." method="_on_confirm_restart_pressed"]
+[connection signal="pressed" from="ConfirmPanel/Panel/MarginContainer/VBoxContainer/ButtonRow/CancelButton" to="." method="_on_confirm_cancel_pressed"]

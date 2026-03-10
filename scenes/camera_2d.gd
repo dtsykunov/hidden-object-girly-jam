@@ -9,6 +9,19 @@ var dragging := false
 var last_pointer := Vector2.ZERO
 
 
+func _ready() -> void:
+	set_process_input(false)
+	GameState.game_started.connect(_on_game_started)
+
+
+func _exit_tree() -> void:
+	GameState.game_started.disconnect(_on_game_started)
+
+
+func _on_game_started() -> void:
+	set_process_input(true)
+
+
 func _input(event: InputEvent):
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_LEFT:
