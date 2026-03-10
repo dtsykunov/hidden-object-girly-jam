@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbop7jpgokvjj"
+path="res://.godot/imported/Casual Field Day Main.wav-17fe8e6b2a6379ba298024d19c621c63.sample"
+
+[deps]
+
+source_file="res://assets/music/Casual Field Day Main.wav"
+dest_files=["res://.godot/imported/Casual Field Day Main.wav-17fe8e6b2a6379ba298024d19c621c63.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
