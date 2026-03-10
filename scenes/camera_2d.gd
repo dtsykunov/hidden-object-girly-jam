@@ -32,7 +32,7 @@ func _input(event: InputEvent):
 		_drag(event.position)
 
 	elif event is InputEventMagnifyGesture:
-		_zoom_at(get_viewport().get_mouse_position(), -event.factor * 0.25)
+		_zoom_at(event.position, event.factor - 1.0)
 
 
 func _drag(p: Vector2):
