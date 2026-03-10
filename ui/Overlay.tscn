@@ -203,7 +203,9 @@ theme_override_font_sizes/font_size = 25
 text = "Continue"
 
 [node name="RestartConfirmation" type="ConfirmationDialog" parent="." unique_id=1455437133]
+oversampling_override = 1.0
 title = "Restart Game"
+size = Vector2i(404, 100)
 ok_button_text = "Restart"
 dialog_text = "Are you sure you want to restart?"
 

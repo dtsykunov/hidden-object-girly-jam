@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cwbjnbq4sm1o0"]
+
+[ext_resource type="Script" uid="uid://bvt1rtamenndx" path="res://autoload/sound_manager.gd" id="1_smgr"]
+[ext_resource type="AudioStream" uid="uid://bbop7jpgokvjj" path="res://assets/music/Casual Field Day Main.wav" id="2_music"]
+
+[node name="SoundManager" type="Node" unique_id=408738305]
+script = ExtResource("1_smgr")
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="." unique_id=1039627400]
+stream = ExtResource("2_music")
+autoplay = true
+bus = &"Music"
