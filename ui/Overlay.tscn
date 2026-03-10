@@ -1,10 +1,28 @@
 [gd_scene format=3 uid="uid://bk0bdkp62huy3"]
 
 [ext_resource type="Texture2D" uid="uid://dlhgnigb04dsk" path="res://assets/icons/vector_whiteIcons.svg" id="1_7pliq"]
+[ext_resource type="Theme" uid="uid://h1f7iqhh7ycb" path="res://assets/theme/FlatUI4/kenneyUI-yellow.tres" id="1_x1eqy"]
+[ext_resource type="Script" uid="uid://b8ssp3j5k0847" path="res://ui/overlay.gd" id="2_overlay"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1eqy"]
 atlas = ExtResource("1_7pliq")
 region = Rect2(1965, 306, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7qdid"]
+atlas = ExtResource("1_7pliq")
+region = Rect2(765, 156, 96.83905, 94.217255)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7qdid"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.6872063, 0.70431215, 0.8919519, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 5
 
 [node name="Overlay" type="Control" unique_id=2132565030]
 layout_mode = 3
@@ -13,8 +31,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_x1eqy")
+script = ExtResource("2_overlay")
 
-[node name="Button" type="Button" parent="." unique_id=667169842]
+[node name="PlayButton" type="Button" parent="." unique_id=667169842]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -27,10 +47,12 @@ offset_right = 20.5
 offset_bottom = 15.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 50
 text = "Play"
 
-[node name="TextureButton" type="TextureButton" parent="." unique_id=1013076780]
+[node name="OptionsButton" type="TextureButton" parent="." unique_id=1013076780]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -42,3 +64,153 @@ offset_bottom = 121.0
 grow_horizontal = 0
 texture_normal = SubResource("AtlasTexture_x1eqy")
 stretch_mode = 0
+
+[node name="FullscreenButton" type="TextureButton" parent="." unique_id=1381456293]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -131.0
+offset_top = -125.0
+offset_right = -35.0
+offset_bottom = -29.0
+grow_horizontal = 0
+grow_vertical = 0
+texture_normal = SubResource("AtlasTexture_7qdid")
+stretch_mode = 0
+
+[node name="OptionsMenu" type="CenterContainer" parent="." unique_id=1186729032]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -133.0
+offset_right = 150.0
+offset_bottom = 133.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="OptionsMenu" unique_id=1902359427]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_7qdid")
+
+[node name="MarginContainer" type="MarginContainer" parent="OptionsMenu/Panel" unique_id=475621727]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="OptionsMenu/Panel/MarginContainer" unique_id=1594586040]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1267601669]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Options"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1919779936]
+layout_mode = 2
+
+[node name="TitleLabel2" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=91074211]
+layout_mode = 2
+theme_override_font_sizes/font_size = 27
+text = "Volume"
+horizontal_alignment = 1
+
+[node name="MasterRow" type="HBoxContainer" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=829412163]
+layout_mode = 2
+
+[node name="MasterLabel" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow" unique_id=483033559]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 25
+text = "Overall"
+
+[node name="MasterSlider" type="HSlider" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow" unique_id=749909522]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 10
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="MusicRow" type="HBoxContainer" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1533555562]
+layout_mode = 2
+
+[node name="MusicLabel" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/MusicRow" unique_id=1576022301]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_font_sizes/font_size = 25
+text = "Music"
+
+[node name="MusicSlider" type="HSlider" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/MusicRow" unique_id=495026327]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 10
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="SFXRow" type="HBoxContainer" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1507357895]
+layout_mode = 2
+
+[node name="SFXLabel" type="Label" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/SFXRow" unique_id=1969202714]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_font_sizes/font_size = 25
+text = "SFX"
+
+[node name="SFXSlider" type="HSlider" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer/SFXRow" unique_id=1100401969]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 10
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="HSeparator2" type="HSeparator" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1393220539]
+layout_mode = 2
+
+[node name="RestartButton" type="Button" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1754307685]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "Restart"
+
+[node name="ContinueButton" type="Button" parent="OptionsMenu/Panel/MarginContainer/VBoxContainer" unique_id=1926228998]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "Continue"
+
+[node name="RestartConfirmation" type="ConfirmationDialog" parent="." unique_id=1455437133]
+title = "Restart Game"
+ok_button_text = "Restart"
+dialog_text = "Are you sure you want to restart?"
+
+[connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
+[connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow/MasterSlider" to="." method="_on_master_slider_changed"]
+[connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MusicRow/MusicSlider" to="." method="_on_music_slider_changed"]
+[connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/SFXRow/SFXSlider" to="." method="_on_sfx_slider_changed"]
+[connection signal="pressed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/RestartButton" to="." method="_on_restart_button_pressed"]
+[connection signal="pressed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/ContinueButton" to="." method="_on_continue_button_pressed"]
+[connection signal="confirmed" from="RestartConfirmation" to="." method="_on_restart_confirmed"]
