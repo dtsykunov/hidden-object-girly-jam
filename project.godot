@@ -15,9 +15,19 @@ run/main_scene="uid://w2h78nbeedp6"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[audio]
+
+buses/default_bus_layout="uid://bpsjdsf3nofk4"
+
 [display]
 
 window/handheld/orientation=1
+
+[file_customization]
+
+folder_colors={
+"res://ui/": "green"
+}
 
 [input_devices]
 
