@@ -1,0 +1,38 @@
+name: Deploy to itch.io
+
+on:
+  workflow_dispatch:
+
+env:
+  GODOT_VERSION: 4.6-stable
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Cache Godot downloads
+        uses: actions/cache@v4
+        with:
+          path: .godot-ci/downloads
+          key: ${{ runner.os }}-${{ env.GODOT_VERSION }}
+
+      - name: Build web export
+        run: bash ./tools/export_web.sh
+
+      - name: Download butler
+        run: |
+          curl -L -o butler.zip https://broth.itch.ovh/butler/linux-amd64/LATEST/archive/default
+          unzip butler.zip
+          chmod +x butler
+
+      - name: Push to itch.io
+        env:
+          BUTLER_API_KEY: ${{ secrets.ITCHIO_API_KEY }}
+          ITCHIO_GAME: ${{ vars.ITCHIO_GAME }}
+        run: ./butler push dist "$ITCHIO_GAME:html5"
