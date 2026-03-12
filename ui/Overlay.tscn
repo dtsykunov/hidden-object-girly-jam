@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dlhgnigb04dsk" path="res://assets/icons/vector_whiteIcons.svg" id="1_7pliq"]
 [ext_resource type="Theme" uid="uid://h1f7iqhh7ycb" path="res://assets/theme/FlatUI4/kenneyUI-yellow.tres" id="1_7qdid"]
 [ext_resource type="Script" uid="uid://b8ssp3j5k0847" path="res://ui/overlay.gd" id="2_overlay"]
+[ext_resource type="Shader" uid="uid://ds0k65d6jjvd5" path="res://ui/confetti.gdshader" id="3_confetti"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1eqy"]
 atlas = ExtResource("1_7pliq")
@@ -23,6 +24,9 @@ corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 corner_detail = 5
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_confetti"]
+shader = ExtResource("3_confetti")
 
 [node name="Overlay" type="Control" unique_id=2132565030]
 layout_mode = 3
@@ -272,6 +276,17 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 45
 text = "Cancel"
+
+[node name="Confetti" type="ColorRect" parent="." unique_id=1837462901]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+material = SubResource("ShaderMaterial_confetti")
 
 [node name="VictoryPanel" type="CenterContainer" parent="." unique_id=-2094967286]
 visible = false
