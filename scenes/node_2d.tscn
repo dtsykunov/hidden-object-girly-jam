@@ -513,13 +513,13 @@ rotation = -0.0021949306
 scale = Vector2(0.14350204, 0.14682096)
 
 [node name="F30Dab3624Ef45049f3f9222Ec2Fa78e" parent="OverlayCats" unique_id=608873721 instance=ExtResource("ho_1")]
-self_modulate = Color(0.37101305, 0.53474456, 0.42848927, 1)
+modulate = Color(0.37101305, 0.53474456, 0.42848927, 1)
 material = SubResource("ShaderMaterial_iajyf")
 scale = Vector2(1, 0.9999998)
 texture = ExtResource("36_p6t5t")
 
 [node name="HiddenObject" parent="OverlayCats" unique_id=1610696968 instance=ExtResource("ho_1")]
-self_modulate = Color(0.2520276, 0.25202766, 0.25202763, 1)
+modulate = Color(0.2520276, 0.25202766, 0.25202763, 1)
 material = SubResource("ShaderMaterial_h3hrn")
 position = Vector2(-1763.5201, -2891.6604)
 scale = Vector2(0.8091521, 0.8091521)
@@ -551,7 +551,7 @@ skew = 0.01745677
 texture = ExtResource("26_ak85g")
 
 [node name="Ec1286b77c59404cAd1a1c84f91d522a" parent="OverlayCats" unique_id=342534354 instance=ExtResource("ho_1")]
-self_modulate = Color(0.46618086, 0.4661808, 0.4661808, 1)
+modulate = Color(0.46618086, 0.4661808, 0.4661808, 1)
 material = SubResource("ShaderMaterial_kksrm")
 position = Vector2(220.36182, 1171.9707)
 rotation = 0.029197823
@@ -560,7 +560,7 @@ skew = 0.001365304
 texture = ExtResource("35_p421j")
 
 [node name="Cd8881388c3d4f11B78f2f145Ce3Eae1" parent="OverlayCats" unique_id=1076978209 instance=ExtResource("ho_1")]
-self_modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)
+modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)
 material = SubResource("ShaderMaterial_jdup0")
 position = Vector2(-19120.303, -6838.4297)
 rotation = 0.0021453137
@@ -569,7 +569,7 @@ skew = 0.00010037422
 texture = ExtResource("30_lnvns")
 
 [node name="Siameseシャム猫" parent="OverlayCats" unique_id=1194996290 instance=ExtResource("ho_1")]
-self_modulate = Color(0.5211406, 0.5211406, 0.5211405, 1)
+modulate = Color(0.5211406, 0.5211406, 0.5211405, 1)
 material = SubResource("ShaderMaterial_avk7w")
 position = Vector2(-17082.05, -2161.688)
 rotation = 0.0021453137
@@ -586,7 +586,7 @@ texture = ExtResource("15_k6u5g")
 flip_h = true
 
 [node name="6f9c3d3f998d4Aa6Ab0b5d1061c94e4f" parent="OverlayCats" unique_id=1583649567 instance=ExtResource("ho_1")]
-self_modulate = Color(0.7882353, 1, 1, 1)
+modulate = Color(0.7882353, 1, 1, 1)
 material = SubResource("ShaderMaterial_3r6mh")
 position = Vector2(-7768.9297, -6657.4224)
 rotation = 0.19373155
@@ -595,7 +595,7 @@ skew = 0.0049062967
 texture = ExtResource("8_08kqv")
 
 [node name="huhcat" parent="OverlayCats" unique_id=1500044289 instance=ExtResource("ho_1")]
-self_modulate = Color(0.7764706, 0.7921569, 0.81960785, 1)
+modulate = Color(0.7764706, 0.7921569, 0.81960785, 1)
 material = SubResource("ShaderMaterial_iyitj")
 position = Vector2(-16171.626, 2035.8615)
 scale = Vector2(3.385, 3.385)
@@ -615,7 +615,7 @@ rotation = -0.16123925
 texture = ExtResource("16_dj3rm")
 
 [node name="31774356C2Ef4a59900250Cb7d7Cc24e" parent="OverlayCats" unique_id=495356304 instance=ExtResource("ho_1")]
-self_modulate = Color(0.5649617, 0.5649616, 0.5649616, 1)
+modulate = Color(0.5649617, 0.5649616, 0.5649616, 1)
 material = SubResource("ShaderMaterial_m7dws")
 position = Vector2(-19063.404, -1144.2836)
 rotation = -0.048419785
@@ -805,7 +805,7 @@ scale = Vector2(0.24000002, 0.24000002)
 texture = ExtResource("17_sfkyn")
 
 [node name="789a79c4C6774Fc4B852Bbbf1Acfc4Ae" parent="HiddenObjectRest" unique_id=1966776989 instance=ExtResource("ho_1")]
-self_modulate = Color(0.48432028, 0.42238754, 0.37509713, 1)
+modulate = Color(0.48432028, 0.42238754, 0.37509713, 1)
 material = SubResource("ShaderMaterial_t2gnq")
 position = Vector2(1116.0001, 2294.0002)
 rotation = -0.07571706

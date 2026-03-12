@@ -75,6 +75,7 @@ _data = {
 }
 
 [node name="HiddenObject" type="Sprite2D" unique_id=1571531822]
+modulate = Color(0.92535293, 0.9253528, 0.9253529, 1)
 material = SubResource("ShaderMaterial_d5b1r")
 texture = ExtResource("2_d5b1r")
 script = ExtResource("1_script")

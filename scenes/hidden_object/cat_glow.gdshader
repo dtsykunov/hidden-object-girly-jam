@@ -40,6 +40,7 @@ bool hasContraryNeighbour(vec2 uv, vec2 texture_pixel_size, sampler2D texture) {
 
 void fragment() {
 	vec2 uv = UV;
+	vec4 modulate = COLOR / texture(TEXTURE, UV);
 	
 	if (add_margins) {
 		vec2 texture_pixel_size = vec2(1.0) / (vec2(1.0) / TEXTURE_PIXEL_SIZE + vec2(width * 2.0));
@@ -49,14 +50,14 @@ void fragment() {
 		if (uv != clamp(uv, vec2(0.0), vec2(1.0))) {
 			COLOR.a = 0.0;
 		} else {
-			COLOR = texture(TEXTURE, uv);
+			COLOR = texture(TEXTURE, uv) * modulate;
 		}
 	} else {
-		COLOR = texture(TEXTURE, uv);
+		COLOR = texture(TEXTURE, uv) *  modulate;
 	}
 	
 	if ((COLOR.a > 0.0) == inside && hasContraryNeighbour(uv, TEXTURE_PIXEL_SIZE, TEXTURE)) {
 		COLOR.rgb = inside ? mix(COLOR.rgb, color.rgb, color.a) : color.rgb;
 		COLOR.a += (1.0 - COLOR.a) * color.a;
 	}
-}
+	}
