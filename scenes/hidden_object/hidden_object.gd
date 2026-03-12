@@ -6,25 +6,16 @@ signal cat_found
 
 @export var purr_sound: AudioStream
 @export var meow_sound: AudioStream
-@export var glow_color: Color = Color(1.0, 0.85, 0.2, 1.0)
+@export var MAX_GLOW: float = 10.0
 
 @onready var _area: Area2D = $Area2D
 @onready var _collision: CollisionShape2D = $Area2D/CollisionShape2D
 @onready var _purr_player: AudioStreamPlayer = $PurrPlayer
 
 var _is_found := false
-var _glow_material: ShaderMaterial
-
-const _GLOW_SHADER := preload("res://scenes/hidden_object/cat_glow.gdshader")
 
 
 func _ready() -> void:
-	_glow_material = ShaderMaterial.new()
-	_glow_material.shader = _GLOW_SHADER
-	_glow_material.set_shader_parameter("glow_color", glow_color)
-	_glow_material.set_shader_parameter("glow_strength", 0.0)
-	_glow_material.set_shader_parameter("glow_size", 4.0)
-	material = _glow_material
 
 	if texture:
 		var shape := RectangleShape2D.new()
@@ -74,11 +65,11 @@ func _discover() -> void:
 
 
 func _set_glow(target: float) -> void:
-	var from: float = _glow_material.get_shader_parameter("glow_strength")
+	var from: float = material.get_shader_parameter("width")
 	var tween := create_tween()
 	tween.tween_method(
-			func(v: float) -> void: _glow_material.set_shader_parameter("glow_strength", v),
-			from, target, 0.25)
+			func(v: float) -> void: material.set_shader_parameter("width", v),
+			from, MAX_GLOW * target, 0.25)
 
 
 func _bounce() -> void:

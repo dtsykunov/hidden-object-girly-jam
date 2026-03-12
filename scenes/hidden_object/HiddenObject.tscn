@@ -1,13 +1,26 @@
-[gd_scene format=3 uid="uid://dh4p1k8ram2nx"]
+[gd_scene format=3 uid="uid://bwum8rpkg5ajb"]
 
-[ext_resource type="Script" path="res://scenes/hidden_object/hidden_object.gd" id="1_script"]
+[ext_resource type="Shader" uid="uid://br64pvwtp2301" path="res://scenes/hidden_object/cat_glow.gdshader" id="1_n7l5m"]
+[ext_resource type="Script" uid="uid://15qusner1abe" path="res://scenes/hidden_object/hidden_object.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://c7727rny27lwy" path="res://assets/images/objects/leika.png" id="2_d5b1r"]
 
-[node name="HiddenObject" type="Sprite2D"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d5b1r"]
+resource_local_to_scene = true
+shader = ExtResource("1_n7l5m")
+shader_parameter/color = Color(1, 1, 1, 1)
+shader_parameter/width = 0.0
+shader_parameter/pattern = 2
+shader_parameter/inside = false
+shader_parameter/add_margins = true
+
+[node name="HiddenObject" type="Sprite2D" unique_id=1571531822]
+material = SubResource("ShaderMaterial_d5b1r")
+texture = ExtResource("2_d5b1r")
 script = ExtResource("1_script")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="." unique_id=1270748046]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1739047556]
 
-[node name="PurrPlayer" type="AudioStreamPlayer" parent="."]
+[node name="PurrPlayer" type="AudioStreamPlayer" parent="." unique_id=256618413]
 bus = &"SFX"
