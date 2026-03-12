@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://w2h78nbeedp6"]
 
-[ext_resource type="Texture2D" uid="uid://iee13cibqter" path="res://assets/images/backgrounds/DSC02805.jpg" id="1_04qyp"]
+[ext_resource type="Texture2D" uid="uid://4x0ynmd343kr" path="res://assets/images/backgrounds/DSC02935.jpg" id="1_4urfc"]
 [ext_resource type="Texture2D" uid="uid://tq0wccnjm0cc" path="res://icon.svg" id="1_6e84v"]
 [ext_resource type="Script" uid="uid://hqsl55d3w0p" path="res://scenes/camera_2d.gd" id="2_4dvvg"]
 [ext_resource type="Script" uid="uid://btv8ijxx4lyd6" path="res://scenes/sprite_2d.gd" id="2_rnjyy"]
@@ -88,7 +88,8 @@ size = Vector2(125, 125)
 
 [node name="Dsc02805" type="Sprite2D" parent="." unique_id=1566050030]
 position = Vector2(567, 1034)
-texture = ExtResource("1_04qyp")
+scale = Vector2(0.97, 0.97)
+texture = ExtResource("1_4urfc")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=908766690]
 visible = false
@@ -106,10 +107,10 @@ shape = SubResource("RectangleShape2D_04qyp")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1552761570 node_paths=PackedStringArray("node")]
 position = Vector2(984, 538)
-limit_left = -1483
-limit_top = -919
-limit_right = 2617
-limit_bottom = 2991
+limit_left = -1398
+limit_top = -841
+limit_right = 2513
+limit_bottom = 2901
 editor_draw_limits = true
 script = ExtResource("2_4dvvg")
 max_zoom = 1.0
@@ -209,7 +210,7 @@ scale = Vector2(0.25686455, 0.29307652)
 texture = ExtResource("21_w8l5x")
 
 [node name="A740Da9bEe0343b1Ace110a70Ad0943d" type="Sprite2D" parent="." unique_id=1329087148]
-position = Vector2(2012.9998, 7)
+position = Vector2(2016.0001, 55)
 rotation = -0.0018674394
 scale = Vector2(0.235, 0.235)
 texture = ExtResource("22_1wuir")
@@ -221,7 +222,7 @@ scale = Vector2(0.35143, 0.31941423)
 texture = ExtResource("23_o4urf")
 
 [node name="B4a84a36F97d4c5f83435e80f8Fda115" type="Sprite2D" parent="." unique_id=149552151]
-position = Vector2(2223, 909)
+position = Vector2(2194.0002, 940.00006)
 scale = Vector2(0.185, 0.185)
 texture = ExtResource("24_uo1ep")
 
