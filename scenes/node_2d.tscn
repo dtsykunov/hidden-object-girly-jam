@@ -26,7 +26,9 @@
 [ext_resource type="Texture2D" uid="uid://7eli8jqmntx0" path="res://assets/images/cats/64ed99fc-8d21-4e76-a452-ab601969080e.png" id="14_qv8l0"]
 [ext_resource type="Texture2D" uid="uid://b38vme58q62cg" path="res://assets/images/objects/sheet-front.png" id="14_xksap"]
 [ext_resource type="Texture2D" uid="uid://bxg3g8dscwlj0" path="res://assets/images/cats/90b1e290-3b33-471b-a248-38ba4f28d3a4 copy.png" id="15_k6u5g"]
+[ext_resource type="Texture2D" uid="uid://bs68cmk00l4li" path="res://assets/images/cats/shower-cat.png" id="15_l28v8"]
 [ext_resource type="Texture2D" uid="uid://ceo18loepewdf" path="res://assets/images/cats/212cccd7-6e65-45c7-9629-1bd68428b07d.png" id="16_4urfc"]
+[ext_resource type="Texture2D" uid="uid://d01d7087dvw5c" path="res://assets/images/cats/lying-cat.png" id="16_dj3rm"]
 [ext_resource type="Texture2D" uid="uid://csgfdyllkxj0v" path="res://assets/images/cats/385dbe1b-4fad-4bea-bfcb-f5f5fe0760ce.png" id="17_sfkyn"]
 [ext_resource type="Texture2D" uid="uid://bq2byosmjw7w" path="res://assets/images/cats/789a79c4-c677-4fc4-b852-bbbf1acfc4ae.png" id="18_rntdg"]
 [ext_resource type="Texture2D" uid="uid://c4dlg6se28iiw" path="res://assets/images/cats/986c166c-559c-41e0-9f5a-8eb364c19fd0.png" id="19_hiivq"]
@@ -50,6 +52,7 @@
 [ext_resource type="Texture2D" uid="uid://c5u21x3570iro" path="res://assets/images/cats/cat.png" id="29_haaho"]
 [ext_resource type="Texture2D" uid="uid://cjlky3qgoyvlp" path="res://assets/images/cats/cd888138-8c3d-4f11-b78f-2f145ce3eae1.png" id="30_lnvns"]
 [ext_resource type="Texture2D" uid="uid://cdeyrr2hof73e" path="res://assets/images/cats/d467c301-05be-43ae-b884-6b2b0955d4e6.png" id="31_sr1wi"]
+[ext_resource type="Texture2D" uid="uid://gt3ap4mfypig" path="res://assets/images/objects/vedro.png" id="32_dj3rm"]
 [ext_resource type="Texture2D" uid="uid://b34vjmme2h05d" path="res://assets/images/cats/Draw over a meme for the person above! on Toyhouse.png" id="32_wx07a"]
 [ext_resource type="Texture2D" uid="uid://lmipk7r7sbby" path="res://assets/images/cats/e915192f-f2ba-4041-b835-3c71304b2c96.png" id="33_rnubh"]
 [ext_resource type="Texture2D" uid="uid://ckgjblbflh76k" path="res://assets/images/cats/eb6221ca-e1d8-4bbc-83fd-fa4df2bddf08.png" id="34_5leur"]
@@ -122,6 +125,7 @@ rotation = -0.0021949306
 scale = Vector2(0.14350204, 0.14682096)
 
 [node name="F30Dab3624Ef45049f3f9222Ec2Fa78e" parent="OverlayCats" unique_id=608873721 instance=ExtResource("ho_1")]
+self_modulate = Color(0.37101305, 0.53474456, 0.42848927, 1)
 scale = Vector2(1, 0.9999998)
 texture = ExtResource("36_p6t5t")
 glow_color = null
@@ -201,12 +205,58 @@ texture = ExtResource("8_08kqv")
 glow_color = null
 
 [node name="huhcat" parent="OverlayCats" unique_id=1500044289 instance=ExtResource("ho_1")]
-
-[node name="HuhCat" type="Sprite2D" parent="OverlayCats" unique_id=1368672529]
-self_modulate = Color(0.7921569, 0.8039216, 0.84313726, 1)
-position = Vector2(-16164.656, 2035.8754)
+self_modulate = Color(0.7764706, 0.7921569, 0.81960785, 1)
+position = Vector2(-16171.626, 2035.8615)
 scale = Vector2(3.385, 3.385)
 texture = ExtResource("14_p6t5t")
+
+[node name="HiddenObject3" parent="OverlayCats" unique_id=1779840306 instance=ExtResource("ho_1")]
+self_modulate = Color(0.73300546, 0.7330054, 0.7330054, 1)
+position = Vector2(-3690.1155, -4537.2524)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("15_l28v8")
+
+[node name="HiddenObject4" parent="OverlayCats" unique_id=149786492 instance=ExtResource("ho_1")]
+position = Vector2(-6727.582, -4904.753)
+rotation = -0.16123925
+texture = ExtResource("16_dj3rm")
+
+[node name="31774356C2Ef4a59900250Cb7d7Cc24e" parent="OverlayCats" unique_id=495356304 instance=ExtResource("ho_1")]
+self_modulate = Color(0.5649617, 0.5649616, 0.5649616, 1)
+position = Vector2(-19063.404, -1144.2836)
+rotation = -0.048419785
+scale = Vector2(1.7898732, 1.9962635)
+skew = -0.002261877
+texture = ExtResource("21_w8l5x")
+flip_h = true
+glow_color = null
+
+[node name="Cat(1)" parent="OverlayCats" unique_id=1228456605 instance=ExtResource("ho_1")]
+self_modulate = Color(0.5822018, 0.42990035, 0.31400618, 1)
+position = Vector2(1650.0852, -3820.2188)
+rotation = 0.033891436
+scale = Vector2(1.6792399, 1.7523665)
+skew = 0.0015844107
+texture = ExtResource("28_jws35")
+glow_color = null
+
+[node name="3c215e9bF1f745c6Aeb55Fc297Ad0d6d" parent="OverlayCats" unique_id=826039765 instance=ExtResource("ho_1")]
+self_modulate = Color(0.646029, 0.646029, 0.646029, 1)
+position = Vector2(-13952.466, 6835.589)
+rotation = 1.558579
+scale = Vector2(1.6206429, 1.5840083)
+skew = 0.00010037422
+texture = ExtResource("7_dubn7")
+glow_color = null
+
+[node name="29683a7fBcda4Ec5B4485a52682a0c23" parent="OverlayCats" unique_id=1482502502 instance=ExtResource("ho_1")]
+self_modulate = Color(0.7666196, 0.76661956, 0.76661956, 1)
+position = Vector2(-10492.78, -833.02124)
+rotation = -1.7180454
+scale = Vector2(0.9979717, 0.9753822)
+skew = 0.00649333
+texture = ExtResource("20_l2ef6")
+glow_color = null
 
 [node name="OverlayObjects" type="Node2D" parent="." unique_id=1563024129]
 position = Vector2(2051, 1662.9999)
@@ -290,6 +340,11 @@ position = Vector2(-1143.0432, -1057.1505)
 rotation = 0.0021949306
 texture = ExtResource("29_af4el")
 
+[node name="Vedro" type="Sprite2D" parent="OverlayObjects" unique_id=1251415361]
+position = Vector2(-551.1324, -658.94293)
+rotation = 0.0021949306
+texture = ExtResource("32_dj3rm")
+
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=908766690]
 visible = false
 position = Vector2(261, 119)
@@ -308,26 +363,20 @@ shape = SubResource("RectangleShape2D_04qyp")
 position = Vector2(261, 119)
 
 [node name="2Dee53a517184a3e9d1200c9f8Df3f96" parent="HiddenObjectRest" unique_id=1923041400 instance=ExtResource("ho_1")]
-position = Vector2(680, 894)
+position = Vector2(706, 958)
 scale = Vector2(0.335, 0.335)
 texture = ExtResource("6_3m5ht")
 glow_color = null
 
-[node name="3c215e9bF1f745c6Aeb55Fc297Ad0d6d" parent="HiddenObjectRest" unique_id=826039765 instance=ExtResource("ho_1")]
-position = Vector2(1170, 1509.0001)
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("7_dubn7")
-glow_color = null
-
 [node name="35b581d32Fec42d998d73Fc34a0f6e41" parent="HiddenObjectRest" unique_id=1905212036 instance=ExtResource("ho_1")]
-position = Vector2(-578, 538)
+position = Vector2(-577, 550)
 scale = Vector2(0.405, 0.405)
 texture = ExtResource("9_f6ptj")
 glow_color = null
 
 [node name="45f7e974Ffc14d1c8FcaB0681Dd018f8" parent="HiddenObjectRest" unique_id=850110405 instance=ExtResource("ho_1")]
-position = Vector2(85, 381)
-scale = Vector2(0.21, 0.21)
+position = Vector2(103, 407)
+scale = Vector2(0.17692573, 0.17692573)
 texture = ExtResource("10_xtx0q")
 glow_color = null
 
@@ -338,7 +387,7 @@ texture = ExtResource("11_3kg8w")
 glow_color = null
 
 [node name="52c15d04729b4b508464Db7651Cd2114" parent="HiddenObjectRest" unique_id=1289806532 instance=ExtResource("ho_1")]
-position = Vector2(1865, 446)
+position = Vector2(1940, 453)
 scale = Vector2(0.235, 0.235)
 texture = ExtResource("12_x63s8")
 glow_color = null
@@ -350,20 +399,21 @@ texture = ExtResource("13_0q20i")
 glow_color = null
 
 [node name="64Ed99Fc8d214e76A452Ab601969080e" parent="HiddenObjectRest" unique_id=972336723 instance=ExtResource("ho_1")]
-position = Vector2(338, 1685)
-scale = Vector2(0.175, 0.175)
+position = Vector2(414.00003, 1724)
+scale = Vector2(0.1894523, 0.1894523)
 texture = ExtResource("14_qv8l0")
 glow_color = null
 
 [node name="385Dbe1b4Fad4BeaBfcbF5f5Fe0760Ce" parent="HiddenObjectRest" unique_id=1608855830 instance=ExtResource("ho_1")]
-position = Vector2(-144, 2100)
+position = Vector2(-137.00002, 2096.0002)
 rotation = -0.027336502
 scale = Vector2(0.24000002, 0.24000002)
 texture = ExtResource("17_sfkyn")
 glow_color = null
 
 [node name="789a79c4C6774Fc4B852Bbbf1Acfc4Ae" parent="HiddenObjectRest" unique_id=1966776989 instance=ExtResource("ho_1")]
-position = Vector2(1125.0001, 2298.0002)
+self_modulate = Color(0.48432028, 0.42238754, 0.37509713, 1)
+position = Vector2(1116.0001, 2294.0002)
 rotation = -0.07571706
 scale = Vector2(0.22499998, 0.22499998)
 texture = ExtResource("18_rntdg")
@@ -376,20 +426,6 @@ scale = Vector2(0.275, 0.275)
 texture = ExtResource("19_hiivq")
 glow_color = null
 
-[node name="29683a7fBcda4Ec5B4485a52682a0c23" parent="HiddenObjectRest" unique_id=1482502502 instance=ExtResource("ho_1")]
-position = Vector2(-1408, 1836.9998)
-rotation = -1.716958
-scale = Vector2(0.26210698, 0.18683238)
-texture = ExtResource("20_l2ef6")
-glow_color = null
-
-[node name="31774356C2Ef4a59900250Cb7d7Cc24e" parent="HiddenObjectRest" unique_id=495356304 instance=ExtResource("ho_1")]
-position = Vector2(2105.0002, 387)
-rotation = -0.05173276
-scale = Vector2(0.25686455, 0.29307652)
-texture = ExtResource("21_w8l5x")
-glow_color = null
-
 [node name="A740Da9bEe0343b1Ace110a70Ad0943d" parent="HiddenObjectRest" unique_id=1329087148 instance=ExtResource("ho_1")]
 position = Vector2(1755.0001, -64)
 rotation = -0.0018674394
@@ -398,7 +434,7 @@ texture = ExtResource("22_1wuir")
 glow_color = null
 
 [node name="A25861d1Ad0443Da851f4Eea65142499" parent="HiddenObjectRest" unique_id=865347701 instance=ExtResource("ho_1")]
-position = Vector2(1383.9999, 1186.0001)
+position = Vector2(1448, 1228.0001)
 rotation = -0.00063832407
 scale = Vector2(0.35143, 0.31941423)
 texture = ExtResource("23_o4urf")
@@ -411,23 +447,16 @@ texture = ExtResource("24_uo1ep")
 glow_color = null
 
 [node name="B873Db755b53480cBc82Bfd740b4Df33" parent="HiddenObjectRest" unique_id=1230546078 instance=ExtResource("ho_1")]
-position = Vector2(123, 992)
-scale = Vector2(0.24, 0.24)
+position = Vector2(156.99998, 995.0001)
+scale = Vector2(0.1698222, 0.16982219)
 texture = ExtResource("25_xksap")
 glow_color = null
 
 [node name="BlackCatBreedBombayOnWhiteFeaturingCat,Black,AndWhite" parent="HiddenObjectRest" unique_id=2119788139 instance=ExtResource("ho_1")]
-position = Vector2(-237, 918.0001)
+position = Vector2(-258, 927.0001)
 rotation = 0.1007593
 scale = Vector2(0.21999997, 0.21999997)
 texture = ExtResource("27_x4k2d")
-glow_color = null
-
-[node name="Cat(1)" parent="HiddenObjectRest" unique_id=1228456605 instance=ExtResource("ho_1")]
-position = Vector2(747, 1746.9999)
-rotation = 0.03247973
-scale = Vector2(0.33960262, 0.36256787)
-texture = ExtResource("28_jws35")
 glow_color = null
 
 [node name="Cat" parent="HiddenObjectRest" unique_id=763704818 instance=ExtResource("ho_1")]
@@ -445,8 +474,8 @@ texture = ExtResource("31_sr1wi")
 glow_color = null
 
 [node name="DrawOverAMemeForThePersonAbove!OnToyhouse" parent="HiddenObjectRest" unique_id=670675773 instance=ExtResource("ho_1")]
-position = Vector2(-1135, 2645)
-scale = Vector2(0.5020161, 0.47491142)
+position = Vector2(-1122, 2638.0002)
+scale = Vector2(0.37117958, 0.35113895)
 texture = ExtResource("32_wx07a")
 glow_color = null
 
@@ -479,7 +508,7 @@ texture = ExtResource("38_l28v8")
 glow_color = null
 
 [node name="RestingOnABranch" parent="HiddenObjectRest" unique_id=677129390 instance=ExtResource("ho_1")]
-position = Vector2(-1093, 941)
+position = Vector2(-1085.9999, 951)
 rotation = -0.36552733
 scale = Vector2(0.3253961, 0.3253961)
 texture = ExtResource("39_dj3rm")
@@ -498,7 +527,7 @@ texture = ExtResource("42_af4el")
 glow_color = null
 
 [node name="БегающийКот" parent="HiddenObjectRest" unique_id=1414166279 instance=ExtResource("ho_1")]
-position = Vector2(285, 2125)
+position = Vector2(197, 2143)
 rotation = -0.12785247
 scale = Vector2(0.33605617, 0.33605617)
 texture = ExtResource("43_7yks5")
