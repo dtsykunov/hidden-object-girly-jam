@@ -2,8 +2,8 @@
 
 [ext_resource type="Texture2D" uid="uid://4x0ynmd343kr" path="res://assets/images/backgrounds/DSC02935.jpg" id="1_4urfc"]
 [ext_resource type="Texture2D" uid="uid://tq0wccnjm0cc" path="res://icon.svg" id="1_6e84v"]
-[ext_resource type="Script" uid="uid://hqsl55d3w0p" path="res://scenes/camera_2d.gd" id="2_4dvvg"]
 [ext_resource type="Script" uid="uid://btv8ijxx4lyd6" path="res://scenes/sprite_2d.gd" id="2_rnjyy"]
+[ext_resource type="PackedScene" uid="uid://ddnpsh3n8saxq" path="res://scenes/camera_2d.tscn" id="4_4urfc"]
 [ext_resource type="PackedScene" uid="uid://bk0bdkp62huy3" path="res://ui/Overlay.tscn" id="4_4vge2"]
 [ext_resource type="Texture2D" uid="uid://dafqhlmiewfh8" path="res://assets/images/cats/2dee53a5-1718-4a3e-9d12-00c9f8df3f96.png" id="6_3m5ht"]
 [ext_resource type="Texture2D" uid="uid://cywquhmtmaklt" path="res://assets/images/cats/3c215e9b-f1f7-45c6-aeb5-5fc297ad0d6d.png" id="7_dubn7"]
@@ -43,6 +43,7 @@
 [ext_resource type="Texture2D" uid="uid://b4dryfubwivhk" path="res://assets/images/cats/Siamese シャム猫.png" id="41_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://dm8qaga6eucn8" path="res://assets/images/cats/SilverStride.png" id="42_af4el"]
 [ext_resource type="Texture2D" uid="uid://bmmf38i0ths20" path="res://assets/images/cats/бегающий кот.png" id="43_7yks5"]
+[ext_resource type="PackedScene" path="res://scenes/hidden_object/HiddenObject.tscn" id="ho_1"]
 
 [sub_resource type="Animation" id="Animation_4dvvg"]
 length = 0.001
@@ -86,6 +87,10 @@ size = Vector2(125, 125)
 
 [node name="World" type="Node2D" unique_id=893542957]
 
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1513615707]
+
+[node name="Overlay" parent="CanvasLayer" unique_id=2132565030 instance=ExtResource("4_4vge2")]
+
 [node name="Dsc02805" type="Sprite2D" parent="." unique_id=1566050030]
 position = Vector2(567, 1034)
 scale = Vector2(0.97, 0.97)
@@ -105,231 +110,256 @@ libraries/ = SubResource("AnimationLibrary_4vge2")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/PickableArea2D" unique_id=806964986]
 shape = SubResource("RectangleShape2D_04qyp")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1552761570 node_paths=PackedStringArray("node")]
+[node name="Camera2D" parent="." unique_id=1673285300 instance=ExtResource("4_4urfc")]
 position = Vector2(984, 538)
-limit_left = -1398
-limit_top = -841
-limit_right = 2513
-limit_bottom = 2901
-editor_draw_limits = true
-script = ExtResource("2_4dvvg")
-max_zoom = 1.0
-node = NodePath("../Sprite2D")
 
-[node name="UILayer" type="CanvasLayer" parent="." unique_id=1898423097]
-layer = 10
-
-[node name="Overlay" parent="UILayer" unique_id=2132565030 instance=ExtResource("4_4vge2")]
-
-[node name="2Dee53a517184a3e9d1200c9f8Df3f96" type="Sprite2D" parent="." unique_id=1923041400]
+[node name="2Dee53a517184a3e9d1200c9f8Df3f96" parent="." unique_id=1923041400 instance=ExtResource("ho_1")]
 position = Vector2(941, 1013)
 scale = Vector2(0.335, 0.335)
 texture = ExtResource("6_3m5ht")
+glow_color = null
 
-[node name="3c215e9bF1f745c6Aeb55Fc297Ad0d6d" type="Sprite2D" parent="." unique_id=826039765]
+[node name="3c215e9bF1f745c6Aeb55Fc297Ad0d6d" parent="." unique_id=826039765 instance=ExtResource("ho_1")]
 position = Vector2(1431, 1628.0001)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("7_dubn7")
+glow_color = null
 
-[node name="6f9c3d3f998d4Aa6Ab0b5d1061c94e4f" type="Sprite2D" parent="." unique_id=1583649567]
+[node name="6f9c3d3f998d4Aa6Ab0b5d1061c94e4f" parent="." unique_id=1583649567 instance=ExtResource("ho_1")]
 position = Vector2(922.00006, 674)
-rotation = 0.10592722
+rotation = 0.105927214
 scale = Vector2(0.13, 0.13)
 texture = ExtResource("8_08kqv")
+glow_color = null
 
-[node name="35b581d32Fec42d998d73Fc34a0f6e41" type="Sprite2D" parent="." unique_id=1905212036]
+[node name="35b581d32Fec42d998d73Fc34a0f6e41" parent="." unique_id=1905212036 instance=ExtResource("ho_1")]
 position = Vector2(-317, 657)
 scale = Vector2(0.405, 0.405)
 texture = ExtResource("9_f6ptj")
+glow_color = null
 
-[node name="45f7e974Ffc14d1c8FcaB0681Dd018f8" type="Sprite2D" parent="." unique_id=850110405]
+[node name="45f7e974Ffc14d1c8FcaB0681Dd018f8" parent="." unique_id=850110405 instance=ExtResource("ho_1")]
 position = Vector2(346, 500)
 scale = Vector2(0.21, 0.21)
 texture = ExtResource("10_xtx0q")
+glow_color = null
 
-[node name="47Ecee99Cf504186B701Dc4Fcfbb3b4b" type="Sprite2D" parent="." unique_id=136123717]
+[node name="47Ecee99Cf504186B701Dc4Fcfbb3b4b" parent="." unique_id=136123717 instance=ExtResource("ho_1")]
 position = Vector2(-1018.9999, -541.99994)
 scale = Vector2(0.735, 0.735)
 texture = ExtResource("11_3kg8w")
+glow_color = null
 
-[node name="52c15d04729b4b508464Db7651Cd2114" type="Sprite2D" parent="." unique_id=1289806532]
+[node name="52c15d04729b4b508464Db7651Cd2114" parent="." unique_id=1289806532 instance=ExtResource("ho_1")]
 position = Vector2(2126, 565)
 scale = Vector2(0.235, 0.235)
 texture = ExtResource("12_x63s8")
+glow_color = null
 
-[node name="54b5Fa3034f6450784314123f45e8d3e" type="Sprite2D" parent="." unique_id=1206269689]
+[node name="54b5Fa3034f6450784314123f45e8d3e" parent="." unique_id=1206269689 instance=ExtResource("ho_1")]
 position = Vector2(2020, 1504.0001)
 scale = Vector2(0.265, 0.265)
 texture = ExtResource("13_0q20i")
+glow_color = null
 
-[node name="64Ed99Fc8d214e76A452Ab601969080e" type="Sprite2D" parent="." unique_id=972336723]
+[node name="64Ed99Fc8d214e76A452Ab601969080e" parent="." unique_id=972336723 instance=ExtResource("ho_1")]
 position = Vector2(599, 1804)
 scale = Vector2(0.175, 0.175)
 texture = ExtResource("14_qv8l0")
+glow_color = null
 
-[node name="90b1e2903b33471bA24838Ba4f28d3a4Copy" type="Sprite2D" parent="." unique_id=145753470]
+[node name="90b1e2903b33471bA24838Ba4f28d3a4Copy" parent="." unique_id=145753470 instance=ExtResource("ho_1")]
 position = Vector2(103.00001, 625.00006)
 scale = Vector2(0.195, 0.195)
 texture = ExtResource("15_k6u5g")
 flip_h = true
+glow_color = null
 
-[node name="212Cccd76e6545c796291Bd68428b07d" type="Sprite2D" parent="." unique_id=1932971119]
+[node name="212Cccd76e6545c796291Bd68428b07d" parent="." unique_id=1932971119 instance=ExtResource("ho_1")]
 position = Vector2(1341.0001, 1383)
 rotation = -1.5977579
-scale = Vector2(0.27845016, 0.22001347)
+scale = Vector2(0.27845016, 0.22001345)
 texture = ExtResource("16_4urfc")
+glow_color = null
 
-[node name="385Dbe1b4Fad4BeaBfcbF5f5Fe0760Ce" type="Sprite2D" parent="." unique_id=1608855830]
+[node name="385Dbe1b4Fad4BeaBfcbF5f5Fe0760Ce" parent="." unique_id=1608855830 instance=ExtResource("ho_1")]
 position = Vector2(117.00001, 2219)
-rotation = -0.027336504
-scale = Vector2(0.24, 0.24)
+rotation = -0.027336502
+scale = Vector2(0.24000001, 0.24000001)
 texture = ExtResource("17_sfkyn")
+glow_color = null
 
-[node name="789a79c4C6774Fc4B852Bbbf1Acfc4Ae" type="Sprite2D" parent="." unique_id=1966776989]
+[node name="789a79c4C6774Fc4B852Bbbf1Acfc4Ae" parent="." unique_id=1966776989 instance=ExtResource("ho_1")]
 position = Vector2(1386.0001, 2417.0002)
 rotation = -0.07571706
-scale = Vector2(0.225, 0.225)
+scale = Vector2(0.22499998, 0.22499998)
 texture = ExtResource("18_rntdg")
+glow_color = null
 
-[node name="986c166c559c41e09f5a8Eb364c19Fd0" type="Sprite2D" parent="." unique_id=494703940]
+[node name="986c166c559c41e09f5a8Eb364c19Fd0" parent="." unique_id=494703940 instance=ExtResource("ho_1")]
 position = Vector2(1940.0001, 2575)
 rotation = -0.005242732
 scale = Vector2(0.275, 0.275)
 texture = ExtResource("19_hiivq")
+glow_color = null
 
-[node name="29683a7fBcda4Ec5B4485a52682a0c23" type="Sprite2D" parent="." unique_id=1482502502]
+[node name="29683a7fBcda4Ec5B4485a52682a0c23" parent="." unique_id=1482502502 instance=ExtResource("ho_1")]
 position = Vector2(-1147, 1955.9998)
 rotation = -1.716958
 scale = Vector2(0.26210698, 0.18683238)
 texture = ExtResource("20_l2ef6")
+glow_color = null
 
-[node name="31774356C2Ef4a59900250Cb7d7Cc24e" type="Sprite2D" parent="." unique_id=495356304]
+[node name="31774356C2Ef4a59900250Cb7d7Cc24e" parent="." unique_id=495356304 instance=ExtResource("ho_1")]
 position = Vector2(2366.0002, 506)
 rotation = -0.05173276
 scale = Vector2(0.25686455, 0.29307652)
 texture = ExtResource("21_w8l5x")
+glow_color = null
 
-[node name="A740Da9bEe0343b1Ace110a70Ad0943d" type="Sprite2D" parent="." unique_id=1329087148]
+[node name="A740Da9bEe0343b1Ace110a70Ad0943d" parent="." unique_id=1329087148 instance=ExtResource("ho_1")]
 position = Vector2(2016.0001, 55)
 rotation = -0.0018674394
-scale = Vector2(0.235, 0.235)
+scale = Vector2(0.23500001, 0.23500001)
 texture = ExtResource("22_1wuir")
+glow_color = null
 
-[node name="A25861d1Ad0443Da851f4Eea65142499" type="Sprite2D" parent="." unique_id=865347701]
+[node name="A25861d1Ad0443Da851f4Eea65142499" parent="." unique_id=865347701 instance=ExtResource("ho_1")]
 position = Vector2(1760.0001, 1290)
-rotation = -0.0006383241
+rotation = -0.00063832407
 scale = Vector2(0.35143, 0.31941423)
 texture = ExtResource("23_o4urf")
+glow_color = null
 
-[node name="B4a84a36F97d4c5f83435e80f8Fda115" type="Sprite2D" parent="." unique_id=149552151]
+[node name="B4a84a36F97d4c5f83435e80f8Fda115" parent="." unique_id=149552151 instance=ExtResource("ho_1")]
 position = Vector2(2194.0002, 940.00006)
 scale = Vector2(0.185, 0.185)
 texture = ExtResource("24_uo1ep")
+glow_color = null
 
-[node name="B873Db755b53480cBc82Bfd740b4Df33" type="Sprite2D" parent="." unique_id=1230546078]
+[node name="B873Db755b53480cBc82Bfd740b4Df33" parent="." unique_id=1230546078 instance=ExtResource("ho_1")]
 position = Vector2(384, 1111)
 scale = Vector2(0.24, 0.24)
 texture = ExtResource("25_xksap")
+glow_color = null
 
-[node name="BirmanCrossCat,Rolling" type="Sprite2D" parent="." unique_id=994984545]
+[node name="BirmanCrossCat,Rolling" parent="." unique_id=994984545 instance=ExtResource("ho_1")]
 position = Vector2(386.00006, 1438)
-rotation = 0.4321557
+rotation = 0.43215573
 scale = Vector2(0.46, 0.46)
 texture = ExtResource("26_ak85g")
+glow_color = null
 
-[node name="BlackCatBreedBombayOnWhiteFeaturingCat,Black,AndWhite" type="Sprite2D" parent="." unique_id=2119788139]
+[node name="BlackCatBreedBombayOnWhiteFeaturingCat,Black,AndWhite" parent="." unique_id=2119788139 instance=ExtResource("ho_1")]
 position = Vector2(24.000008, 1037.0001)
-rotation = 0.10075928
-scale = Vector2(0.22, 0.22)
+rotation = 0.10075929
+scale = Vector2(0.21999998, 0.21999998)
 texture = ExtResource("27_x4k2d")
+glow_color = null
 
-[node name="Cat(1)" type="Sprite2D" parent="." unique_id=1228456605]
+[node name="Cat(1)" parent="." unique_id=1228456605 instance=ExtResource("ho_1")]
 position = Vector2(1008, 1865.9999)
 rotation = 0.03247973
-scale = Vector2(0.33960262, 0.3625679)
+scale = Vector2(0.33960262, 0.36256787)
 texture = ExtResource("28_jws35")
+glow_color = null
 
-[node name="Cat" type="Sprite2D" parent="." unique_id=763704818]
+[node name="Cat" parent="." unique_id=763704818 instance=ExtResource("ho_1")]
 position = Vector2(1907, 1740)
-rotation = -0.6493139
+rotation = -0.64931387
 scale = Vector2(0.24195601, 0.26128545)
 texture = ExtResource("29_haaho")
+glow_color = null
 
-[node name="Cd8881388c3d4f11B78f2f145Ce3Eae1" type="Sprite2D" parent="." unique_id=1076978209]
+[node name="Cd8881388c3d4f11B78f2f145Ce3Eae1" parent="." unique_id=1076978209 instance=ExtResource("ho_1")]
 position = Vector2(-623, 662.00006)
 scale = Vector2(0.47149485, 0.51961756)
 texture = ExtResource("30_lnvns")
+glow_color = null
 
-[node name="D467c30105Be43AeB8846b2b0955d4e6" type="Sprite2D" parent="." unique_id=1578354674]
+[node name="D467c30105Be43AeB8846b2b0955d4e6" parent="." unique_id=1578354674 instance=ExtResource("ho_1")]
 position = Vector2(-345, 1213)
 rotation = 0.026983233
 scale = Vector2(0.14173253, 0.14804836)
 texture = ExtResource("31_sr1wi")
+glow_color = null
 
-[node name="DrawOverAMemeForThePersonAbove!OnToyhouse" type="Sprite2D" parent="." unique_id=670675773]
+[node name="DrawOverAMemeForThePersonAbove!OnToyhouse" parent="." unique_id=670675773 instance=ExtResource("ho_1")]
 position = Vector2(-874.00006, 2764)
 scale = Vector2(0.5020161, 0.47491142)
 texture = ExtResource("32_wx07a")
+glow_color = null
 
-[node name="E915192fF2Ba4041B8353c71304b2c96" type="Sprite2D" parent="." unique_id=145446140]
+[node name="E915192fF2Ba4041B8353c71304b2c96" parent="." unique_id=145446140 instance=ExtResource("ho_1")]
 position = Vector2(-531.00006, 2441.9998)
-rotation = -0.015225203
-scale = Vector2(0.25736797, 0.22636402)
+rotation = -0.015225202
+scale = Vector2(0.25736797, 0.22636403)
 texture = ExtResource("33_rnubh")
+glow_color = null
 
-[node name="Eb6221CaE1d84Bbc83FdFa4Df2Bddf08" type="Sprite2D" parent="." unique_id=1180361384]
+[node name="Eb6221CaE1d84Bbc83FdFa4Df2Bddf08" parent="." unique_id=1180361384 instance=ExtResource("ho_1")]
 position = Vector2(1157, 2570)
 rotation = 0.045764364
 scale = Vector2(0.28985712, 0.26220945)
 texture = ExtResource("34_5leur")
+glow_color = null
 
-[node name="Ec1286b77c59404cAd1a1c84f91d522a" type="Sprite2D" parent="." unique_id=342534354]
+[node name="Ec1286b77c59404cAd1a1c84f91d522a" parent="." unique_id=342534354 instance=ExtResource("ho_1")]
 position = Vector2(1804, 1969)
-rotation = 0.027677784
+rotation = 0.027677786
 scale = Vector2(0.28876886, 0.2716557)
 texture = ExtResource("35_p421j")
+glow_color = null
 
-[node name="F30Dab3624Ef45049f3f9222Ec2Fa78e" type="Sprite2D" parent="." unique_id=608873721]
+[node name="F30Dab3624Ef45049f3f9222Ec2Fa78e" parent="." unique_id=608873721 instance=ExtResource("ho_1")]
 position = Vector2(2078, 1648)
 rotation = -0.0021949306
-scale = Vector2(0.14350204, 0.14682089)
+scale = Vector2(0.14350204, 0.1468209)
 texture = ExtResource("36_p6t5t")
+glow_color = null
 
-[node name="HaresLeap" type="Sprite2D" parent="." unique_id=423057077]
+[node name="HaresLeap" parent="." unique_id=423057077 instance=ExtResource("ho_1")]
 position = Vector2(-1121.9999, 334.00012)
 rotation = 0.73208106
 scale = Vector2(0.39666957, 0.39666957)
 texture = ExtResource("37_byhed")
+glow_color = null
 
-[node name="MemeCat" type="Sprite2D" parent="." unique_id=1302264587]
+[node name="MemeCat" parent="." unique_id=1302264587 instance=ExtResource("ho_1")]
 position = Vector2(1284.9999, 1013.9999)
 rotation = 0.022542283
 scale = Vector2(0.18625706, 0.18625706)
 texture = ExtResource("38_l28v8")
+glow_color = null
 
-[node name="RestingOnABranch" type="Sprite2D" parent="." unique_id=677129390]
+[node name="RestingOnABranch" parent="." unique_id=677129390 instance=ExtResource("ho_1")]
 position = Vector2(-831.99994, 1060)
 rotation = -0.36552733
 scale = Vector2(0.3253961, 0.3253961)
 texture = ExtResource("39_dj3rm")
+glow_color = null
 
-[node name="RobinFur" type="Sprite2D" parent="." unique_id=1372895221]
+[node name="RobinFur" parent="." unique_id=1372895221 instance=ExtResource("ho_1")]
 position = Vector2(1673.9999, 983.00006)
 scale = Vector2(0.32864913, 0.32864913)
 texture = ExtResource("40_iajyf")
+glow_color = null
 
-[node name="Siameseシャム猫" type="Sprite2D" parent="." unique_id=1194996290]
+[node name="Siameseシャム猫" parent="." unique_id=1194996290 instance=ExtResource("ho_1")]
 position = Vector2(-305, 1474.0001)
 scale = Vector2(0.44752336, 0.44752336)
 texture = ExtResource("41_h3hrn")
+glow_color = null
 
-[node name="SilverStride" type="Sprite2D" parent="." unique_id=1257300121]
+[node name="SilverStride" parent="." unique_id=1257300121 instance=ExtResource("ho_1")]
 position = Vector2(1883.9999, 2379)
 scale = Vector2(0.21680218, 0.21680218)
 texture = ExtResource("42_af4el")
+glow_color = null
 
-[node name="БегающийКот" type="Sprite2D" parent="." unique_id=1414166279]
+[node name="БегающийКот" parent="." unique_id=1414166279 instance=ExtResource("ho_1")]
 position = Vector2(546, 2244)
 rotation = -0.12785247
 scale = Vector2(0.33605617, 0.33605617)
 texture = ExtResource("43_7yks5")
+glow_color = null

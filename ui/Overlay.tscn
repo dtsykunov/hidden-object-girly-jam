@@ -31,6 +31,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
 theme = ExtResource("1_7qdid")
 script = ExtResource("2_overlay")
 
@@ -207,6 +210,15 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 45
 text = "Continue"
 
+[node name="CatCounter" type="Label" parent="." unique_id=-2094967295]
+visible = false
+layout_mode = 1
+offset_right = 350.0
+offset_bottom = 75.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 45
+text = "Found: 0 / 0"
+
 [node name="ConfirmPanel" type="CenterContainer" parent="." unique_id=2001000001]
 visible = false
 layout_mode = 1
@@ -261,6 +273,54 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 45
 text = "Cancel"
 
+[node name="VictoryPanel" type="CenterContainer" parent="." unique_id=-2094967286]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -295.0
+offset_top = -149.5
+offset_right = 295.0
+offset_bottom = 149.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="VictoryPanel" unique_id=-2094967285]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_7qdid")
+
+[node name="MarginContainer" type="MarginContainer" parent="VictoryPanel/Panel" unique_id=-2094967284]
+layout_mode = 2
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 25
+theme_override_constants/margin_bottom = 25
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VictoryPanel/Panel/MarginContainer" unique_id=-2094967283]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="TitleLabel" type="Label" parent="VictoryPanel/Panel/MarginContainer/VBoxContainer" unique_id=-2094967282]
+layout_mode = 2
+theme_override_font_sizes/font_size = 55
+text = "You found all the cats!"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="VictoryPanel/Panel/MarginContainer/VBoxContainer" unique_id=-2094967281]
+layout_mode = 2
+
+[node name="PlayAgainButton" type="Button" parent="VictoryPanel/Panel/MarginContainer/VBoxContainer" unique_id=-2094967280]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+text = "Play Again"
+
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
 [connection signal="pressed" from="FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
@@ -271,3 +331,4 @@ text = "Cancel"
 [connection signal="pressed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/ContinueButton" to="." method="_on_continue_button_pressed"]
 [connection signal="pressed" from="ConfirmPanel/Panel/MarginContainer/VBoxContainer/ButtonRow/RestartButton" to="." method="_on_confirm_restart_pressed"]
 [connection signal="pressed" from="ConfirmPanel/Panel/MarginContainer/VBoxContainer/ButtonRow/CancelButton" to="." method="_on_confirm_cancel_pressed"]
+[connection signal="pressed" from="VictoryPanel/Panel/MarginContainer/VBoxContainer/PlayAgainButton" to="." method="_on_victory_play_again_pressed"]

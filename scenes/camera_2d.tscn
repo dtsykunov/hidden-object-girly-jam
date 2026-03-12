@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://ddnpsh3n8saxq"]
+
+[ext_resource type="Script" uid="uid://hqsl55d3w0p" path="res://scenes/camera_2d.gd" id="1_qnfst"]
+
+[node name="Camera2D" type="Camera2D" unique_id=1673285300 node_paths=PackedStringArray("node")]
+limit_left = -1398
+limit_top = -841
+limit_right = 2513
+limit_bottom = 2901
+editor_draw_limits = true
+script = ExtResource("1_qnfst")
+max_zoom = 1.0
+node = NodePath("")

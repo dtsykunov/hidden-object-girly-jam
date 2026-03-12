@@ -3,6 +3,8 @@ extends Control
 @onready var _play_button: Button = $PlayButton
 @onready var _options_menu: CenterContainer = $OptionsMenu
 @onready var _confirm_panel: CenterContainer = $ConfirmPanel
+@onready var _victory_panel: CenterContainer = $VictoryPanel
+@onready var _cat_counter: Label = $CatCounter
 @onready var _master_slider: HSlider = %MasterSlider
 @onready var _music_slider: HSlider = %MusicSlider
 @onready var _sfx_slider: HSlider = %SFXSlider
@@ -10,6 +12,8 @@ extends Control
 
 func _ready() -> void:
 	_init_sliders()
+	GameState.cat_discovered.connect(_on_cat_discovered)
+	GameState.all_cats_found.connect(_on_all_cats_found)
 
 
 func _on_options_button_pressed() -> void:
@@ -53,6 +57,8 @@ func _to_db(value: float) -> float:
 func _on_play_button_pressed() -> void:
 	GameState.start()
 	await PanelAnimator.dismiss(_play_button)
+	_cat_counter.text = "Found: 0 / %d" % GameState.total_cats
+	_cat_counter.show()
 
 
 func _on_restart_button_pressed() -> void:
@@ -80,3 +86,16 @@ func _on_fullscreen_button_pressed() -> void:
 	]
 	var target := DisplayServer.WINDOW_MODE_WINDOWED if is_fullscreen else DisplayServer.WINDOW_MODE_FULLSCREEN
 	DisplayServer.window_set_mode(target)
+
+
+func _on_cat_discovered(found: int, total: int) -> void:
+	_cat_counter.text = "Found: %d / %d" % [found, total]
+
+
+func _on_all_cats_found() -> void:
+	PanelAnimator.show(_victory_panel)
+
+
+func _on_victory_play_again_pressed() -> void:
+	GameState.reset()
+	get_tree().reload_current_scene()

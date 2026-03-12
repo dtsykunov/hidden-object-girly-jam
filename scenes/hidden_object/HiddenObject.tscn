@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dh4p1k8ram2nx"]
+
+[ext_resource type="Script" path="res://scenes/hidden_object/hidden_object.gd" id="1_script"]
+
+[node name="HiddenObject" type="Sprite2D"]
+script = ExtResource("1_script")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+
+[node name="PurrPlayer" type="AudioStreamPlayer" parent="."]
+bus = &"SFX"

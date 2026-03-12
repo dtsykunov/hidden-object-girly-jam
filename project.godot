@@ -22,7 +22,7 @@ buses/default_bus_layout="uid://bpsjdsf3nofk4"
 
 [autoload]
 
-SoundManager="res://autoload/sound_manager.tscn"
+SoundManager="*res://autoload/sound_manager.tscn"
 GameState="*res://autoload/game_state.gd"
 
 [display]

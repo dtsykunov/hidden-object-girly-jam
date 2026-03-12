@@ -10,6 +10,7 @@ var last_pointer := Vector2.ZERO
 
 
 func _ready() -> void:
+	make_current()
 	set_process_input(false)
 	GameState.game_started.connect(_on_game_started)
 
