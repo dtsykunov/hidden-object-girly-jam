@@ -11,11 +11,19 @@ signal cat_found
 @onready var _area: Area2D = $Area2D
 @onready var _collision: CollisionShape2D = $Area2D/CollisionShape2D
 @onready var _purr_player: AudioStreamPlayer = $PurrPlayer
+@onready var _anim: AnimationPlayer = $AnimationPlayer
 
 var _is_found := false
+var _base_scale := Vector2.ONE
+## Normalized scale multiplier driven by AnimationPlayer. 1.0 = base scale.
+var bounce_scale: float = 1.0:
+	set(v):
+		bounce_scale = v
+		scale = _base_scale * v
 
 
 func _ready() -> void:
+	_base_scale = scale
 
 	if texture:
 		var shape := RectangleShape2D.new()
@@ -30,7 +38,7 @@ func _ready() -> void:
 
 
 func _on_mouse_entered() -> void:
-	if _is_found:
+	if not GameState.started or _is_found:
 		return
 	_set_glow(0.6)
 	if purr_sound and not _purr_player.playing:
@@ -39,14 +47,14 @@ func _on_mouse_entered() -> void:
 
 
 func _on_mouse_exited() -> void:
-	if _is_found:
+	if not GameState.started or _is_found:
 		return
 	_set_glow(0.0)
 	_purr_player.stop()
 
 
 func _on_input_event(_viewport: Node, event: InputEvent, _shape_idx: int) -> void:
-	if _is_found:
+	if not GameState.started or _is_found:
 		return
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
 		get_viewport().set_input_as_handled()
@@ -73,9 +81,4 @@ func _set_glow(target: float) -> void:
 
 
 func _bounce() -> void:
-	var original := scale
-	var tween := create_tween()
-	tween.tween_property(self, "scale", original * 1.35, 0.15) \
-			.set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
-	tween.tween_property(self, "scale", original, 0.5) \
-			.set_trans(Tween.TRANS_SPRING).set_ease(Tween.EASE_OUT)
+	_anim.play("bounce")

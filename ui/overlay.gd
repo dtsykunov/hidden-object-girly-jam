@@ -19,8 +19,10 @@ func _ready() -> void:
 func _on_options_button_pressed() -> void:
 	if _options_menu.visible:
 		PanelAnimator.hide(_options_menu)
+		GameState.ui_open = false
 	else:
 		PanelAnimator.show(_options_menu)
+		GameState.ui_open = true
 
 
 func _init_sliders() -> void:
@@ -68,10 +70,12 @@ func _on_restart_button_pressed() -> void:
 
 func _on_continue_button_pressed() -> void:
 	PanelAnimator.hide(_options_menu)
+	GameState.ui_open = false
 
 
 func _on_confirm_cancel_pressed() -> void:
 	PanelAnimator.hide(_confirm_panel)
+	GameState.ui_open = false
 
 
 func _on_confirm_restart_pressed() -> void:

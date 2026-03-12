@@ -26,6 +26,8 @@ func _on_game_started() -> void:
 func _input(event: InputEvent):
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and GameState.ui_open:
+				return
 			dragging = event.pressed
 			last_pointer = event.position
 

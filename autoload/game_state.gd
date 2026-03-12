@@ -8,6 +8,7 @@ signal cat_discovered(found: int, total: int)
 signal all_cats_found
 
 var started: bool = false
+var ui_open: bool = false
 var total_cats: int = 0
 var found_cats: int = 0
 
@@ -32,5 +33,6 @@ func on_cat_found() -> void:
 
 func reset() -> void:
 	started = false
+	ui_open = false
 	total_cats = 0
 	found_cats = 0
