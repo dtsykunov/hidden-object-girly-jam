@@ -27,6 +27,21 @@ corner_detail = 5
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_confetti"]
 shader = ExtResource("3_confetti")
+shader_parameter/speed = 120.0
+shader_parameter/sway_strength = 60.0
+shader_parameter/sway_speed = 1.4
+shader_parameter/spin_speed = 3.5
+shader_parameter/piece_size = 10.0
+shader_parameter/aspect_ratio = 2.0
+shader_parameter/resolution = Vector2(1920, 1080)
+shader_parameter/col0 = Color(1, 0.2, 0.2, 1)
+shader_parameter/col1 = Color(1, 0.75, 0.1, 1)
+shader_parameter/col2 = Color(0.1, 0.8, 0.3, 1)
+shader_parameter/col3 = Color(0.15, 0.55, 1, 1)
+shader_parameter/col4 = Color(0.85, 0.2, 1, 1)
+shader_parameter/col5 = Color(1, 0.4, 0.7, 1)
+shader_parameter/col6 = Color(0.1, 0.9, 0.95, 1)
+shader_parameter/col7 = Color(1, 1, 1, 1)
 
 [node name="Overlay" type="Control" unique_id=2132565030]
 layout_mode = 3
@@ -73,6 +88,7 @@ texture_normal = SubResource("AtlasTexture_x1eqy")
 stretch_mode = 5
 
 [node name="FullscreenButton" type="TextureButton" parent="." unique_id=1381456293]
+visible = false
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -279,6 +295,7 @@ text = "Cancel"
 
 [node name="Confetti" type="ColorRect" parent="." unique_id=1837462901]
 visible = false
+material = SubResource("ShaderMaterial_confetti")
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -286,7 +303,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-material = SubResource("ShaderMaterial_confetti")
 
 [node name="VictoryPanel" type="CenterContainer" parent="." unique_id=-2094967286]
 visible = false
