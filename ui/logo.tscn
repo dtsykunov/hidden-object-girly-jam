@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://dpk0vokm5np3y"]
+
+[ext_resource type="FontFile" uid="uid://dlr1snjo0mf4s" path="res://assets/fonts/Comfortaa-VariableFont_wght.ttf" id="1_w8t5y"]
+
+[sub_resource type="FontVariation" id="FontVariation_af4el"]
+base_font = ExtResource("1_w8t5y")
+variation_embolden = 1.2
+variation_transform = Transform2D(1, 0.2, 0, 1, 0, 0)
+spacing_glyph = -3
+
+[node name="Control" type="Control" unique_id=132001741]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 28.0
+offset_top = 33.0
+offset_right = 68.0
+offset_bottom = 73.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=2100707154]
+modulate = Color(1, 0.43529412, 1, 1)
+layout_mode = 0
+offset_left = 1500.0
+offset_top = 1525.0
+offset_right = 1911.0
+offset_bottom = 1650.0
+theme_override_fonts/bold_italics_font = SubResource("FontVariation_af4el")
+theme_override_font_sizes/bold_italics_font_size = 75
+bbcode_enabled = true
+text = "[i][b]Shoo[/b][/i] [i][b]![/b][/i][i][b]![/b][/i][i][b]![/b][/i]"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="." unique_id=304001510]
+modulate = Color(1, 0.60784316, 1, 1)
+layout_mode = 0
+offset_left = 1505.0
+offset_top = 1529.0
+offset_right = 1925.0
+offset_bottom = 1657.0
+theme_override_fonts/bold_italics_font = SubResource("FontVariation_af4el")
+theme_override_font_sizes/bold_italics_font_size = 75
+bbcode_enabled = true
+text = "[i][b]Shoo[/b][/i] [i][b]![/b][/i][i][b]![/b][/i][i][b]![/b][/i]"
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="." unique_id=2014406374]
+modulate = Color(1, 0.654902, 1, 1)
+layout_mode = 0
+offset_left = 1509.0
+offset_top = 1534.0
+offset_right = 1946.0
+offset_bottom = 1676.0
+theme_override_fonts/bold_italics_font = SubResource("FontVariation_af4el")
+theme_override_font_sizes/bold_italics_font_size = 75
+bbcode_enabled = true
+text = "[i][b]Shoo[/b][/i] [i][b]![/b][/i][i][b]![/b][/i][i][b]![/b][/i]"
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="." unique_id=1245654231]
+layout_mode = 0
+offset_left = 1513.0
+offset_top = 1537.0
+offset_right = 1867.0
+offset_bottom = 1642.0
+theme_override_fonts/bold_italics_font = SubResource("FontVariation_af4el")
+theme_override_font_sizes/bold_italics_font_size = 75
+bbcode_enabled = true
+text = "[i][b]Shoo[/b][/i] [i][b]![/b][/i][i][b]![/b][/i][i][b]![/b][/i]"
