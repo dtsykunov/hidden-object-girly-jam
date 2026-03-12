@@ -14,6 +14,8 @@ config/name="girly-game"
 run/main_scene="uid://w2h78nbeedp6"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 run/max_fps=120
+boot_splash/bg_color=Color(0.9601324, 0.88163644, 0.8942398, 1)
+boot_splash/image="uid://h2sr04wl2bma"
 config/icon="res://icon.svg"
 
 [audio]
