@@ -11,18 +11,18 @@ spacing_glyph = -3
 [node name="Control" type="Control" unique_id=132001741]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 28.0
-offset_top = 33.0
-offset_right = 68.0
-offset_bottom = 73.0
+offset_left = 105.0
+offset_top = 77.0
+offset_right = 105.0
+offset_bottom = 77.0
 
 [node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=2100707154]
 modulate = Color(1, 0.43529412, 1, 1)
 layout_mode = 0
-offset_left = 1500.0
-offset_top = 1525.0
-offset_right = 1911.0
-offset_bottom = 1650.0
+offset_left = -8.0
+offset_top = 2.0
+offset_right = 403.0
+offset_bottom = 127.0
 theme_override_fonts/bold_italics_font = SubResource("FontVariation_af4el")
 theme_override_font_sizes/bold_italics_font_size = 75
 bbcode_enabled = true
@@ -31,10 +31,10 @@ text = "[i][b]Shoo[/b][/i] [i][b]![/b][/i][i][b]![/b][/i][i][b]![/b][/i]"
 [node name="RichTextLabel2" type="RichTextLabel" parent="." unique_id=304001510]
 modulate = Color(1, 0.60784316, 1, 1)
 layout_mode = 0
-offset_left = 1505.0
-offset_top = 1529.0
-offset_right = 1925.0
-offset_bottom = 1657.0
+offset_left = -3.0
+offset_top = 6.0
+offset_right = 417.0
+offset_bottom = 134.0
 theme_override_fonts/bold_italics_font = SubResource("FontVariation_af4el")
 theme_override_font_sizes/bold_italics_font_size = 75
 bbcode_enabled = true
@@ -43,10 +43,10 @@ text = "[i][b]Shoo[/b][/i] [i][b]![/b][/i][i][b]![/b][/i][i][b]![/b][/i]"
 [node name="RichTextLabel3" type="RichTextLabel" parent="." unique_id=2014406374]
 modulate = Color(1, 0.654902, 1, 1)
 layout_mode = 0
-offset_left = 1509.0
-offset_top = 1534.0
-offset_right = 1946.0
-offset_bottom = 1676.0
+offset_left = 1.0
+offset_top = 11.0
+offset_right = 438.0
+offset_bottom = 153.0
 theme_override_fonts/bold_italics_font = SubResource("FontVariation_af4el")
 theme_override_font_sizes/bold_italics_font_size = 75
 bbcode_enabled = true
@@ -54,10 +54,10 @@ text = "[i][b]Shoo[/b][/i] [i][b]![/b][/i][i][b]![/b][/i][i][b]![/b][/i]"
 
 [node name="RichTextLabel4" type="RichTextLabel" parent="." unique_id=1245654231]
 layout_mode = 0
-offset_left = 1513.0
-offset_top = 1537.0
-offset_right = 1867.0
-offset_bottom = 1642.0
+offset_left = 5.0
+offset_top = 14.0
+offset_right = 359.0
+offset_bottom = 119.0
 theme_override_fonts/bold_italics_font = SubResource("FontVariation_af4el")
 theme_override_font_sizes/bold_italics_font_size = 75
 bbcode_enabled = true
