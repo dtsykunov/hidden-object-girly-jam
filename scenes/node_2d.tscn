@@ -8,20 +8,15 @@
 [ext_resource type="Shader" uid="uid://br64pvwtp2301" path="res://scenes/hidden_object/cat_glow.gdshader" id="4_iajyf"]
 [ext_resource type="Texture2D" uid="uid://ykvv5qvwn0lg" path="res://assets/images/cats/KLHUA4ldXVzIBQT_1721818893-3403646617.png" id="5_l2ef6"]
 [ext_resource type="Texture2D" uid="uid://dvijalc7teupn" path="res://assets/images/objects/tractor.png" id="5_rntdg"]
-[ext_resource type="Texture2D" uid="uid://dafqhlmiewfh8" path="res://assets/images/cats/2dee53a5-1718-4a3e-9d12-00c9f8df3f96.png" id="6_3m5ht"]
 [ext_resource type="Texture2D" uid="uid://cwjyvrq50l6tu" path="res://assets/images/objects/doghouse.png" id="6_hiivq"]
-[ext_resource type="Texture2D" uid="uid://cywquhmtmaklt" path="res://assets/images/cats/3c215e9b-f1f7-45c6-aeb5-5fc297ad0d6d.png" id="7_dubn7"]
 [ext_resource type="Texture2D" uid="uid://dvl7mqdkkhrxj" path="res://assets/images/cats/russian-blue-kitten.png" id="7_o4urf"]
-[ext_resource type="Texture2D" uid="uid://d1x8j613dhe7l" path="res://assets/images/cats/6f9c3d3f-998d-4aa6-ab0b-5d1061c94e4f.png" id="8_08kqv"]
 [ext_resource type="Texture2D" uid="uid://bn511sryg7qmc" path="res://assets/images/objects/koryto.png" id="8_w8l5x"]
-[ext_resource type="Texture2D" uid="uid://b1s1byurinlxw" path="res://assets/images/cats/35b581d3-2fec-42d9-98d7-3fc34a0f6e41.png" id="9_f6ptj"]
 [ext_resource type="Texture2D" uid="uid://cexkotsn5on1" path="res://assets/images/objects/bike-bag.png" id="10_1wuir"]
-[ext_resource type="Texture2D" uid="uid://dbhmm6bx1dajx" path="res://assets/images/cats/45f7e974-ffc1-4d1c-8fca-b0681dd018f8.png" id="10_xtx0q"]
-[ext_resource type="Texture2D" uid="uid://ithjuqyay10m" path="res://assets/images/cats/47ecee99-cf50-4186-b701-dc4fcfbb3b4b.png" id="11_3kg8w"]
 [ext_resource type="Texture2D" uid="uid://y8ukoah0cn1o" path="res://assets/images/objects/carrots.png" id="12_uo1ep"]
 [ext_resource type="Texture2D" uid="uid://dtfvk5ieed62d" path="res://assets/images/objects/barrel-bush.png" id="12_x4k2d"]
 [ext_resource type="Texture2D" uid="uid://eyyre82kc58k" path="res://assets/images/cats/52c15d04-729b-4b50-8464-db7651cd2114.png" id="12_x63s8"]
 [ext_resource type="Texture2D" uid="uid://d2x0qvrhhp0gk" path="res://assets/images/cats/54b5fa30-34f6-4507-8431-4123f45e8d3e.png" id="13_0q20i"]
+[ext_resource type="Texture2D" uid="uid://bmxyksx60w247" path="res://assets/images/cats/drawn/20260316_191703(4).png" id="14_iajyf"]
 [ext_resource type="Texture2D" uid="uid://dr1ohwdhi5qeh" path="res://assets/images/cats/huh-cat.png" id="14_p6t5t"]
 [ext_resource type="Texture2D" uid="uid://fms68vnxygfx" path="res://assets/images/objects/bush-flower.png" id="14_p421j"]
 [ext_resource type="Texture2D" uid="uid://7eli8jqmntx0" path="res://assets/images/cats/64ed99fc-8d21-4e76-a452-ab601969080e.png" id="14_qv8l0"]
@@ -34,6 +29,7 @@
 [ext_resource type="Texture2D" uid="uid://bq2byosmjw7w" path="res://assets/images/cats/789a79c4-c677-4fc4-b852-bbbf1acfc4ae.png" id="18_rntdg"]
 [ext_resource type="Texture2D" uid="uid://c4dlg6se28iiw" path="res://assets/images/cats/986c166c-559c-41e0-9f5a-8eb364c19fd0.png" id="19_hiivq"]
 [ext_resource type="Texture2D" uid="uid://dd60vyed0o2kp" path="res://assets/images/objects/bricks.png" id="19_jws35"]
+[ext_resource type="Texture2D" uid="uid://c1uqp4ivfwq00" path="res://assets/images/cats/drawn/20260316_191703(6).png" id="20_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://biv7pgho127ak" path="res://assets/images/cats/29683a7f-bcda-4ec5-b448-5a52682a0c23.png" id="20_l2ef6"]
 [ext_resource type="Texture2D" uid="uid://ckiew3p7i7on" path="res://assets/images/cats/31774356-c2ef-4a59-9002-50cb7d7cc24e.png" id="21_w8l5x"]
 [ext_resource type="Texture2D" uid="uid://6whtq3d4p4hq" path="res://assets/images/cats/a740da9b-ee03-43b1-ace1-10a70ad0943d.png" id="22_1wuir"]
@@ -63,9 +59,13 @@
 [ext_resource type="Texture2D" uid="uid://fiennrnuglay" path="res://assets/images/cats/meme-cat.png" id="38_l28v8"]
 [ext_resource type="Texture2D" uid="uid://c4r0xbgn5t137" path="res://assets/images/cats/Resting on a branch.png" id="39_dj3rm"]
 [ext_resource type="Texture2D" uid="uid://oi57tv0x2xql" path="res://assets/images/cats/RobinFur.png" id="40_iajyf"]
+[ext_resource type="Texture2D" uid="uid://dbtkeop00pco5" path="res://assets/images/cats/drawn/20260316_191703(2).png" id="41_af4el"]
 [ext_resource type="Texture2D" uid="uid://b4dryfubwivhk" path="res://assets/images/cats/Siamese シャム猫.png" id="41_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://dm8qaga6eucn8" path="res://assets/images/cats/SilverStride.png" id="42_af4el"]
+[ext_resource type="Texture2D" uid="uid://dk1e0mkrteft3" path="res://assets/images/cats/drawn/20260316_191703(1).png" id="42_iajyf"]
 [ext_resource type="Texture2D" uid="uid://bmmf38i0ths20" path="res://assets/images/cats/бегающий кот.png" id="43_7yks5"]
+[ext_resource type="Texture2D" uid="uid://beq02n1uteui1" path="res://assets/images/cats/drawn/20260316_191703(3).png" id="43_w5hti"]
+[ext_resource type="Texture2D" uid="uid://0xvkit78wx6o" path="res://assets/images/cats/drawn/20260316_191703(5).png" id="44_kksrm"]
 [ext_resource type="PackedScene" uid="uid://bwum8rpkg5ajb" path="res://scenes/hidden_object/HiddenObject.tscn" id="ho_1"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_iajyf"]
@@ -537,7 +537,7 @@ texture = ExtResource("16_4urfc")
 [node name="HiddenObject2" parent="OverlayCats" unique_id=1161988212 instance=ExtResource("ho_1")]
 modulate = Color(0.52906674, 0.5290667, 0.5290667, 1)
 material = SubResource("ShaderMaterial_7yks5")
-position = Vector2(-11577.702, 1303.3152)
+position = Vector2(-11584.61, 1276.0563)
 rotation = 0.64225394
 scale = Vector2(0.63, 0.63)
 texture = ExtResource("7_o4urf")
@@ -592,7 +592,7 @@ position = Vector2(-7768.9297, -6657.4224)
 rotation = 0.19373155
 scale = Vector2(0.765, 0.765)
 skew = 0.0049062967
-texture = ExtResource("8_08kqv")
+texture = ExtResource("14_iajyf")
 
 [node name="huhcat" parent="OverlayCats" unique_id=1500044289 instance=ExtResource("ho_1")]
 modulate = Color(0.7764706, 0.7921569, 0.81960785, 1)
@@ -617,7 +617,7 @@ texture = ExtResource("16_dj3rm")
 [node name="31774356C2Ef4a59900250Cb7d7Cc24e" parent="OverlayCats" unique_id=495356304 instance=ExtResource("ho_1")]
 modulate = Color(0.5649617, 0.5649616, 0.5649616, 1)
 material = SubResource("ShaderMaterial_m7dws")
-position = Vector2(-19063.404, -1144.2836)
+position = Vector2(-19021.582, -1151.0049)
 rotation = -0.048419785
 scale = Vector2(1.7898732, 1.9962635)
 skew = -0.002261877
@@ -636,11 +636,11 @@ texture = ExtResource("28_jws35")
 [node name="3c215e9bF1f745c6Aeb55Fc297Ad0d6d" parent="OverlayCats" unique_id=826039765 instance=ExtResource("ho_1")]
 modulate = Color(0.646029, 0.646029, 0.646029, 1)
 material = SubResource("ShaderMaterial_o4l27")
-position = Vector2(-13952.466, 6835.589)
-rotation = 1.558579
+position = Vector2(-13903.459, 6733.5283)
+rotation = 0.15912169
 scale = Vector2(1.6206429, 1.5840083)
 skew = 0.00010037422
-texture = ExtResource("7_dubn7")
+texture = ExtResource("20_h3hrn")
 
 [node name="29683a7fBcda4Ec5B4485a52682a0c23" parent="OverlayCats" unique_id=1482502502 instance=ExtResource("ho_1")]
 self_modulate = Color(0.7666196, 0.76661956, 0.76661956, 1)
@@ -758,26 +758,26 @@ position = Vector2(261, 119)
 [node name="2Dee53a517184a3e9d1200c9f8Df3f96" parent="HiddenObjectRest" unique_id=1923041400 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_cppx6")
 position = Vector2(706, 958)
-scale = Vector2(0.335, 0.335)
-texture = ExtResource("6_3m5ht")
+scale = Vector2(0.1954224, 0.1954224)
+texture = ExtResource("41_af4el")
 
 [node name="35b581d32Fec42d998d73Fc34a0f6e41" parent="HiddenObjectRest" unique_id=1905212036 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_nap8e")
 position = Vector2(-577, 550)
-scale = Vector2(0.405, 0.405)
-texture = ExtResource("9_f6ptj")
+scale = Vector2(0.12023952, 0.12023952)
+texture = ExtResource("42_iajyf")
 
 [node name="45f7e974Ffc14d1c8FcaB0681Dd018f8" parent="HiddenObjectRest" unique_id=850110405 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_pwm5f")
-position = Vector2(103, 407)
-scale = Vector2(0.17692573, 0.17692573)
-texture = ExtResource("10_xtx0q")
+position = Vector2(89, 405)
+scale = Vector2(0.13549626, 0.13549626)
+texture = ExtResource("43_w5hti")
 
 [node name="47Ecee99Cf504186B701Dc4Fcfbb3b4b" parent="HiddenObjectRest" unique_id=136123717 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_g0kbj")
 position = Vector2(-1279.9999, -660.99994)
 scale = Vector2(0.735, 0.735)
-texture = ExtResource("11_3kg8w")
+texture = ExtResource("44_kksrm")
 
 [node name="52c15d04729b4b508464Db7651Cd2114" parent="HiddenObjectRest" unique_id=1289806532 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_wkd7x")
