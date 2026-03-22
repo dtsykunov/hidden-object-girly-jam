@@ -361,6 +361,64 @@ offset_top = 355.0
 offset_right = 856.0
 offset_bottom = 395.0
 
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1733348007]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="CenterContainer" unique_id=1777148883]
+custom_minimum_size = Vector2(1400, 800)
+layout_mode = 2
+
+[node name="TabContainer" type="TabContainer" parent="CenterContainer/PanelContainer" unique_id=453459271]
+layout_mode = 2
+current_tab = 0
+
+[node name="Control" type="Control" parent="CenterContainer/PanelContainer/TabContainer" unique_id=2043780437]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/PanelContainer/TabContainer/Control" unique_id=519970693]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer" unique_id=764273064]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer/VBoxContainer" unique_id=89832517]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer/VBoxContainer" unique_id=1365052269]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer" unique_id=87771620]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer/VBoxContainer2" unique_id=1318697739]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer/VBoxContainer2" unique_id=1563206256]
+layout_mode = 2
+size_flags_vertical = 3
+
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
 [connection signal="pressed" from="FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
