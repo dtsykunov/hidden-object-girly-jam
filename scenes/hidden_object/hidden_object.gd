@@ -4,6 +4,7 @@ extends Sprite2D
 
 signal cat_found
 
+@export var cat_data: CatData
 @export var purr_sound: AudioStream
 @export var meow_sound: AudioStream
 @export var MAX_GLOW: float = 10.0
@@ -24,6 +25,9 @@ var bounce_scale: float = 1.0:
 
 func _ready() -> void:
 	_base_scale = scale
+
+	if cat_data and cat_data.sprite:
+		texture = cat_data.sprite
 
 	if texture:
 		var shape := RectangleShape2D.new()
