@@ -4,6 +4,7 @@ extends Control
 @onready var _options_menu: CenterContainer = $OptionsMenu
 @onready var _confirm_panel: CenterContainer = $ConfirmPanel
 @onready var _victory_panel: CenterContainer = $VictoryPanel
+@onready var _hint_book: HintBook = $HintBook
 @onready var _cat_counter: Label = $CatCounter
 @onready var _confetti: ColorRect = $Confetti
 @onready var _master_slider: HSlider = %MasterSlider
@@ -24,6 +25,14 @@ func _on_options_button_pressed() -> void:
 	else:
 		PanelAnimator.show(_options_menu)
 		GameState.ui_open = true
+
+
+func _on_hints_book_button_pressed() -> void:
+	if _hint_book.visible:
+		PanelAnimator.hide(_hint_book)
+	else:
+		_hint_book.populate()
+		PanelAnimator.show(_hint_book)
 
 
 func _init_sliders() -> void:

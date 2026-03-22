@@ -16,6 +16,7 @@ signal cat_found
 
 var _is_found := false
 var _base_scale := Vector2.ONE
+var _cat_index: int = -1
 ## Normalized scale multiplier driven by AnimationPlayer. 1.0 = base scale.
 var bounce_scale: float = 1.0:
 	set(v):
@@ -38,7 +39,7 @@ func _ready() -> void:
 	_area.mouse_exited.connect(_on_mouse_exited)
 	_area.input_event.connect(_on_input_event)
 
-	GameState.register_cat()
+	_cat_index = GameState.register_cat(cat_data)
 
 
 func _on_mouse_entered() -> void:
@@ -73,7 +74,7 @@ func _discover() -> void:
 	_set_glow(1.0)
 	_bounce()
 	cat_found.emit()
-	GameState.on_cat_found()
+	GameState.on_cat_found(_cat_index)
 
 
 func _set_glow(target: float) -> void:

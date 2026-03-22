@@ -5,6 +5,8 @@
 [ext_resource type="Script" uid="uid://b8ssp3j5k0847" path="res://ui/overlay.gd" id="2_overlay"]
 [ext_resource type="Shader" uid="uid://ds0k65d6jjvd5" path="res://ui/confetti.gdshader" id="3_confetti"]
 [ext_resource type="PackedScene" uid="uid://dpk0vokm5np3y" path="res://ui/logo.tscn" id="5_67jpi"]
+[ext_resource type="Texture2D" uid="uid://dkbv2rg1oc713" path="res://assets/icons/Hand holding book (white).svg" id="7_0ujei"]
+[ext_resource type="Script" uid="uid://c3325kmss0kd" path="res://ui/hint_book.gd" id="8_hintbook"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1eqy"]
 atlas = ExtResource("1_7pliq")
@@ -86,6 +88,19 @@ offset_right = -28.0
 offset_bottom = 195.0
 grow_horizontal = 0
 texture_normal = SubResource("AtlasTexture_x1eqy")
+stretch_mode = 5
+
+[node name="HintsBookButton" type="TextureButton" parent="." unique_id=1871482655]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -1846.0
+offset_top = 36.0
+offset_right = -1676.0
+offset_bottom = 206.0
+grow_horizontal = 0
+texture_normal = ExtResource("7_0ujei")
 stretch_mode = 5
 
 [node name="FullscreenButton" type="TextureButton" parent="." unique_id=1381456293]
@@ -361,7 +376,8 @@ offset_top = 355.0
 offset_right = 856.0
 offset_bottom = 395.0
 
-[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1733348007]
+[node name="HintBook" type="CenterContainer" parent="." unique_id=1733348007]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -374,20 +390,21 @@ offset_right = 20.0
 offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("8_hintbook")
 
-[node name="PanelContainer" type="PanelContainer" parent="CenterContainer" unique_id=1777148883]
+[node name="PanelContainer" type="PanelContainer" parent="HintBook" unique_id=1777148883]
 custom_minimum_size = Vector2(1400, 800)
 layout_mode = 2
 
-[node name="TabContainer" type="TabContainer" parent="CenterContainer/PanelContainer" unique_id=453459271]
+[node name="TabContainer" type="TabContainer" parent="HintBook/PanelContainer" unique_id=453459271]
 layout_mode = 2
 current_tab = 0
 
-[node name="Control" type="Control" parent="CenterContainer/PanelContainer/TabContainer" unique_id=2043780437]
+[node name="PictureBookTab" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=2043780437]
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/PanelContainer/TabContainer/Control" unique_id=519970693]
+[node name="HBoxContainer" type="HBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab" unique_id=519970693]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -395,32 +412,95 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer" unique_id=764273064]
+[node name="VBoxContainer" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer" unique_id=630759338]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer/VBoxContainer" unique_id=89832517]
+[node name="CatHint1" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer" unique_id=764273064]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint1" unique_id=89832517]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Label" type="Label" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer/VBoxContainer" unique_id=1365052269]
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint1" unique_id=1365052269]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer" unique_id=87771620]
+[node name="CatHint2" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer" unique_id=129886992]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint2" unique_id=2038047377]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint2" unique_id=1450602855]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="CatHint3" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer" unique_id=186053933]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint3" unique_id=465281308]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint3" unique_id=1269546611]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer" unique_id=1604407192]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="TextureRect" type="TextureRect" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer/VBoxContainer2" unique_id=1318697739]
+[node name="CatHint1" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2" unique_id=796941222]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint1" unique_id=294229881]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Label" type="Label" parent="CenterContainer/PanelContainer/TabContainer/Control/HBoxContainer/VBoxContainer2" unique_id=1563206256]
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint1" unique_id=1522313658]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="CatHint2" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2" unique_id=1402205547]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint2" unique_id=1851738394]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint2" unique_id=532474545]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="CatHint3" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2" unique_id=102367586]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint3" unique_id=399253974]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint3" unique_id=1957171393]
 layout_mode = 2
 size_flags_vertical = 3
 
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="HintsBookButton" to="." method="_on_hints_book_button_pressed"]
 [connection signal="pressed" from="FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow/MasterSlider" to="." method="_on_master_slider_changed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MusicRow/MusicSlider" to="." method="_on_music_slider_changed"]
