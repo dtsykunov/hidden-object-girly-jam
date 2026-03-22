@@ -1,5 +1,12 @@
 extends Control
 
+enum State {
+	START,
+	GAME,
+	OPTIONS,
+	HINTS,
+}
+
 @onready var _play_button: Button = $PlayButton
 @onready var _options_menu: CenterContainer = $OptionsMenu
 @onready var _confirm_panel: CenterContainer = $ConfirmPanel
@@ -11,6 +18,8 @@ extends Control
 @onready var _music_slider: HSlider = %MusicSlider
 @onready var _sfx_slider: HSlider = %SFXSlider
 
+var _state: State = State.START
+var _transitioning: bool = false
 
 func _ready() -> void:
 	_init_sliders()
@@ -19,20 +28,38 @@ func _ready() -> void:
 
 
 func _on_options_button_pressed() -> void:
-	if _options_menu.visible:
-		PanelAnimator.hide(_options_menu)
+	if _transitioning:
+		return
+	_transitioning = true
+	if _state == State.OPTIONS:
+		_state = State.GAME
 		GameState.ui_open = false
+		await PanelAnimator.hide(_options_menu)
 	else:
-		PanelAnimator.show(_options_menu)
+		if _state == State.HINTS:
+			await PanelAnimator.hide(_hint_book)
+		_state = State.OPTIONS
 		GameState.ui_open = true
+		PanelAnimator.show(_options_menu)
+	_transitioning = false
 
 
 func _on_hints_book_button_pressed() -> void:
-	if _hint_book.visible:
-		PanelAnimator.hide(_hint_book)
+	if _transitioning:
+		return
+	_transitioning = true
+	if _state == State.HINTS:
+		_state = State.GAME
+		GameState.ui_open = false
+		await PanelAnimator.hide(_hint_book)
 	else:
+		if _state == State.OPTIONS:
+			await PanelAnimator.hide(_options_menu)
 		_hint_book.populate()
+		_state = State.HINTS
+		GameState.ui_open = true
 		PanelAnimator.show(_hint_book)
+	_transitioning = false
 
 
 func _init_sliders() -> void:
@@ -68,6 +95,7 @@ func _to_db(value: float) -> float:
 
 func _on_play_button_pressed() -> void:
 	GameState.start()
+	_state = State.GAME
 	await PanelAnimator.dismiss(_play_button)
 	_cat_counter.text = "Found: 0 / %d" % GameState.total_cats
 	_cat_counter.show()
@@ -81,11 +109,13 @@ func _on_restart_button_pressed() -> void:
 func _on_continue_button_pressed() -> void:
 	PanelAnimator.hide(_options_menu)
 	GameState.ui_open = false
+	_state = State.GAME
 
 
 func _on_confirm_cancel_pressed() -> void:
 	PanelAnimator.hide(_confirm_panel)
 	GameState.ui_open = false
+	_state = State.GAME
 
 
 func _on_confirm_restart_pressed() -> void:

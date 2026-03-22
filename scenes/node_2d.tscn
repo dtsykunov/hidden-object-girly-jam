@@ -268,7 +268,7 @@ shader_parameter/add_margins = true
 [sub_resource type="Resource" id="CatData_15"]
 script = ExtResource("cd_script")
 sprite = ExtResource("28_jws35")
-hint = "All in all, it’s just another cat in the garden."
+hint = "All in all, it’s just another cat in the wall."
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_myfwp"]
 resource_local_to_scene = true
