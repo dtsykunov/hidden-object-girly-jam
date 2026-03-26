@@ -6,66 +6,66 @@
 [ext_resource type="PackedScene" uid="uid://ddnpsh3n8saxq" path="res://scenes/camera_2d.tscn" id="4_4urfc"]
 [ext_resource type="PackedScene" uid="uid://bk0bdkp62huy3" path="res://ui/Overlay.tscn" id="4_4vge2"]
 [ext_resource type="Shader" uid="uid://br64pvwtp2301" path="res://scenes/hidden_object/cat_glow.gdshader" id="4_iajyf"]
-[ext_resource type="Texture2D" uid="uid://ykvv5qvwn0lg" path="res://assets/images/cats/KLHUA4ldXVzIBQT_1721818893-3403646617.png" id="5_l2ef6"]
+[ext_resource type="Texture2D" uid="uid://b6ehhvnk3n0k3" path="res://assets/images/cats/painting/Untitled-37.png" id="5_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://dvijalc7teupn" path="res://assets/images/objects/tractor.png" id="5_rntdg"]
 [ext_resource type="Texture2D" uid="uid://cwjyvrq50l6tu" path="res://assets/images/objects/doghouse.png" id="6_hiivq"]
-[ext_resource type="Texture2D" uid="uid://dvl7mqdkkhrxj" path="res://assets/images/cats/russian-blue-kitten.png" id="7_o4urf"]
+[ext_resource type="Texture2D" uid="uid://jbha2tkfgycc" path="res://assets/images/cats/painting/Untitled-34.png" id="7_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://doaput3vufnxu" path="res://assets/images/cats/painting/Untitled-14.png" id="8_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://bn511sryg7qmc" path="res://assets/images/objects/koryto.png" id="8_w8l5x"]
+[ext_resource type="Texture2D" uid="uid://mw1djkwl3i1t" path="res://assets/images/cats/painting/Untitled-42.png" id="9_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://cexkotsn5on1" path="res://assets/images/objects/bike-bag.png" id="10_1wuir"]
+[ext_resource type="Texture2D" uid="uid://u5sngww1f3nr" path="res://assets/images/cats/painting/Untitled-10.png" id="10_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://cjlu886enjhp6" path="res://assets/images/cats/painting/Untitled-33.png" id="11_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://df4d1io0sk13t" path="res://assets/images/cats/painting/Untitled-28.png" id="12_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://y8ukoah0cn1o" path="res://assets/images/objects/carrots.png" id="12_uo1ep"]
 [ext_resource type="Texture2D" uid="uid://dtfvk5ieed62d" path="res://assets/images/objects/barrel-bush.png" id="12_x4k2d"]
-[ext_resource type="Texture2D" uid="uid://eyyre82kc58k" path="res://assets/images/cats/52c15d04-729b-4b50-8464-db7651cd2114.png" id="12_x63s8"]
-[ext_resource type="Texture2D" uid="uid://d2x0qvrhhp0gk" path="res://assets/images/cats/54b5fa30-34f6-4507-8431-4123f45e8d3e.png" id="13_0q20i"]
-[ext_resource type="Texture2D" uid="uid://bmxyksx60w247" path="res://assets/images/cats/drawn/20260316_191703(4).png" id="14_iajyf"]
-[ext_resource type="Texture2D" uid="uid://dr1ohwdhi5qeh" path="res://assets/images/cats/huh-cat.png" id="14_p6t5t"]
+[ext_resource type="Texture2D" uid="uid://nu7tx1h3025m" path="res://assets/images/cats/painting/Untitled-32.png" id="13_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://c4h55j0vht7q8" path="res://assets/images/cats/painting/Untitled-13.png" id="14_af4el"]
 [ext_resource type="Texture2D" uid="uid://fms68vnxygfx" path="res://assets/images/objects/bush-flower.png" id="14_p421j"]
-[ext_resource type="Texture2D" uid="uid://7eli8jqmntx0" path="res://assets/images/cats/64ed99fc-8d21-4e76-a452-ab601969080e.png" id="14_qv8l0"]
 [ext_resource type="Texture2D" uid="uid://b38vme58q62cg" path="res://assets/images/objects/sheet-front.png" id="14_xksap"]
-[ext_resource type="Texture2D" uid="uid://bxg3g8dscwlj0" path="res://assets/images/cats/90b1e290-3b33-471b-a248-38ba4f28d3a4 copy.png" id="15_k6u5g"]
-[ext_resource type="Texture2D" uid="uid://bs68cmk00l4li" path="res://assets/images/cats/shower-cat.png" id="15_l28v8"]
-[ext_resource type="Texture2D" uid="uid://ceo18loepewdf" path="res://assets/images/cats/212cccd7-6e65-45c7-9629-1bd68428b07d.png" id="16_4urfc"]
-[ext_resource type="Texture2D" uid="uid://d01d7087dvw5c" path="res://assets/images/cats/lying-cat.png" id="16_dj3rm"]
-[ext_resource type="Texture2D" uid="uid://csgfdyllkxj0v" path="res://assets/images/cats/385dbe1b-4fad-4bea-bfcb-f5f5fe0760ce.png" id="17_sfkyn"]
-[ext_resource type="Texture2D" uid="uid://bq2byosmjw7w" path="res://assets/images/cats/789a79c4-c677-4fc4-b852-bbbf1acfc4ae.png" id="18_rntdg"]
-[ext_resource type="Texture2D" uid="uid://c4dlg6se28iiw" path="res://assets/images/cats/986c166c-559c-41e0-9f5a-8eb364c19fd0.png" id="19_hiivq"]
+[ext_resource type="Texture2D" uid="uid://oyn2qjb3gagj" path="res://assets/images/cats/painting/Untitled-5.png" id="15_af4el"]
+[ext_resource type="Texture2D" uid="uid://domwt06xiyiqb" path="res://assets/images/cats/painting/Untitled-36.png" id="16_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://3bsivjh4nskl" path="res://assets/images/cats/painting/Untitled-43.png" id="17_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://cj7pbe3idm1ga" path="res://assets/images/cats/painting/Untitled-39.png" id="18_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://d24uts5v7fgcc" path="res://assets/images/cats/painting/Untitled-18.png" id="19_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://dd60vyed0o2kp" path="res://assets/images/objects/bricks.png" id="19_jws35"]
-[ext_resource type="Texture2D" uid="uid://c1uqp4ivfwq00" path="res://assets/images/cats/drawn/20260316_191703(6).png" id="20_h3hrn"]
-[ext_resource type="Texture2D" uid="uid://biv7pgho127ak" path="res://assets/images/cats/29683a7f-bcda-4ec5-b448-5a52682a0c23.png" id="20_l2ef6"]
-[ext_resource type="Texture2D" uid="uid://ckiew3p7i7on" path="res://assets/images/cats/31774356-c2ef-4a59-9002-50cb7d7cc24e.png" id="21_w8l5x"]
-[ext_resource type="Texture2D" uid="uid://6whtq3d4p4hq" path="res://assets/images/cats/a740da9b-ee03-43b1-ace1-10a70ad0943d.png" id="22_1wuir"]
-[ext_resource type="Texture2D" uid="uid://cv3ii1apukc3b" path="res://assets/images/cats/a25861d1-ad04-43da-851f-4eea65142499.png" id="23_o4urf"]
+[ext_resource type="Texture2D" uid="uid://bj8ljb3htwpj3" path="res://assets/images/cats/painting/Untitled-26.png" id="20_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://c1o7hwunkb2rr" path="res://assets/images/cats/painting/Untitled-8.png" id="21_7yks5"]
+[ext_resource type="Texture2D" uid="uid://7t1wrs3mymcq" path="res://assets/images/cats/painting/Untitled-7.png" id="22_w5hti"]
 [ext_resource type="Texture2D" uid="uid://dautaota74stt" path="res://assets/images/objects/bush.png" id="23_p6t5t"]
 [ext_resource type="Texture2D" uid="uid://bvceqd1i17rme" path="res://assets/images/objects/bush_tree.png" id="24_byhed"]
-[ext_resource type="Texture2D" uid="uid://b5mknskrbouuy" path="res://assets/images/cats/b4a84a36-f97d-4c5f-8343-5e80f8fda115.png" id="24_uo1ep"]
 [ext_resource type="Texture2D" uid="uid://b3nklu0qdnq0i" path="res://assets/images/objects/garden-tools.png" id="25_l28v8"]
-[ext_resource type="Texture2D" uid="uid://8t5alvi5rn6s" path="res://assets/images/cats/b873db75-5b53-480c-bc82-bfd740b4df33.png" id="25_xksap"]
-[ext_resource type="Texture2D" uid="uid://cgijnbba4i2pe" path="res://assets/images/cats/Birman-cross cat, rolling.png" id="26_ak85g"]
 [ext_resource type="Texture2D" uid="uid://kwieakwkslrx" path="res://assets/images/objects/glass_door.png" id="26_dj3rm"]
 [ext_resource type="Texture2D" uid="uid://c7727rny27lwy" path="res://assets/images/objects/leika.png" id="27_iajyf"]
-[ext_resource type="Texture2D" uid="uid://d185ds7gcdr5i" path="res://assets/images/cats/Black cat breed bombay on white featuring cat, black, and white.png" id="27_x4k2d"]
 [ext_resource type="Texture2D" uid="uid://byilpmp5oqwk4" path="res://assets/images/objects/small-window.png" id="28_h3hrn"]
-[ext_resource type="Texture2D" uid="uid://c52spah0ipof7" path="res://assets/images/cats/Cat(1).png" id="28_jws35"]
 [ext_resource type="Texture2D" uid="uid://dpvx3c264qiov" path="res://assets/images/objects/window.png" id="29_af4el"]
-[ext_resource type="Texture2D" uid="uid://c5u21x3570iro" path="res://assets/images/cats/cat.png" id="29_haaho"]
-[ext_resource type="Texture2D" uid="uid://cjlky3qgoyvlp" path="res://assets/images/cats/cd888138-8c3d-4f11-b78f-2f145ce3eae1.png" id="30_lnvns"]
-[ext_resource type="Texture2D" uid="uid://cdeyrr2hof73e" path="res://assets/images/cats/d467c301-05be-43ae-b884-6b2b0955d4e6.png" id="31_sr1wi"]
 [ext_resource type="Texture2D" uid="uid://gt3ap4mfypig" path="res://assets/images/objects/vedro.png" id="32_dj3rm"]
-[ext_resource type="Texture2D" uid="uid://b34vjmme2h05d" path="res://assets/images/cats/Draw over a meme for the person above! on Toyhouse.png" id="32_wx07a"]
-[ext_resource type="Texture2D" uid="uid://lmipk7r7sbby" path="res://assets/images/cats/e915192f-f2ba-4041-b835-3c71304b2c96.png" id="33_rnubh"]
-[ext_resource type="Texture2D" uid="uid://ckgjblbflh76k" path="res://assets/images/cats/eb6221ca-e1d8-4bbc-83fd-fa4df2bddf08.png" id="34_5leur"]
-[ext_resource type="Texture2D" uid="uid://clnavtirr68rl" path="res://assets/images/cats/ec1286b7-7c59-404c-ad1a-1c84f91d522a.png" id="35_p421j"]
-[ext_resource type="Texture2D" uid="uid://cy2e7vp7l6otx" path="res://assets/images/cats/f30dab36-24ef-4504-9f3f-9222ec2fa78e.png" id="36_p6t5t"]
-[ext_resource type="Texture2D" uid="uid://dpb30yfytkact" path="res://assets/images/cats/HaresLeap.png" id="37_byhed"]
-[ext_resource type="Texture2D" uid="uid://fiennrnuglay" path="res://assets/images/cats/meme-cat.png" id="38_l28v8"]
-[ext_resource type="Texture2D" uid="uid://c4r0xbgn5t137" path="res://assets/images/cats/Resting on a branch.png" id="39_dj3rm"]
-[ext_resource type="Texture2D" uid="uid://oi57tv0x2xql" path="res://assets/images/cats/RobinFur.png" id="40_iajyf"]
-[ext_resource type="Texture2D" uid="uid://dbtkeop00pco5" path="res://assets/images/cats/drawn/20260316_191703(2).png" id="41_af4el"]
-[ext_resource type="Texture2D" uid="uid://b4dryfubwivhk" path="res://assets/images/cats/Siamese シャム猫.png" id="41_h3hrn"]
-[ext_resource type="Texture2D" uid="uid://dm8qaga6eucn8" path="res://assets/images/cats/SilverStride.png" id="42_af4el"]
-[ext_resource type="Texture2D" uid="uid://dk1e0mkrteft3" path="res://assets/images/cats/drawn/20260316_191703(1).png" id="42_iajyf"]
-[ext_resource type="Texture2D" uid="uid://bmmf38i0ths20" path="res://assets/images/cats/бегающий кот.png" id="43_7yks5"]
-[ext_resource type="Texture2D" uid="uid://beq02n1uteui1" path="res://assets/images/cats/drawn/20260316_191703(3).png" id="43_w5hti"]
-[ext_resource type="Texture2D" uid="uid://0xvkit78wx6o" path="res://assets/images/cats/drawn/20260316_191703(5).png" id="44_kksrm"]
+[ext_resource type="Texture2D" uid="uid://bj42br8w47wxm" path="res://assets/images/cats/painting/Untitled-1.png" id="42_kksrm"]
+[ext_resource type="Texture2D" uid="uid://cq3otow2y4pin" path="res://assets/images/cats/painting/Untitled-41.png" id="43_jdup0"]
+[ext_resource type="Texture2D" uid="uid://c85tooj8wkdg" path="res://assets/images/cats/painting/Untitled-3.png" id="44_avk7w"]
+[ext_resource type="Texture2D" uid="uid://rwdth5vfdggc" path="res://assets/images/cats/painting/Untitled-4.png" id="45_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://b0wda0f77k3cc" path="res://assets/images/cats/painting/Untitled-11.png" id="46_2tucw"]
+[ext_resource type="Texture2D" uid="uid://d3ku3syg473mp" path="res://assets/images/cats/painting/Untitled-12.png" id="47_7yks5"]
+[ext_resource type="Texture2D" uid="uid://b6adyxdlcl0si" path="res://assets/images/cats/painting/Untitled-6.png" id="48_3r6mh"]
+[ext_resource type="Texture2D" uid="uid://mum2lo5gkkqh" path="res://assets/images/cats/painting/Untitled-9.png" id="49_iyitj"]
+[ext_resource type="Texture2D" uid="uid://buhl04gki6l3t" path="res://assets/images/cats/painting/Untitled-15.png" id="50_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://bplo55erel55g" path="res://assets/images/cats/painting/Untitled-16.png" id="51_af4el"]
+[ext_resource type="Texture2D" uid="uid://dfrq3qeqcdd7p" path="res://assets/images/cats/painting/Untitled-20.png" id="52_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://brjvltqlpmhx0" path="res://assets/images/cats/painting/Untitled-22.png" id="53_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://kl2hte42ed0b" path="res://assets/images/cats/painting/Untitled-2.png" id="54_fm2cn"]
+[ext_resource type="Texture2D" uid="uid://b50s3a4wvt73e" path="res://assets/images/cats/painting/Untitled-23.png" id="55_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://balccf4siyq5v" path="res://assets/images/cats/painting/Untitled-19.png" id="56_7yks5"]
+[ext_resource type="Texture2D" uid="uid://d0jdp13a11y07" path="res://assets/images/cats/painting/Untitled-21.png" id="57_af4el"]
+[ext_resource type="Texture2D" uid="uid://bspsscj2bcama" path="res://assets/images/cats/painting/Untitled-29.png" id="58_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://d4aa0fsebkk0h" path="res://assets/images/cats/painting/Untitled-24.png" id="59_af4el"]
+[ext_resource type="Texture2D" uid="uid://dr6xnapnpwfrk" path="res://assets/images/cats/painting/Untitled-31.png" id="60_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://b44oi3l1ur2df" path="res://assets/images/cats/painting/Untitled-27.png" id="61_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://dambumn43wyqe" path="res://assets/images/cats/painting/Untitled-38.png" id="62_v2a8d"]
+[ext_resource type="Texture2D" uid="uid://b886060ct7c2u" path="res://assets/images/cats/painting/Untitled-35.png" id="63_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://hvssv1dtcjwo" path="res://assets/images/cats/painting/Untitled-40.png" id="64_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://c468okppf23g1" path="res://assets/images/cats/painting/Untitled-30.png" id="65_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://dvuw0oyrv8gnn" path="res://assets/images/cats/painting/Untitled-25.png" id="66_h3hrn"]
+[ext_resource type="Texture2D" uid="uid://cgx8iahydc6ka" path="res://assets/images/cats/painting/Untitled-17.png" id="67_w5hti"]
 [ext_resource type="Script" uid="uid://d023x1ca5xm8r" path="res://resources/cat_data.gd" id="cd_script"]
 [ext_resource type="PackedScene" uid="uid://bwum8rpkg5ajb" path="res://scenes/hidden_object/HiddenObject.tscn" id="ho_1"]
 
@@ -80,7 +80,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_1"]
 script = ExtResource("cd_script")
-sprite = ExtResource("36_p6t5t")
+sprite = ExtResource("5_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_af4el"]
 resource_local_to_scene = true
@@ -93,7 +93,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_2"]
 script = ExtResource("cd_script")
-sprite = ExtResource("5_l2ef6")
+sprite = ExtResource("7_h3hrn")
 hint = "Two glowing eyes are watching you from the dark."
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7yks5"]
@@ -107,7 +107,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_3"]
 script = ExtResource("cd_script")
-sprite = ExtResource("16_4urfc")
+sprite = ExtResource("8_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_w5hti"]
 resource_local_to_scene = true
@@ -120,7 +120,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_4"]
 script = ExtResource("cd_script")
-sprite = ExtResource("7_o4urf")
+sprite = ExtResource("9_h3hrn")
 hint = "One cat was brought from the store."
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_kksrm"]
@@ -134,7 +134,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_5"]
 script = ExtResource("cd_script")
-sprite = ExtResource("26_ak85g")
+sprite = ExtResource("10_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jdup0"]
 resource_local_to_scene = true
@@ -147,7 +147,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_6"]
 script = ExtResource("cd_script")
-sprite = ExtResource("35_p421j")
+sprite = ExtResource("11_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_avk7w"]
 resource_local_to_scene = true
@@ -160,7 +160,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_7"]
 script = ExtResource("cd_script")
-sprite = ExtResource("30_lnvns")
+sprite = ExtResource("12_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2tucw"]
 resource_local_to_scene = true
@@ -173,7 +173,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_8"]
 script = ExtResource("cd_script")
-sprite = ExtResource("41_h3hrn")
+sprite = ExtResource("13_h3hrn")
 hint = "Siamese twins don’t stray too far from each other."
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3r6mh"]
@@ -187,7 +187,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_9"]
 script = ExtResource("cd_script")
-sprite = ExtResource("15_k6u5g")
+sprite = ExtResource("14_af4el")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_iyitj"]
 resource_local_to_scene = true
@@ -200,7 +200,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_10"]
 script = ExtResource("cd_script")
-sprite = ExtResource("14_iajyf")
+sprite = ExtResource("15_af4el")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_fm2cn"]
 resource_local_to_scene = true
@@ -213,7 +213,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_11"]
 script = ExtResource("cd_script")
-sprite = ExtResource("14_p6t5t")
+sprite = ExtResource("16_h3hrn")
 hint = "Cats don’t grow on trees, but may grow in bushes."
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_v2a8d"]
@@ -227,7 +227,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_12"]
 script = ExtResource("cd_script")
-sprite = ExtResource("15_l28v8")
+sprite = ExtResource("17_h3hrn")
 hint = "This one is not afraid to get wet, but isn’t happy about it either."
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_m7dws"]
@@ -241,7 +241,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_13"]
 script = ExtResource("cd_script")
-sprite = ExtResource("16_dj3rm")
+sprite = ExtResource("18_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_23wmk"]
 resource_local_to_scene = true
@@ -254,7 +254,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_14"]
 script = ExtResource("cd_script")
-sprite = ExtResource("21_w8l5x")
+sprite = ExtResource("19_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_o4l27"]
 resource_local_to_scene = true
@@ -267,7 +267,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_15"]
 script = ExtResource("cd_script")
-sprite = ExtResource("28_jws35")
+sprite = ExtResource("20_h3hrn")
 hint = "All in all, it’s just another cat in the wall."
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_myfwp"]
@@ -281,7 +281,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_16"]
 script = ExtResource("cd_script")
-sprite = ExtResource("20_h3hrn")
+sprite = ExtResource("21_7yks5")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_cppx6"]
 resource_local_to_scene = true
@@ -294,7 +294,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_17"]
 script = ExtResource("cd_script")
-sprite = ExtResource("20_l2ef6")
+sprite = ExtResource("22_w5hti")
 
 [sub_resource type="Animation" id="Animation_4dvvg"]
 length = 0.001
@@ -347,7 +347,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_18"]
 script = ExtResource("cd_script")
-sprite = ExtResource("41_af4el")
+sprite = ExtResource("42_kksrm")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pwm5f"]
 resource_local_to_scene = true
@@ -360,7 +360,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_19"]
 script = ExtResource("cd_script")
-sprite = ExtResource("42_iajyf")
+sprite = ExtResource("43_jdup0")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_g0kbj"]
 resource_local_to_scene = true
@@ -373,7 +373,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_20"]
 script = ExtResource("cd_script")
-sprite = ExtResource("43_w5hti")
+sprite = ExtResource("44_avk7w")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_wkd7x"]
 resource_local_to_scene = true
@@ -386,7 +386,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_21"]
 script = ExtResource("cd_script")
-sprite = ExtResource("44_kksrm")
+sprite = ExtResource("45_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5q3ol"]
 resource_local_to_scene = true
@@ -399,7 +399,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_22"]
 script = ExtResource("cd_script")
-sprite = ExtResource("12_x63s8")
+sprite = ExtResource("46_2tucw")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2ycu4"]
 resource_local_to_scene = true
@@ -412,7 +412,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_23"]
 script = ExtResource("cd_script")
-sprite = ExtResource("13_0q20i")
+sprite = ExtResource("47_7yks5")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_4f150"]
 resource_local_to_scene = true
@@ -425,7 +425,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_24"]
 script = ExtResource("cd_script")
-sprite = ExtResource("14_qv8l0")
+sprite = ExtResource("48_3r6mh")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_t2gnq"]
 resource_local_to_scene = true
@@ -438,7 +438,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_25"]
 script = ExtResource("cd_script")
-sprite = ExtResource("17_sfkyn")
+sprite = ExtResource("49_iyitj")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vc547"]
 resource_local_to_scene = true
@@ -451,7 +451,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_26"]
 script = ExtResource("cd_script")
-sprite = ExtResource("18_rntdg")
+sprite = ExtResource("50_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_qqyxo"]
 resource_local_to_scene = true
@@ -464,7 +464,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_27"]
 script = ExtResource("cd_script")
-sprite = ExtResource("19_hiivq")
+sprite = ExtResource("51_af4el")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_chyuq"]
 resource_local_to_scene = true
@@ -477,7 +477,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_28"]
 script = ExtResource("cd_script")
-sprite = ExtResource("22_1wuir")
+sprite = ExtResource("52_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_k8aib"]
 resource_local_to_scene = true
@@ -490,7 +490,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_29"]
 script = ExtResource("cd_script")
-sprite = ExtResource("23_o4urf")
+sprite = ExtResource("53_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_nc8ul"]
 resource_local_to_scene = true
@@ -503,7 +503,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_30"]
 script = ExtResource("cd_script")
-sprite = ExtResource("24_uo1ep")
+sprite = ExtResource("54_fm2cn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1m80o"]
 resource_local_to_scene = true
@@ -516,7 +516,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_31"]
 script = ExtResource("cd_script")
-sprite = ExtResource("25_xksap")
+sprite = ExtResource("55_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_abcrl"]
 resource_local_to_scene = true
@@ -529,7 +529,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_32"]
 script = ExtResource("cd_script")
-sprite = ExtResource("27_x4k2d")
+sprite = ExtResource("56_7yks5")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5ces6"]
 resource_local_to_scene = true
@@ -542,7 +542,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_33"]
 script = ExtResource("cd_script")
-sprite = ExtResource("29_haaho")
+sprite = ExtResource("57_af4el")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pvvj2"]
 resource_local_to_scene = true
@@ -555,7 +555,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_34"]
 script = ExtResource("cd_script")
-sprite = ExtResource("31_sr1wi")
+sprite = ExtResource("58_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jhu2i"]
 resource_local_to_scene = true
@@ -568,7 +568,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_35"]
 script = ExtResource("cd_script")
-sprite = ExtResource("32_wx07a")
+sprite = ExtResource("59_af4el")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_opb8g"]
 resource_local_to_scene = true
@@ -581,7 +581,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_36"]
 script = ExtResource("cd_script")
-sprite = ExtResource("33_rnubh")
+sprite = ExtResource("60_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7b2d2"]
 resource_local_to_scene = true
@@ -594,7 +594,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_37"]
 script = ExtResource("cd_script")
-sprite = ExtResource("34_5leur")
+sprite = ExtResource("61_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1opjq"]
 resource_local_to_scene = true
@@ -607,7 +607,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_38"]
 script = ExtResource("cd_script")
-sprite = ExtResource("37_byhed")
+sprite = ExtResource("62_v2a8d")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_wetqo"]
 resource_local_to_scene = true
@@ -620,7 +620,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_39"]
 script = ExtResource("cd_script")
-sprite = ExtResource("38_l28v8")
+sprite = ExtResource("63_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_twawj"]
 resource_local_to_scene = true
@@ -633,7 +633,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_40"]
 script = ExtResource("cd_script")
-sprite = ExtResource("39_dj3rm")
+sprite = ExtResource("64_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_j5ee5"]
 resource_local_to_scene = true
@@ -646,7 +646,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_41"]
 script = ExtResource("cd_script")
-sprite = ExtResource("40_iajyf")
+sprite = ExtResource("65_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1xoet"]
 resource_local_to_scene = true
@@ -659,7 +659,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_42"]
 script = ExtResource("cd_script")
-sprite = ExtResource("42_af4el")
+sprite = ExtResource("66_h3hrn")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vm6un"]
 resource_local_to_scene = true
@@ -672,7 +672,7 @@ shader_parameter/add_margins = true
 
 [sub_resource type="Resource" id="CatData_43"]
 script = ExtResource("cd_script")
-sprite = ExtResource("43_7yks5")
+sprite = ExtResource("67_w5hti")
 
 [node name="World" type="Node2D" unique_id=893542957]
 
@@ -694,157 +694,161 @@ scale = Vector2(0.14350204, 0.14682096)
 [node name="F30Dab3624Ef45049f3f9222Ec2Fa78e" parent="OverlayCats" unique_id=608873721 instance=ExtResource("ho_1")]
 modulate = Color(0.37101305, 0.53474456, 0.42848927, 1)
 material = SubResource("ShaderMaterial_h3hrn")
-scale = Vector2(1, 0.9999998)
-texture = ExtResource("36_p6t5t")
+position = Vector2(-27.951077, 33.99628)
+scale = Vector2(1.0523258, 1.0523256)
+texture = ExtResource("5_h3hrn")
 cat_data = SubResource("CatData_1")
 
 [node name="HiddenObject" parent="OverlayCats" unique_id=1610696968 instance=ExtResource("ho_1")]
-modulate = Color(0.2520276, 0.25202766, 0.25202763, 1)
+modulate = Color(0.39308554, 0.3930855, 0.39308548, 1)
 material = SubResource("ShaderMaterial_af4el")
-position = Vector2(-1763.5201, -2891.6604)
-scale = Vector2(0.8091521, 0.8091521)
-texture = ExtResource("5_l2ef6")
+position = Vector2(-1742.6299, -2884.8044)
+scale = Vector2(0.9850231, 0.9850231)
+texture = ExtResource("7_h3hrn")
 flip_h = true
 cat_data = SubResource("CatData_2")
 
 [node name="212Cccd76e6545c796291Bd68428b07d" parent="OverlayCats" unique_id=1932971119 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_7yks5")
-position = Vector2(-5034.344, -1747.6118)
-rotation = -0.63443625
-scale = Vector2(1.3731103, 1.110005)
+position = Vector2(-5131.872, -1761.4438)
+rotation = -0.4228974
+scale = Vector2(1.369436, 1.1070348)
 skew = 0.0011321306
-texture = ExtResource("16_4urfc")
+texture = ExtResource("8_h3hrn")
+flip_v = true
 cat_data = SubResource("CatData_3")
 
 [node name="HiddenObject2" parent="OverlayCats" unique_id=1161988212 instance=ExtResource("ho_1")]
 modulate = Color(0.52906674, 0.5290667, 0.5290667, 1)
 material = SubResource("ShaderMaterial_w5hti")
-position = Vector2(-11584.61, 1276.0563)
+position = Vector2(-11556.645, 1235.2494)
 rotation = 0.64225394
-scale = Vector2(0.63, 0.63)
-texture = ExtResource("7_o4urf")
+scale = Vector2(0.7160213, 0.7160213)
+texture = ExtResource("9_h3hrn")
 cat_data = SubResource("CatData_4")
 
 [node name="BirmanCrossCat,Rolling" parent="OverlayCats" unique_id=994984545 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_kksrm")
-position = Vector2(-11808.605, -1380.7279)
+position = Vector2(-11836.373, -1428.4642)
 rotation = 0.42568675
-scale = Vector2(2.593, 2.555)
+scale = Vector2(1.7933136, 1.767033)
 skew = 0.01745677
-texture = ExtResource("26_ak85g")
+texture = ExtResource("10_h3hrn")
 cat_data = SubResource("CatData_5")
 
 [node name="Ec1286b77c59404cAd1a1c84f91d522a" parent="OverlayCats" unique_id=342534354 instance=ExtResource("ho_1")]
 modulate = Color(0.46618086, 0.4661808, 0.4661808, 1)
 material = SubResource("ShaderMaterial_jdup0")
-position = Vector2(220.36182, 1171.9707)
-rotation = 0.029197823
-scale = Vector2(2.0122578, 1.8502901)
+position = Vector2(199.54837, 1131.0603)
+rotation = -0.17656873
+scale = Vector2(1.5164057, 1.3943495)
 skew = 0.001365304
-texture = ExtResource("35_p421j")
+texture = ExtResource("11_h3hrn")
 cat_data = SubResource("CatData_6")
 
 [node name="Cd8881388c3d4f11B78f2f145Ce3Eae1" parent="OverlayCats" unique_id=1076978209 instance=ExtResource("ho_1")]
 modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)
 material = SubResource("ShaderMaterial_avk7w")
-position = Vector2(-19120.303, -6838.4297)
+position = Vector2(-19078.553, -6811.096)
 rotation = 0.0021453137
 scale = Vector2(1.7718452, 1.9085467)
 skew = 0.00010037422
-texture = ExtResource("30_lnvns")
+texture = ExtResource("12_h3hrn")
 cat_data = SubResource("CatData_7")
 
 [node name="Siameseシャム猫" parent="OverlayCats" unique_id=1194996290 instance=ExtResource("ho_1")]
 modulate = Color(0.5211406, 0.5211406, 0.5211405, 1)
 material = SubResource("ShaderMaterial_2tucw")
-position = Vector2(-17082.05, -2161.688)
+position = Vector2(-17109.834, -2202.6135)
 rotation = 0.0021453137
-scale = Vector2(2.559645, 2.501784)
+scale = Vector2(1.1886296, 1.1617604)
 skew = 0.00010037422
-texture = ExtResource("41_h3hrn")
+texture = ExtResource("13_h3hrn")
 cat_data = SubResource("CatData_8")
 
 [node name="90b1e2903b33471bA24838Ba4f28d3a4Copy" parent="OverlayCats" unique_id=145753470 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_3r6mh")
-position = Vector2(-13503.016, -7119.2524)
+position = Vector2(-13489.003, -7153.278)
 rotation = 0.0021453137
+scale = Vector2(1.231697, 1.231697)
 skew = 0.00010037422
-texture = ExtResource("15_k6u5g")
+texture = ExtResource("14_af4el")
 flip_h = true
 cat_data = SubResource("CatData_9")
 
 [node name="6f9c3d3f998d4Aa6Ab0b5d1061c94e4f" parent="OverlayCats" unique_id=1583649567 instance=ExtResource("ho_1")]
 modulate = Color(0.7882353, 1, 1, 1)
 material = SubResource("ShaderMaterial_iyitj")
-position = Vector2(-7768.9297, -6657.4224)
+position = Vector2(-7750.2437, -6665.8975)
 rotation = 0.19373155
-scale = Vector2(0.765, 0.765)
+scale = Vector2(0.8321227, 0.8321227)
 skew = 0.0049062967
-texture = ExtResource("14_iajyf")
+texture = ExtResource("15_af4el")
 cat_data = SubResource("CatData_10")
 
 [node name="huhcat" parent="OverlayCats" unique_id=1500044289 instance=ExtResource("ho_1")]
 modulate = Color(0.7764706, 0.7921569, 0.81960785, 1)
 material = SubResource("ShaderMaterial_fm2cn")
-position = Vector2(-16171.626, 2035.8615)
-scale = Vector2(3.385, 3.385)
-texture = ExtResource("14_p6t5t")
+position = Vector2(-16150.659, 2008.6624)
+scale = Vector2(1.1983467, 1.1983469)
+texture = ExtResource("16_h3hrn")
 cat_data = SubResource("CatData_11")
 
 [node name="HiddenObject3" parent="OverlayCats" unique_id=1779840306 instance=ExtResource("ho_1")]
 modulate = Color(0.73300546, 0.7330054, 0.7330054, 1)
 material = SubResource("ShaderMaterial_v2a8d")
-position = Vector2(-3690.1155, -4537.2524)
+position = Vector2(-3690.1309, -4530.441)
 scale = Vector2(0.55, 0.55)
-texture = ExtResource("15_l28v8")
+texture = ExtResource("17_h3hrn")
 cat_data = SubResource("CatData_12")
 
 [node name="HiddenObject4" parent="OverlayCats" unique_id=149786492 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_m7dws")
-position = Vector2(-6727.582, -4904.753)
-rotation = -0.16123925
-texture = ExtResource("16_dj3rm")
+position = Vector2(-6678.8633, -4877.406)
+rotation = 0.5427596
+scale = Vector2(1.1367266, 1.1367267)
+texture = ExtResource("18_h3hrn")
 cat_data = SubResource("CatData_13")
 
 [node name="31774356C2Ef4a59900250Cb7d7Cc24e" parent="OverlayCats" unique_id=495356304 instance=ExtResource("ho_1")]
 modulate = Color(0.5649617, 0.5649616, 0.5649616, 1)
 material = SubResource("ShaderMaterial_23wmk")
-position = Vector2(-19021.582, -1151.0049)
+position = Vector2(-19007.873, -1048.81)
 rotation = -0.048419785
-scale = Vector2(1.7898732, 1.9962635)
+scale = Vector2(1.0014695, 1.1169488)
 skew = -0.002261877
-texture = ExtResource("21_w8l5x")
+texture = ExtResource("19_h3hrn")
 flip_h = true
 cat_data = SubResource("CatData_14")
 
 [node name="Cat(1)" parent="OverlayCats" unique_id=1228456605 instance=ExtResource("ho_1")]
-self_modulate = Color(0.5822018, 0.42990035, 0.31400618, 1)
+self_modulate = Color(0.6560605, 0.49566442, 0.36959913, 1)
 material = SubResource("ShaderMaterial_o4l27")
-position = Vector2(1650.0852, -3820.2188)
+position = Vector2(1792.6611, -3878.4412)
 rotation = 0.033891436
-scale = Vector2(1.6792399, 1.7523665)
+scale = Vector2(1.2544557, 1.3090842)
 skew = 0.0015844107
-texture = ExtResource("28_jws35")
+texture = ExtResource("20_h3hrn")
 cat_data = SubResource("CatData_15")
 
 [node name="3c215e9bF1f745c6Aeb55Fc297Ad0d6d" parent="OverlayCats" unique_id=826039765 instance=ExtResource("ho_1")]
 modulate = Color(0.646029, 0.646029, 0.646029, 1)
 material = SubResource("ShaderMaterial_myfwp")
-position = Vector2(-13903.459, 6733.5283)
+position = Vector2(-13875.66, 6767.6445)
 rotation = 0.15912169
-scale = Vector2(1.6206429, 1.5840083)
+scale = Vector2(2.0942266, 2.0468867)
 skew = 0.00010037422
-texture = ExtResource("20_h3hrn")
+texture = ExtResource("21_7yks5")
 cat_data = SubResource("CatData_16")
 
 [node name="29683a7fBcda4Ec5B4485a52682a0c23" parent="OverlayCats" unique_id=1482502502 instance=ExtResource("ho_1")]
 self_modulate = Color(0.7666196, 0.76661956, 0.76661956, 1)
 material = SubResource("ShaderMaterial_cppx6")
-position = Vector2(-10492.78, -833.02124)
+position = Vector2(-10444.016, -826.1067)
 rotation = -1.7180454
-scale = Vector2(0.9979717, 0.9753822)
+scale = Vector2(1.4855664, 1.4519401)
 skew = 0.00649333
-texture = ExtResource("20_l2ef6")
+texture = ExtResource("22_w5hti")
 cat_data = SubResource("CatData_17")
 
 [node name="OverlayObjects" type="Node2D" parent="." unique_id=1563024129]
@@ -955,49 +959,49 @@ position = Vector2(261, 119)
 material = SubResource("ShaderMaterial_nap8e")
 position = Vector2(706, 958)
 scale = Vector2(0.1954224, 0.1954224)
-texture = ExtResource("41_af4el")
+texture = ExtResource("42_kksrm")
 cat_data = SubResource("CatData_18")
 
 [node name="35b581d32Fec42d998d73Fc34a0f6e41" parent="HiddenObjectRest" unique_id=1905212036 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_pwm5f")
-position = Vector2(-577, 550)
-scale = Vector2(0.12023952, 0.12023952)
-texture = ExtResource("42_iajyf")
+position = Vector2(-578.00006, 551.00006)
+scale = Vector2(0.14944011, 0.14944011)
+texture = ExtResource("43_jdup0")
 cat_data = SubResource("CatData_19")
 
 [node name="45f7e974Ffc14d1c8FcaB0681Dd018f8" parent="HiddenObjectRest" unique_id=850110405 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_g0kbj")
 position = Vector2(89, 405)
 scale = Vector2(0.13549626, 0.13549626)
-texture = ExtResource("43_w5hti")
+texture = ExtResource("44_avk7w")
 cat_data = SubResource("CatData_20")
 
 [node name="47Ecee99Cf504186B701Dc4Fcfbb3b4b" parent="HiddenObjectRest" unique_id=136123717 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_wkd7x")
 position = Vector2(-1279.9999, -660.99994)
 scale = Vector2(0.735, 0.735)
-texture = ExtResource("44_kksrm")
+texture = ExtResource("45_h3hrn")
 cat_data = SubResource("CatData_21")
 
 [node name="52c15d04729b4b508464Db7651Cd2114" parent="HiddenObjectRest" unique_id=1289806532 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_5q3ol")
 position = Vector2(1940, 453)
 scale = Vector2(0.235, 0.235)
-texture = ExtResource("12_x63s8")
+texture = ExtResource("46_2tucw")
 cat_data = SubResource("CatData_22")
 
 [node name="54b5Fa3034f6450784314123f45e8d3e" parent="HiddenObjectRest" unique_id=1206269689 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_2ycu4")
-position = Vector2(1759, 1385.0001)
-scale = Vector2(0.265, 0.265)
-texture = ExtResource("13_0q20i")
+position = Vector2(1763.0001, 1390)
+scale = Vector2(0.18488044, 0.18488044)
+texture = ExtResource("47_7yks5")
 cat_data = SubResource("CatData_23")
 
 [node name="64Ed99Fc8d214e76A452Ab601969080e" parent="HiddenObjectRest" unique_id=972336723 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_4f150")
 position = Vector2(414.00003, 1724)
 scale = Vector2(0.1894523, 0.1894523)
-texture = ExtResource("14_qv8l0")
+texture = ExtResource("48_3r6mh")
 cat_data = SubResource("CatData_24")
 
 [node name="385Dbe1b4Fad4BeaBfcbF5f5Fe0760Ce" parent="HiddenObjectRest" unique_id=1608855830 instance=ExtResource("ho_1")]
@@ -1005,93 +1009,93 @@ material = SubResource("ShaderMaterial_t2gnq")
 position = Vector2(-137.00002, 2096.0002)
 rotation = -0.027336502
 scale = Vector2(0.24000002, 0.24000002)
-texture = ExtResource("17_sfkyn")
+texture = ExtResource("49_iyitj")
 cat_data = SubResource("CatData_25")
 
 [node name="789a79c4C6774Fc4B852Bbbf1Acfc4Ae" parent="HiddenObjectRest" unique_id=1966776989 instance=ExtResource("ho_1")]
 modulate = Color(0.48432028, 0.42238754, 0.37509713, 1)
 material = SubResource("ShaderMaterial_vc547")
-position = Vector2(1116.0001, 2294.0002)
-rotation = -0.07571706
-scale = Vector2(0.22499998, 0.22499998)
-texture = ExtResource("18_rntdg")
+position = Vector2(1098, 2305)
+rotation = -0.2522601
+scale = Vector2(0.18619026, 0.18619026)
+texture = ExtResource("50_h3hrn")
 cat_data = SubResource("CatData_26")
 
 [node name="986c166c559c41e09f5a8Eb364c19Fd0" parent="HiddenObjectRest" unique_id=494703940 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_qqyxo")
-position = Vector2(1679.0001, 2456)
+position = Vector2(1658.0001, 2462)
 rotation = -0.005242732
-scale = Vector2(0.275, 0.275)
-texture = ExtResource("19_hiivq")
+scale = Vector2(0.19425151, 0.19425152)
+texture = ExtResource("51_af4el")
 cat_data = SubResource("CatData_27")
 
 [node name="A740Da9bEe0343b1Ace110a70Ad0943d" parent="HiddenObjectRest" unique_id=1329087148 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_chyuq")
-position = Vector2(1755.0001, -64)
-rotation = -0.0018674394
-scale = Vector2(0.23500003, 0.23500003)
-texture = ExtResource("22_1wuir")
+position = Vector2(1740.9999, -78.00001)
+rotation = -1.5011904
+scale = Vector2(0.21213998, 0.21214)
+texture = ExtResource("52_h3hrn")
 cat_data = SubResource("CatData_28")
 
 [node name="A25861d1Ad0443Da851f4Eea65142499" parent="HiddenObjectRest" unique_id=865347701 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_k8aib")
-position = Vector2(1448, 1228.0001)
+position = Vector2(1448.9999, 1237.0001)
 rotation = -0.00063832407
-scale = Vector2(0.35143, 0.31941423)
-texture = ExtResource("23_o4urf")
+scale = Vector2(0.17200185, 0.15633227)
+texture = ExtResource("53_h3hrn")
 cat_data = SubResource("CatData_29")
 
 [node name="B4a84a36F97d4c5f83435e80f8Fda115" parent="HiddenObjectRest" unique_id=149552151 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_nc8ul")
-position = Vector2(1933.0002, 821.00006)
-scale = Vector2(0.185, 0.185)
-texture = ExtResource("24_uo1ep")
+position = Vector2(1928.0001, 839.99994)
+scale = Vector2(0.14753096, 0.14753096)
+texture = ExtResource("54_fm2cn")
 cat_data = SubResource("CatData_30")
 
 [node name="B873Db755b53480cBc82Bfd740b4Df33" parent="HiddenObjectRest" unique_id=1230546078 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_1m80o")
-position = Vector2(156.99998, 995.0001)
-scale = Vector2(0.1698222, 0.16982219)
-texture = ExtResource("25_xksap")
+position = Vector2(164, 976)
+scale = Vector2(0.0970323, 0.09703229)
+texture = ExtResource("55_h3hrn")
 cat_data = SubResource("CatData_31")
 
 [node name="BlackCatBreedBombayOnWhiteFeaturingCat,Black,AndWhite" parent="HiddenObjectRest" unique_id=2119788139 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_abcrl")
-position = Vector2(-258, 927.0001)
-rotation = 0.1007593
-scale = Vector2(0.21999997, 0.21999997)
-texture = ExtResource("27_x4k2d")
+position = Vector2(-251, 929)
+rotation = 0.11087677
+scale = Vector2(0.16308539, 0.16308539)
+texture = ExtResource("56_7yks5")
 cat_data = SubResource("CatData_32")
 
 [node name="Cat" parent="HiddenObjectRest" unique_id=763704818 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_5ces6")
-position = Vector2(1646, 1621)
+position = Vector2(1639.9999, 1618)
 rotation = -0.64931387
-scale = Vector2(0.24195601, 0.26128545)
-texture = ExtResource("29_haaho")
+scale = Vector2(0.16102138, 0.17388509)
+texture = ExtResource("57_af4el")
 cat_data = SubResource("CatData_33")
 
 [node name="D467c30105Be43AeB8846b2b0955d4e6" parent="HiddenObjectRest" unique_id=1578354674 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_pvvj2")
-position = Vector2(-590, 1100)
+position = Vector2(-585, 1095.0001)
 rotation = 0.026983233
-scale = Vector2(0.125, 0.125)
-texture = ExtResource("31_sr1wi")
+scale = Vector2(0.18091573, 0.18091573)
+texture = ExtResource("58_h3hrn")
 cat_data = SubResource("CatData_34")
 
 [node name="DrawOverAMemeForThePersonAbove!OnToyhouse" parent="HiddenObjectRest" unique_id=670675773 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_jhu2i")
-position = Vector2(-1122, 2638.0002)
-scale = Vector2(0.37117958, 0.35113895)
-texture = ExtResource("32_wx07a")
+position = Vector2(-1127.0001, 2656)
+scale = Vector2(0.2205242, 0.20861772)
+texture = ExtResource("59_af4el")
 cat_data = SubResource("CatData_35")
 
 [node name="E915192fF2Ba4041B8353c71304b2c96" parent="HiddenObjectRest" unique_id=145446140 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_opb8g")
-position = Vector2(-792.00006, 2322.9998)
+position = Vector2(-793.00006, 2326)
 rotation = -0.015225202
 scale = Vector2(0.25736797, 0.22636405)
-texture = ExtResource("33_rnubh")
+texture = ExtResource("60_h3hrn")
 cat_data = SubResource("CatData_36")
 
 [node name="Eb6221CaE1d84Bbc83FdFa4Df2Bddf08" parent="HiddenObjectRest" unique_id=1180361384 instance=ExtResource("ho_1")]
@@ -1099,7 +1103,7 @@ material = SubResource("ShaderMaterial_7b2d2")
 position = Vector2(896, 2451)
 rotation = 0.045764364
 scale = Vector2(0.28985712, 0.26220945)
-texture = ExtResource("34_5leur")
+texture = ExtResource("61_h3hrn")
 cat_data = SubResource("CatData_37")
 
 [node name="HaresLeap" parent="HiddenObjectRest" unique_id=423057077 instance=ExtResource("ho_1")]
@@ -1107,46 +1111,47 @@ material = SubResource("ShaderMaterial_1opjq")
 position = Vector2(-1382.9999, 215.00012)
 rotation = 0.73208106
 scale = Vector2(0.39666957, 0.39666957)
-texture = ExtResource("37_byhed")
+texture = ExtResource("62_v2a8d")
 cat_data = SubResource("CatData_38")
 
 [node name="MemeCat" parent="HiddenObjectRest" unique_id=1302264587 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_wetqo")
-position = Vector2(1023.9999, 894.9999)
+position = Vector2(1034.2434, 909.1874)
 rotation = 0.022542283
-scale = Vector2(0.18625706, 0.18625706)
-texture = ExtResource("38_l28v8")
+scale = Vector2(0.1435873, 0.1435873)
+texture = ExtResource("63_h3hrn")
 cat_data = SubResource("CatData_39")
 
 [node name="RestingOnABranch" parent="HiddenObjectRest" unique_id=677129390 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_twawj")
-position = Vector2(-1085.9999, 951)
-rotation = -0.36552733
-scale = Vector2(0.3253961, 0.3253961)
-texture = ExtResource("39_dj3rm")
+position = Vector2(-1093.0001, 948.9999)
+rotation = 1.1875038
+scale = Vector2(0.25829282, 0.2582928)
+texture = ExtResource("64_h3hrn")
 cat_data = SubResource("CatData_40")
 
 [node name="RobinFur" parent="HiddenObjectRest" unique_id=1372895221 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_j5ee5")
-position = Vector2(1412.9999, 864.00006)
-scale = Vector2(0.32864913, 0.32864913)
-texture = ExtResource("40_iajyf")
+position = Vector2(1419, 869.00006)
+scale = Vector2(0.34889793, 0.34889793)
+texture = ExtResource("65_h3hrn")
 cat_data = SubResource("CatData_41")
 
 [node name="SilverStride" parent="HiddenObjectRest" unique_id=1257300121 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_1xoet")
-position = Vector2(1622.9999, 2260)
+position = Vector2(1608, 2260)
 scale = Vector2(0.21680218, 0.21680218)
-texture = ExtResource("42_af4el")
+texture = ExtResource("66_h3hrn")
 cat_data = SubResource("CatData_42")
 
 [node name="БегающийКот" parent="HiddenObjectRest" unique_id=1414166279 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_vm6un")
-position = Vector2(197, 2143)
+position = Vector2(227.00003, 2148.0002)
 rotation = -0.12785247
-scale = Vector2(0.33605617, 0.33605617)
-texture = ExtResource("43_7yks5")
+scale = Vector2(0.25910065, 0.25910065)
+texture = ExtResource("67_w5hti")
 cat_data = SubResource("CatData_43")
 
 [node name="Camera2D" parent="." unique_id=1673285300 instance=ExtResource("4_4urfc")]
 position = Vector2(984, 538)
+max_zoom = 1.4
