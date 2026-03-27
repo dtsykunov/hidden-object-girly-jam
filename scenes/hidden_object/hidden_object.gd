@@ -1,21 +1,23 @@
 class_name HiddenObject
 extends Sprite2D
-## A cat hidden in the scene. Glows on hover, bounces and meows when found.
+## A cat hidden in the scene. Brightens on hover, bounces and glows when found.
 
 signal cat_found
 
 @export var cat_data: CatData
 @export var purr_sound: AudioStream
 @export var meow_sound: AudioStream
-@export var MAX_GLOW: float = 20.0
 
 @onready var _area: Area2D = $Area2D
 @onready var _collision: CollisionShape2D = $Area2D/CollisionShape2D
 @onready var _purr_player: AudioStreamPlayer = $PurrPlayer
 @onready var _anim: AnimationPlayer = $AnimationPlayer
+@onready var _notifier: VisibleOnScreenNotifier2D = $VisibleOnScreenEnabler2D
+@onready var _glow_sprite: Sprite2D = $GlowSprite
 
 var _is_found := false
 var _base_scale := Vector2.ONE
+var _base_modulate: Color
 var _cat_index: int = -1
 ## Normalized scale multiplier driven by AnimationPlayer. 1.0 = base scale.
 var bounce_scale: float = 1.0:
@@ -26,9 +28,13 @@ var bounce_scale: float = 1.0:
 
 func _ready() -> void:
 	_base_scale = scale
+	_base_modulate = modulate
 
 	if cat_data and cat_data.sprite:
 		texture = cat_data.sprite
+		_glow_sprite.texture = texture
+		_glow_sprite.flip_h = flip_h
+		_glow_sprite.flip_v = flip_v
 
 	if texture:
 		var shape := RectangleShape2D.new()
@@ -39,13 +45,19 @@ func _ready() -> void:
 	_area.mouse_exited.connect(_on_mouse_exited)
 	_area.input_event.connect(_on_input_event)
 
+	_notifier.screen_exited.connect(func() -> void: _glow_sprite.hide())
+	_notifier.screen_entered.connect(func() -> void:
+		if _is_found:
+			_glow_sprite.show())
+
 	_cat_index = GameState.register_cat(cat_data)
 
 
 func _on_mouse_entered() -> void:
 	if not GameState.started or _is_found:
 		return
-	_set_glow(0.6)
+	var tween := create_tween()
+	tween.tween_property(self, "modulate", Color(1.3, 1.2, 1.0, 1.0), 0.15)
 	if purr_sound and not _purr_player.playing:
 		_purr_player.stream = purr_sound
 		_purr_player.play()
@@ -54,7 +66,8 @@ func _on_mouse_entered() -> void:
 func _on_mouse_exited() -> void:
 	if not GameState.started or _is_found:
 		return
-	_set_glow(0.0)
+	var tween := create_tween()
+	tween.tween_property(self, "modulate", _base_modulate, 0.15)
 	_purr_player.stop()
 
 
@@ -74,18 +87,15 @@ func _discover() -> void:
 	_purr_player.stop()
 	if meow_sound:
 		SoundManager.play_sfx(meow_sound)
-	_set_glow(1.0)
+	_start_glow_pulse()
 	_bounce()
 	cat_found.emit()
 	GameState.on_cat_found(_cat_index)
 
 
-func _set_glow(target: float) -> void:
-	var from: float = material.get_shader_parameter("width")
-	var tween := create_tween()
-	tween.tween_method(
-			func(v: float) -> void: material.set_shader_parameter("width", v),
-			from, MAX_GLOW * target, 0.25)
+func _start_glow_pulse() -> void:
+	_glow_sprite.show()
+	_glow_sprite.modulate.a = 1.0
 
 
 func _bounce() -> void:
