@@ -357,7 +357,6 @@ theme_override_font_sizes/font_size = 45
 text = "Continue"
 
 [node name="CatCounter" type="Label" parent="." unique_id=-2094967295]
-visible = false
 layout_mode = 1
 offset_left = 1506.0
 offset_top = 60.0

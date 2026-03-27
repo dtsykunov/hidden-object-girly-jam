@@ -20,9 +20,11 @@ enum State {
 
 var _state: State = State.START
 var _transitioning: bool = false
+var _counter_tween: Tween
 
 func _ready() -> void:
 	_init_sliders()
+	_cat_counter.pivot_offset = _cat_counter.size / 2.0
 	GameState.cat_discovered.connect(_on_cat_discovered)
 	GameState.all_cats_found.connect(_on_all_cats_found)
 	_hint_book.close_requested.connect(_on_hints_book_button_pressed)
@@ -134,6 +136,13 @@ func _on_fullscreen_button_pressed() -> void:
 
 func _on_cat_discovered(found: int, total: int) -> void:
 	_cat_counter.text = "Found: %d / %d" % [found, total]
+	if _counter_tween:
+		_counter_tween.kill()
+	_cat_counter.scale = Vector2(1.3, 1.3)
+	_counter_tween = create_tween()
+	_counter_tween.set_ease(Tween.EASE_OUT)
+	_counter_tween.set_trans(Tween.TRANS_SPRING)
+	_counter_tween.tween_property(_cat_counter, "scale", Vector2.ONE, 0.6)
 
 
 func _on_all_cats_found() -> void:
