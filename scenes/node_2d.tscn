@@ -5,7 +5,6 @@
 [ext_resource type="Script" uid="uid://btv8ijxx4lyd6" path="res://scenes/sprite_2d.gd" id="2_rnjyy"]
 [ext_resource type="PackedScene" uid="uid://ddnpsh3n8saxq" path="res://scenes/camera_2d.tscn" id="4_4urfc"]
 [ext_resource type="PackedScene" uid="uid://bk0bdkp62huy3" path="res://ui/Overlay.tscn" id="4_4vge2"]
-[ext_resource type="Shader" uid="uid://br64pvwtp2301" path="res://scenes/hidden_object/cat_glow.gdshader" id="4_iajyf"]
 [ext_resource type="Texture2D" uid="uid://b6ehhvnk3n0k3" path="res://assets/images/cats/painting/Untitled-37.png" id="5_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://dvijalc7teupn" path="res://assets/images/objects/tractor.png" id="5_rntdg"]
 [ext_resource type="Texture2D" uid="uid://cwjyvrq50l6tu" path="res://assets/images/objects/doghouse.png" id="6_hiivq"]
@@ -111,158 +110,22 @@
 [ext_resource type="Resource" uid="uid://e151ad6f7856" path="res://resources/cats/cat_43.tres" id="cat43_res"]
 [ext_resource type="PackedScene" uid="uid://bwum8rpkg5ajb" path="res://scenes/hidden_object/HiddenObject.tscn" id="ho_1"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_vm6un"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_iv0sb"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_mve03"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_prjyu"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ygr4o"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_dwjyx"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_e2ogp"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_f0iog"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_p6t5g"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_fj5h3"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_puyka"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_cxcwy"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_mxso7"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_0opda"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_n23gq"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_2s1ts"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_t7el6"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
 [sub_resource type="Animation" id="Animation_4dvvg"]
 length = 0.001
@@ -304,239 +167,31 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_04qyp"]
 size = Vector2(125, 125)
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_vjute"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_5s1dx"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_n0f5w"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_jmluk"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_sbnbi"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_4xlp0"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_mp0ub"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_vni7l"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_dx1e0"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_uu66b"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_63mxg"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_w6q07"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_8pwpi"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_obduy"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_jx3nk"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_e3d7o"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_j48r8"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_0xkjs"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_pxjw1"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_p87jg"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_2rugy"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ot83j"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ua2rl"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ogpqt"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ppo4p"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_wbg26"]
-resource_local_to_scene = true
-shader = ExtResource("4_iajyf")
-shader_parameter/color = Color(1, 1, 1, 1)
-shader_parameter/width = 0.0
-shader_parameter/pattern = 2
-shader_parameter/inside = false
-shader_parameter/add_margins = true
 
 [node name="World" type="Node2D" unique_id=893542957]
 
@@ -557,7 +212,6 @@ scale = Vector2(0.14350204, 0.14682096)
 
 [node name="F30Dab3624Ef45049f3f9222Ec2Fa78e" parent="OverlayCats" unique_id=608873721 instance=ExtResource("ho_1")]
 modulate = Color(0.37101305, 0.53474456, 0.42848927, 1)
-material = SubResource("ShaderMaterial_vm6un")
 position = Vector2(-27.951077, 33.99628)
 scale = Vector2(1.0523258, 1.0523256)
 texture = ExtResource("5_h3hrn")
@@ -565,7 +219,6 @@ cat_data = ExtResource("cat37_res")
 
 [node name="HiddenObject" parent="OverlayCats" unique_id=1610696968 instance=ExtResource("ho_1")]
 modulate = Color(0.39308554, 0.3930855, 0.39308548, 1)
-material = SubResource("ShaderMaterial_iv0sb")
 position = Vector2(-1742.6299, -2884.8044)
 scale = Vector2(0.9850231, 0.9850231)
 texture = ExtResource("7_h3hrn")
@@ -573,7 +226,6 @@ flip_h = true
 cat_data = ExtResource("cat34_res")
 
 [node name="212Cccd76e6545c796291Bd68428b07d" parent="OverlayCats" unique_id=1932971119 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_mve03")
 position = Vector2(-5090.015, -1781.7871)
 rotation = -0.4228974
 scale = Vector2(1.369436, 1.1070348)
@@ -584,7 +236,6 @@ cat_data = ExtResource("cat14_res")
 
 [node name="HiddenObject2" parent="OverlayCats" unique_id=1161988212 instance=ExtResource("ho_1")]
 modulate = Color(0.52906674, 0.5290667, 0.5290667, 1)
-material = SubResource("ShaderMaterial_prjyu")
 position = Vector2(-11556.645, 1235.2494)
 rotation = 0.64225394
 scale = Vector2(0.7160213, 0.7160213)
@@ -592,7 +243,6 @@ texture = ExtResource("9_h3hrn")
 cat_data = ExtResource("cat42_res")
 
 [node name="BirmanCrossCat,Rolling" parent="OverlayCats" unique_id=994984545 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_ygr4o")
 position = Vector2(-11836.373, -1428.4642)
 rotation = 0.42568675
 scale = Vector2(1.7933136, 1.767033)
@@ -602,7 +252,6 @@ cat_data = ExtResource("cat10_res")
 
 [node name="Ec1286b77c59404cAd1a1c84f91d522a" parent="OverlayCats" unique_id=342534354 instance=ExtResource("ho_1")]
 modulate = Color(0.46618086, 0.4661808, 0.4661808, 1)
-material = SubResource("ShaderMaterial_dwjyx")
 position = Vector2(199.54837, 1131.0603)
 rotation = -0.17656873
 scale = Vector2(1.5164057, 1.3943495)
@@ -612,7 +261,6 @@ cat_data = ExtResource("cat33_res")
 
 [node name="Cd8881388c3d4f11B78f2f145Ce3Eae1" parent="OverlayCats" unique_id=1076978209 instance=ExtResource("ho_1")]
 modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)
-material = SubResource("ShaderMaterial_e2ogp")
 position = Vector2(-19078.553, -6811.096)
 rotation = 0.0021453137
 scale = Vector2(1.7718452, 1.9085467)
@@ -622,7 +270,6 @@ cat_data = ExtResource("cat28_res")
 
 [node name="Siameseシャム猫" parent="OverlayCats" unique_id=1194996290 instance=ExtResource("ho_1")]
 modulate = Color(0.5211406, 0.5211406, 0.5211405, 1)
-material = SubResource("ShaderMaterial_f0iog")
 position = Vector2(-17242.328, -2162.0315)
 rotation = 0.0021453137
 scale = Vector2(1.1886296, 1.1617604)
@@ -632,7 +279,6 @@ flip_h = true
 cat_data = ExtResource("cat32_res")
 
 [node name="90b1e2903b33471bA24838Ba4f28d3a4Copy" parent="OverlayCats" unique_id=145753470 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_p6t5g")
 position = Vector2(-13489.003, -7153.278)
 rotation = 0.0021453137
 scale = Vector2(1.231697, 1.231697)
@@ -643,7 +289,6 @@ cat_data = ExtResource("cat13_res")
 
 [node name="6f9c3d3f998d4Aa6Ab0b5d1061c94e4f" parent="OverlayCats" unique_id=1583649567 instance=ExtResource("ho_1")]
 modulate = Color(0.7882353, 1, 1, 1)
-material = SubResource("ShaderMaterial_fj5h3")
 position = Vector2(-7750.2437, -6665.8975)
 rotation = 0.19373155
 scale = Vector2(0.8321227, 0.8321227)
@@ -653,7 +298,6 @@ cat_data = ExtResource("cat05_res")
 
 [node name="huhcat" parent="OverlayCats" unique_id=1500044289 instance=ExtResource("ho_1")]
 modulate = Color(0.7764706, 0.7921569, 0.81960785, 1)
-material = SubResource("ShaderMaterial_puyka")
 position = Vector2(-16150.659, 2008.6624)
 scale = Vector2(1.1983467, 1.1983469)
 texture = ExtResource("16_h3hrn")
@@ -661,14 +305,12 @@ cat_data = ExtResource("cat36_res")
 
 [node name="HiddenObject3" parent="OverlayCats" unique_id=1779840306 instance=ExtResource("ho_1")]
 modulate = Color(0.73300546, 0.7330054, 0.7330054, 1)
-material = SubResource("ShaderMaterial_cxcwy")
 position = Vector2(-3690.1309, -4530.441)
 scale = Vector2(0.55, 0.55)
 texture = ExtResource("17_h3hrn")
 cat_data = ExtResource("cat43_res")
 
 [node name="HiddenObject4" parent="OverlayCats" unique_id=149786492 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_mxso7")
 position = Vector2(-6678.8633, -4877.406)
 rotation = 0.5427596
 scale = Vector2(1.1367266, 1.1367267)
@@ -677,7 +319,6 @@ cat_data = ExtResource("cat39_res")
 
 [node name="31774356C2Ef4a59900250Cb7d7Cc24e" parent="OverlayCats" unique_id=495356304 instance=ExtResource("ho_1")]
 modulate = Color(0.5649617, 0.5649616, 0.5649616, 1)
-material = SubResource("ShaderMaterial_0opda")
 position = Vector2(-19007.873, -1048.81)
 rotation = -0.048419785
 scale = Vector2(1.0014695, 1.1169488)
@@ -688,7 +329,6 @@ cat_data = ExtResource("cat18_res")
 
 [node name="Cat(1)" parent="OverlayCats" unique_id=1228456605 instance=ExtResource("ho_1")]
 self_modulate = Color(0.6560605, 0.49566442, 0.36959913, 1)
-material = SubResource("ShaderMaterial_n23gq")
 position = Vector2(1792.6611, -3878.4412)
 rotation = 0.033891436
 scale = Vector2(1.2544557, 1.3090842)
@@ -698,7 +338,6 @@ cat_data = ExtResource("cat26_res")
 
 [node name="3c215e9bF1f745c6Aeb55Fc297Ad0d6d" parent="OverlayCats" unique_id=826039765 instance=ExtResource("ho_1")]
 modulate = Color(0.646029, 0.646029, 0.646029, 1)
-material = SubResource("ShaderMaterial_2s1ts")
 position = Vector2(-13875.66, 6767.6445)
 rotation = 0.15912169
 scale = Vector2(2.0942266, 2.0468867)
@@ -708,7 +347,6 @@ cat_data = ExtResource("cat08_res")
 
 [node name="29683a7fBcda4Ec5B4485a52682a0c23" parent="OverlayCats" unique_id=1482502502 instance=ExtResource("ho_1")]
 self_modulate = Color(0.7666196, 0.76661956, 0.76661956, 1)
-material = SubResource("ShaderMaterial_t7el6")
 position = Vector2(-10444.016, -826.1067)
 rotation = -1.7180454
 scale = Vector2(1.4855664, 1.4519401)
@@ -821,21 +459,18 @@ shape = SubResource("RectangleShape2D_04qyp")
 position = Vector2(261, 119)
 
 [node name="2Dee53a517184a3e9d1200c9f8Df3f96" parent="HiddenObjectRest" unique_id=1923041400 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_vjute")
 position = Vector2(706, 958)
 scale = Vector2(0.1954224, 0.1954224)
 texture = ExtResource("42_kksrm")
 cat_data = ExtResource("cat01_res")
 
 [node name="35b581d32Fec42d998d73Fc34a0f6e41" parent="HiddenObjectRest" unique_id=1905212036 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_5s1dx")
 position = Vector2(-578.00006, 551.00006)
 scale = Vector2(0.14944011, 0.14944011)
 texture = ExtResource("43_jdup0")
 cat_data = ExtResource("cat41_res")
 
 [node name="45f7e974Ffc14d1c8FcaB0681Dd018f8" parent="HiddenObjectRest" unique_id=850110405 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_n0f5w")
 position = Vector2(89, 405)
 scale = Vector2(0.13549626, 0.13549626)
 texture = ExtResource("44_avk7w")
@@ -843,35 +478,30 @@ cat_data = ExtResource("cat03_res")
 
 [node name="47Ecee99Cf504186B701Dc4Fcfbb3b4b" parent="HiddenObjectRest" unique_id=136123717 instance=ExtResource("ho_1")]
 self_modulate = Color(0.8397671, 0.79284424, 0.9546816, 1)
-material = SubResource("ShaderMaterial_jmluk")
 position = Vector2(-1323.4261, -704.6853)
 scale = Vector2(0.5623307, 0.56233066)
 texture = ExtResource("45_h3hrn")
 cat_data = ExtResource("cat04_res")
 
 [node name="52c15d04729b4b508464Db7651Cd2114" parent="HiddenObjectRest" unique_id=1289806532 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_sbnbi")
 position = Vector2(1940, 453)
 scale = Vector2(0.235, 0.235)
 texture = ExtResource("46_2tucw")
 cat_data = ExtResource("cat11_res")
 
 [node name="54b5Fa3034f6450784314123f45e8d3e" parent="HiddenObjectRest" unique_id=1206269689 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_4xlp0")
 position = Vector2(1763.0001, 1390)
 scale = Vector2(0.18488044, 0.18488044)
 texture = ExtResource("47_7yks5")
 cat_data = ExtResource("cat12_res")
 
 [node name="64Ed99Fc8d214e76A452Ab601969080e" parent="HiddenObjectRest" unique_id=972336723 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_mp0ub")
 position = Vector2(414.00003, 1724)
 scale = Vector2(0.1894523, 0.1894523)
 texture = ExtResource("48_3r6mh")
 cat_data = ExtResource("cat06_res")
 
 [node name="385Dbe1b4Fad4BeaBfcbF5f5Fe0760Ce" parent="HiddenObjectRest" unique_id=1608855830 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_vni7l")
 position = Vector2(-137.00002, 2096.0002)
 rotation = -0.027336502
 scale = Vector2(0.24000002, 0.24000002)
@@ -880,7 +510,6 @@ cat_data = ExtResource("cat09_res")
 
 [node name="789a79c4C6774Fc4B852Bbbf1Acfc4Ae" parent="HiddenObjectRest" unique_id=1966776989 instance=ExtResource("ho_1")]
 modulate = Color(0.48432028, 0.42238754, 0.37509713, 1)
-material = SubResource("ShaderMaterial_dx1e0")
 position = Vector2(1098, 2305)
 rotation = -0.2522601
 scale = Vector2(0.18619026, 0.18619026)
@@ -888,7 +517,6 @@ texture = ExtResource("50_h3hrn")
 cat_data = ExtResource("cat15_res")
 
 [node name="986c166c559c41e09f5a8Eb364c19Fd0" parent="HiddenObjectRest" unique_id=494703940 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_uu66b")
 position = Vector2(1658.0001, 2462)
 rotation = -0.005242732
 scale = Vector2(0.19425151, 0.19425152)
@@ -896,7 +524,6 @@ texture = ExtResource("51_af4el")
 cat_data = ExtResource("cat16_res")
 
 [node name="A740Da9bEe0343b1Ace110a70Ad0943d" parent="HiddenObjectRest" unique_id=1329087148 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_63mxg")
 position = Vector2(1740.9999, -78.00001)
 rotation = -1.5011904
 scale = Vector2(0.21213998, 0.21214)
@@ -904,7 +531,6 @@ texture = ExtResource("52_h3hrn")
 cat_data = ExtResource("cat20_res")
 
 [node name="A25861d1Ad0443Da851f4Eea65142499" parent="HiddenObjectRest" unique_id=865347701 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_w6q07")
 position = Vector2(1448.9999, 1237.0001)
 rotation = -0.00063832407
 scale = Vector2(0.17200185, 0.15633227)
@@ -912,21 +538,18 @@ texture = ExtResource("53_h3hrn")
 cat_data = ExtResource("cat22_res")
 
 [node name="B4a84a36F97d4c5f83435e80f8Fda115" parent="HiddenObjectRest" unique_id=149552151 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_8pwpi")
 position = Vector2(1928.0001, 839.99994)
 scale = Vector2(0.14753096, 0.14753096)
 texture = ExtResource("54_fm2cn")
 cat_data = ExtResource("cat02_res")
 
 [node name="B873Db755b53480cBc82Bfd740b4Df33" parent="HiddenObjectRest" unique_id=1230546078 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_obduy")
 position = Vector2(164, 976)
 scale = Vector2(0.0970323, 0.09703229)
 texture = ExtResource("55_h3hrn")
 cat_data = ExtResource("cat23_res")
 
 [node name="BlackCatBreedBombayOnWhiteFeaturingCat,Black,AndWhite" parent="HiddenObjectRest" unique_id=2119788139 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_jx3nk")
 position = Vector2(-251, 929)
 rotation = 0.11087677
 scale = Vector2(0.16308539, 0.16308539)
@@ -934,7 +557,6 @@ texture = ExtResource("56_7yks5")
 cat_data = ExtResource("cat19_res")
 
 [node name="Cat" parent="HiddenObjectRest" unique_id=763704818 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_e3d7o")
 position = Vector2(1639.9999, 1618)
 rotation = -0.64931387
 scale = Vector2(0.16102138, 0.17388509)
@@ -942,7 +564,6 @@ texture = ExtResource("57_af4el")
 cat_data = ExtResource("cat21_res")
 
 [node name="D467c30105Be43AeB8846b2b0955d4e6" parent="HiddenObjectRest" unique_id=1578354674 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_j48r8")
 position = Vector2(-585, 1095.0001)
 rotation = 0.026983233
 scale = Vector2(0.18091573, 0.18091573)
@@ -950,14 +571,12 @@ texture = ExtResource("58_h3hrn")
 cat_data = ExtResource("cat29_res")
 
 [node name="DrawOverAMemeForThePersonAbove!OnToyhouse" parent="HiddenObjectRest" unique_id=670675773 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_0xkjs")
 position = Vector2(-1127.0001, 2656)
 scale = Vector2(0.2205242, 0.20861772)
 texture = ExtResource("59_af4el")
 cat_data = ExtResource("cat24_res")
 
 [node name="E915192fF2Ba4041B8353c71304b2c96" parent="HiddenObjectRest" unique_id=145446140 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_pxjw1")
 position = Vector2(-793.00006, 2326)
 rotation = -0.015225202
 scale = Vector2(0.25736797, 0.22636405)
@@ -965,7 +584,6 @@ texture = ExtResource("60_h3hrn")
 cat_data = ExtResource("cat31_res")
 
 [node name="Eb6221CaE1d84Bbc83FdFa4Df2Bddf08" parent="HiddenObjectRest" unique_id=1180361384 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_p87jg")
 position = Vector2(896, 2451)
 rotation = 0.045764364
 scale = Vector2(0.28985712, 0.26220945)
@@ -973,7 +591,6 @@ texture = ExtResource("61_h3hrn")
 cat_data = ExtResource("cat27_res")
 
 [node name="HaresLeap" parent="HiddenObjectRest" unique_id=423057077 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_2rugy")
 position = Vector2(-1413, 205.00003)
 rotation = 0.73208106
 scale = Vector2(0.23609643, 0.2360964)
@@ -981,7 +598,6 @@ texture = ExtResource("62_v2a8d")
 cat_data = ExtResource("cat38_res")
 
 [node name="MemeCat" parent="HiddenObjectRest" unique_id=1302264587 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_ot83j")
 position = Vector2(1034.2434, 909.1874)
 rotation = 0.022542283
 scale = Vector2(0.1435873, 0.1435873)
@@ -989,7 +605,6 @@ texture = ExtResource("63_h3hrn")
 cat_data = ExtResource("64_af4el")
 
 [node name="RestingOnABranch" parent="HiddenObjectRest" unique_id=677129390 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_ua2rl")
 position = Vector2(-1093.0001, 948.9999)
 rotation = 1.1875038
 scale = Vector2(0.25829282, 0.2582928)
@@ -997,21 +612,18 @@ texture = ExtResource("64_h3hrn")
 cat_data = ExtResource("cat40_res")
 
 [node name="RobinFur" parent="HiddenObjectRest" unique_id=1372895221 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_ogpqt")
 position = Vector2(1419, 869.00006)
 scale = Vector2(0.34889793, 0.34889793)
 texture = ExtResource("65_h3hrn")
 cat_data = ExtResource("cat30_res")
 
 [node name="SilverStride" parent="HiddenObjectRest" unique_id=1257300121 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_ppo4p")
 position = Vector2(1608, 2260)
 scale = Vector2(0.21680218, 0.21680218)
 texture = ExtResource("66_h3hrn")
 cat_data = ExtResource("cat25_res")
 
 [node name="БегающийКот" parent="HiddenObjectRest" unique_id=1414166279 instance=ExtResource("ho_1")]
-material = SubResource("ShaderMaterial_wbg26")
 position = Vector2(227.00003, 2148.0002)
 rotation = -0.12785247
 scale = Vector2(0.25910065, 0.25910065)
