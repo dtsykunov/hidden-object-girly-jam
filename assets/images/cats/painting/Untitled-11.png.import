@@ -3,27 +3,28 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0wda0f77k3cc"
-path="res://.godot/imported/Untitled-11.png-6749c673305b426996f6094eb70ee56c.ctex"
+path.bptc="res://.godot/imported/Untitled-11.png-6749c673305b426996f6094eb70ee56c.bptc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/cats/painting/Untitled-11.png"
-dest_files=["res://.godot/imported/Untitled-11.png-6749c673305b426996f6094eb70ee56c.ctex"]
+dest_files=["res://.godot/imported/Untitled-11.png-6749c673305b426996f6094eb70ee56c.bptc.ctex"]
 
 [params]
 
-compress/mode=0
-compress/high_quality=false
+compress/mode=2
+compress/high_quality=true
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=false
+mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
