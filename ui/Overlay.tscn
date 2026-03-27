@@ -169,6 +169,15 @@ mouse_filter = 1
 theme = ExtResource("1_7qdid")
 script = ExtResource("2_overlay")
 
+[node name="HUDBar" type="ColorRect" parent="." unique_id=100000001]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 90.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
 [node name="PlayButton" type="Button" parent="." unique_id=667169842]
 layout_mode = 1
 anchors_preset = 8
@@ -187,47 +196,55 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 90
 text = "Play"
 
-[node name="OptionsButton" type="TextureButton" parent="." unique_id=1013076780]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1892826560]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -1879.0
-offset_top = 872.0
-offset_right = -1723.0
-offset_bottom = 1028.0
+offset_left = -423.0
+offset_bottom = 111.0
 grow_horizontal = 0
-texture_normal = SubResource("AtlasTexture_x1eqy")
-stretch_mode = 5
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
 
-[node name="HintsBookButton" type="TextureButton" parent="." unique_id=1871482655]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -1846.0
-offset_top = 38.0
-offset_right = -1691.0
-offset_bottom = 231.97144
-grow_horizontal = 0
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=1498432375]
+layout_mode = 2
+
+[node name="HintsBookButton" type="TextureButton" parent="MarginContainer/HBoxContainer" unique_id=1871482655]
+layout_mode = 2
+size_flags_horizontal = 3
 texture_normal = ExtResource("5_bpy4a")
+ignore_texture_size = true
 stretch_mode = 5
 
-[node name="FullscreenButton" type="TextureButton" parent="." unique_id=1381456293]
-visible = false
-layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -205.0
-offset_top = -200.0
-offset_right = -35.0
-offset_bottom = -30.0
-grow_horizontal = 0
-grow_vertical = 0
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer" unique_id=1254784354]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="OptionsButton" type="TextureButton" parent="MarginContainer/HBoxContainer/MarginContainer" unique_id=1013076780]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = SubResource("AtlasTexture_x1eqy")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/HBoxContainer" unique_id=1396444484]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="FullscreenButton" type="TextureButton" parent="MarginContainer/HBoxContainer/MarginContainer2" unique_id=1381456293]
+layout_mode = 2
+size_flags_horizontal = 3
 texture_normal = SubResource("AtlasTexture_7qdid")
+ignore_texture_size = true
 stretch_mode = 5
 
 [node name="OptionsMenu" type="CenterContainer" parent="." unique_id=1186729032]
@@ -358,10 +375,10 @@ text = "Continue"
 
 [node name="CatCounter" type="Label" parent="." unique_id=-2094967295]
 layout_mode = 1
-offset_left = 1459.0
-offset_top = 62.0
-offset_right = 1809.0
-offset_bottom = 137.0
+offset_left = 49.0
+offset_top = 45.0
+offset_right = 465.0
+offset_bottom = 99.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.5)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -2192,9 +2209,9 @@ ignore_texture_size = true
 stretch_mode = 5
 
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
-[connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
-[connection signal="pressed" from="HintsBookButton" to="." method="_on_hints_book_button_pressed"]
-[connection signal="pressed" from="FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/HintsBookButton" to="." method="_on_hints_book_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/MarginContainer/OptionsButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/MarginContainer2/FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MasterRow/MasterSlider" to="." method="_on_master_slider_changed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/MusicRow/MusicSlider" to="." method="_on_music_slider_changed"]
 [connection signal="value_changed" from="OptionsMenu/Panel/MarginContainer/VBoxContainer/SFXRow/SFXSlider" to="." method="_on_sfx_slider_changed"]
