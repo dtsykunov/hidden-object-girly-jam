@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CatData" format=3 uid="uid://bcbe18ba0cab4"]
+
+[ext_resource type="Script" uid="uid://d023x1ca5xm8r" path="res://resources/cat_data.gd" id="1_cdscript"]
+[ext_resource type="Texture2D" uid="uid://kl2hte42ed0b" path="res://assets/images/cats/painting/Untitled-2.png" id="2_sprite"]
+
+[resource]
+script = ExtResource("1_cdscript")
+sprite = ExtResource("2_sprite")
+hint = "Lord of the Brick Tower"

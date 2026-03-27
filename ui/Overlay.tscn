@@ -7,6 +7,94 @@
 [ext_resource type="PackedScene" uid="uid://dpk0vokm5np3y" path="res://ui/logo.tscn" id="5_67jpi"]
 [ext_resource type="Texture2D" uid="uid://dkbv2rg1oc713" path="res://assets/icons/Hand holding book (white).svg" id="7_0ujei"]
 [ext_resource type="Script" uid="uid://c3325kmss0kd" path="res://ui/hint_book.gd" id="8_hintbook"]
+[ext_resource type="Texture2D" uid="uid://cg612ulm56x28" path="res://assets/images/ui/book-lores.png" id="8_wdjne"]
+[ext_resource type="Script" uid="uid://cohrgr43dyu6u" path="res://ui/cat_hint.gd" id="9_jbhiu"]
+[ext_resource type="Texture2D" uid="uid://kl2hte42ed0b" path="res://assets/images/cats/painting/Untitled-2.png" id="9_rlnm3"]
+[ext_resource type="Resource" uid="uid://dym25nrb1o8kc" path="res://resources/cats/oiie_cat.tres" id="10_q1n8y"]
+[ext_resource type="Texture2D" uid="uid://cjlu886enjhp6" path="res://assets/images/cats/painting/Untitled-33.png" id="10_rlnm3"]
+[ext_resource type="Texture2D" uid="uid://b886060ct7c2u" path="res://assets/images/cats/painting/Untitled-35.png" id="11_6a703"]
+[ext_resource type="Resource" uid="uid://b5748uogck82s" path="res://resources/cats/cat_01.tres" id="12_6a703"]
+[ext_resource type="Texture2D" uid="uid://bj42br8w47wxm" path="res://assets/images/cats/painting/Untitled-1.png" id="13_rads4"]
+[ext_resource type="Resource" uid="uid://bcbe18ba0cab4" path="res://resources/cats/cat_02.tres" id="14_72guq"]
+[ext_resource type="Resource" uid="uid://b4d4e4523cd33" path="res://resources/cats/cat_03.tres" id="16_hc7va"]
+[ext_resource type="Texture2D" uid="uid://c85tooj8wkdg" path="res://assets/images/cats/painting/Untitled-3.png" id="17_b4rdu"]
+[ext_resource type="Resource" uid="uid://b8yjo18qpveii" path="res://resources/cats/cat_04.tres" id="18_8r6mq"]
+[ext_resource type="Texture2D" uid="uid://rwdth5vfdggc" path="res://assets/images/cats/painting/Untitled-4.png" id="19_j5pkw"]
+[ext_resource type="Resource" uid="uid://c1fbbmudaq4sy" path="res://resources/cats/cat_05.tres" id="20_47cbs"]
+[ext_resource type="Texture2D" uid="uid://oyn2qjb3gagj" path="res://assets/images/cats/painting/Untitled-5.png" id="21_u3evt"]
+[ext_resource type="Resource" uid="uid://7icavr86svyp" path="res://resources/cats/cat_06.tres" id="22_8n3p0"]
+[ext_resource type="Texture2D" uid="uid://b6adyxdlcl0si" path="res://assets/images/cats/painting/Untitled-6.png" id="23_xrnnd"]
+[ext_resource type="Resource" uid="uid://b8vhp45vj06bb" path="res://resources/cats/cat_07.tres" id="24_lehic"]
+[ext_resource type="Texture2D" uid="uid://7t1wrs3mymcq" path="res://assets/images/cats/painting/Untitled-7.png" id="25_j4e21"]
+[ext_resource type="Resource" uid="uid://bcm5s8g3t28ji" path="res://resources/cats/cat_08.tres" id="26_00iso"]
+[ext_resource type="Texture2D" uid="uid://c1o7hwunkb2rr" path="res://assets/images/cats/painting/Untitled-8.png" id="27_i4vo0"]
+[ext_resource type="Resource" uid="uid://cdshdkweln0b6" path="res://resources/cats/cat_09.tres" id="28_4j7uc"]
+[ext_resource type="Texture2D" uid="uid://mum2lo5gkkqh" path="res://assets/images/cats/painting/Untitled-9.png" id="29_gvfoi"]
+[ext_resource type="Resource" uid="uid://7j6wwo8du5rw" path="res://resources/cats/cat_10.tres" id="30_3qyss"]
+[ext_resource type="Texture2D" uid="uid://u5sngww1f3nr" path="res://assets/images/cats/painting/Untitled-10.png" id="31_yx1h3"]
+[ext_resource type="Resource" uid="uid://b3wup1qrtvysq" path="res://resources/cats/cat_11.tres" id="32_r7bqa"]
+[ext_resource type="Texture2D" uid="uid://b0wda0f77k3cc" path="res://assets/images/cats/painting/Untitled-11.png" id="33_32arg"]
+[ext_resource type="Resource" uid="uid://c7ky10km4p7vw" path="res://resources/cats/cat_12.tres" id="34_3qyss"]
+[ext_resource type="Texture2D" uid="uid://d3ku3syg473mp" path="res://assets/images/cats/painting/Untitled-12.png" id="35_yx1h3"]
+[ext_resource type="Resource" uid="uid://ewgk1fyl3fed" path="res://resources/cats/cat_13.tres" id="36_r7bqa"]
+[ext_resource type="Texture2D" uid="uid://c4h55j0vht7q8" path="res://assets/images/cats/painting/Untitled-13.png" id="37_32arg"]
+[ext_resource type="Resource" uid="uid://d0ay70tn7v1wv" path="res://resources/cats/cat_14.tres" id="38_r761h"]
+[ext_resource type="Texture2D" uid="uid://doaput3vufnxu" path="res://assets/images/cats/painting/Untitled-14.png" id="39_iq0uf"]
+[ext_resource type="Resource" uid="uid://da587yv85q232" path="res://resources/cats/cat_15.tres" id="40_0ulma"]
+[ext_resource type="Texture2D" uid="uid://buhl04gki6l3t" path="res://assets/images/cats/painting/Untitled-15.png" id="41_voeep"]
+[ext_resource type="Resource" uid="uid://ddubkov3me7b6" path="res://resources/cats/cat_16.tres" id="42_0ulma"]
+[ext_resource type="Texture2D" uid="uid://bplo55erel55g" path="res://assets/images/cats/painting/Untitled-16.png" id="43_voeep"]
+[ext_resource type="Resource" uid="uid://b0j2axqihq231" path="res://resources/cats/cat_17.tres" id="44_kp1uj"]
+[ext_resource type="Texture2D" uid="uid://cgx8iahydc6ka" path="res://assets/images/cats/painting/Untitled-17.png" id="45_4c7me"]
+[ext_resource type="Resource" uid="uid://c62c2545adb4a" path="res://resources/cats/cat_18.tres" id="46_nptge"]
+[ext_resource type="Texture2D" uid="uid://d24uts5v7fgcc" path="res://assets/images/cats/painting/Untitled-18.png" id="47_mjc5u"]
+[ext_resource type="Resource" uid="uid://dc822qudak4xx" path="res://resources/cats/cat_19.tres" id="48_nrskm"]
+[ext_resource type="Texture2D" uid="uid://balccf4siyq5v" path="res://assets/images/cats/painting/Untitled-19.png" id="49_wx6i5"]
+[ext_resource type="Resource" uid="uid://b8f14ynifm1v1" path="res://resources/cats/cat_20.tres" id="50_6vdt5"]
+[ext_resource type="Texture2D" uid="uid://dfrq3qeqcdd7p" path="res://assets/images/cats/painting/Untitled-20.png" id="51_f18cs"]
+[ext_resource type="Resource" uid="uid://bd60itx2acii" path="res://resources/cats/cat_21.tres" id="52_rtuoh"]
+[ext_resource type="Texture2D" uid="uid://d0jdp13a11y07" path="res://assets/images/cats/painting/Untitled-21.png" id="53_41t5x"]
+[ext_resource type="Resource" uid="uid://c1w6iytmpt4jt" path="res://resources/cats/cat_22.tres" id="54_pk4nf"]
+[ext_resource type="Texture2D" uid="uid://brjvltqlpmhx0" path="res://assets/images/cats/painting/Untitled-22.png" id="55_g6e25"]
+[ext_resource type="Resource" uid="uid://frfbprbvq8cv" path="res://resources/cats/cat_23.tres" id="56_rtuoh"]
+[ext_resource type="Texture2D" uid="uid://b50s3a4wvt73e" path="res://assets/images/cats/painting/Untitled-23.png" id="57_41t5x"]
+[ext_resource type="Resource" uid="uid://b8d0f63cdd052" path="res://resources/cats/cat_24.tres" id="58_ts60d"]
+[ext_resource type="Texture2D" uid="uid://d4aa0fsebkk0h" path="res://assets/images/cats/painting/Untitled-24.png" id="59_2f30r"]
+[ext_resource type="Resource" uid="uid://caecbaf5a8400" path="res://resources/cats/cat_25.tres" id="60_avg4n"]
+[ext_resource type="Texture2D" uid="uid://dvuw0oyrv8gnn" path="res://assets/images/cats/painting/Untitled-25.png" id="61_pa8dg"]
+[ext_resource type="Resource" uid="uid://cbm5p4bxnsgfb" path="res://resources/cats/cat_26.tres" id="62_3g5oi"]
+[ext_resource type="Texture2D" uid="uid://bj8ljb3htwpj3" path="res://assets/images/cats/painting/Untitled-26.png" id="63_hxafm"]
+[ext_resource type="Resource" uid="uid://5a572a5a541b" path="res://resources/cats/cat_27.tres" id="64_ylb7k"]
+[ext_resource type="Texture2D" uid="uid://b44oi3l1ur2df" path="res://assets/images/cats/painting/Untitled-27.png" id="65_7ru2i"]
+[ext_resource type="Resource" uid="uid://c7561o8cyv1o" path="res://resources/cats/cat_28.tres" id="66_n216x"]
+[ext_resource type="Texture2D" uid="uid://df4d1io0sk13t" path="res://assets/images/cats/painting/Untitled-28.png" id="67_hyc1p"]
+[ext_resource type="Resource" uid="uid://d6215bdfa7aa" path="res://resources/cats/cat_29.tres" id="68_3isxh"]
+[ext_resource type="Texture2D" uid="uid://bspsscj2bcama" path="res://assets/images/cats/painting/Untitled-29.png" id="69_vm5ho"]
+[ext_resource type="Resource" uid="uid://c1k3qqrm070vh" path="res://resources/cats/cat_30.tres" id="70_eq0e6"]
+[ext_resource type="Texture2D" uid="uid://c468okppf23g1" path="res://assets/images/cats/painting/Untitled-30.png" id="71_ed7l2"]
+[ext_resource type="Resource" uid="uid://7u5ksp5km860" path="res://resources/cats/cat_31.tres" id="72_cy7h7"]
+[ext_resource type="Texture2D" uid="uid://dr6xnapnpwfrk" path="res://assets/images/cats/painting/Untitled-31.png" id="73_8yn50"]
+[ext_resource type="Resource" uid="uid://8x8dlv1ki38a" path="res://resources/cats/cat_32.tres" id="74_fbkrl"]
+[ext_resource type="Texture2D" uid="uid://nu7tx1h3025m" path="res://assets/images/cats/painting/Untitled-32.png" id="75_bwmlx"]
+[ext_resource type="Resource" uid="uid://dwutgxsl1r4ok" path="res://resources/cats/cat_33.tres" id="76_5pa0x"]
+[ext_resource type="Resource" uid="uid://casis583hvgng" path="res://resources/cats/cat_34.tres" id="78_u2bus"]
+[ext_resource type="Texture2D" uid="uid://jbha2tkfgycc" path="res://assets/images/cats/painting/Untitled-34.png" id="79_6kr1t"]
+[ext_resource type="Resource" uid="uid://fwctdc1pyfjl" path="res://resources/cats/cat_36.tres" id="80_dndfq"]
+[ext_resource type="Texture2D" uid="uid://domwt06xiyiqb" path="res://assets/images/cats/painting/Untitled-36.png" id="81_ycbg4"]
+[ext_resource type="Resource" uid="uid://7s3iquevj483" path="res://resources/cats/cat_37.tres" id="82_pnm6w"]
+[ext_resource type="Texture2D" uid="uid://b6ehhvnk3n0k3" path="res://assets/images/cats/painting/Untitled-37.png" id="83_omy5k"]
+[ext_resource type="Resource" uid="uid://46wxwlmdu0q1" path="res://resources/cats/cat_38.tres" id="84_jrp0w"]
+[ext_resource type="Texture2D" uid="uid://dambumn43wyqe" path="res://assets/images/cats/painting/Untitled-38.png" id="85_y5xni"]
+[ext_resource type="Resource" uid="uid://dixfitucpm4x1" path="res://resources/cats/cat_39.tres" id="86_vw6o8"]
+[ext_resource type="Texture2D" uid="uid://cj7pbe3idm1ga" path="res://assets/images/cats/painting/Untitled-39.png" id="87_gsm2b"]
+[ext_resource type="Resource" uid="uid://beb458a5bac54" path="res://resources/cats/cat_40.tres" id="88_1m1og"]
+[ext_resource type="Texture2D" uid="uid://hvssv1dtcjwo" path="res://assets/images/cats/painting/Untitled-40.png" id="89_1sieo"]
+[ext_resource type="Resource" uid="uid://7aa2a2f53b6c" path="res://resources/cats/cat_41.tres" id="90_jrp0w"]
+[ext_resource type="Texture2D" uid="uid://cq3otow2y4pin" path="res://assets/images/cats/painting/Untitled-41.png" id="91_y5xni"]
+[ext_resource type="Resource" uid="uid://267dad17fb38" path="res://resources/cats/cat_42.tres" id="92_1m1og"]
+[ext_resource type="Texture2D" uid="uid://mw1djkwl3i1t" path="res://assets/images/cats/painting/Untitled-42.png" id="93_1sieo"]
+[ext_resource type="Resource" uid="uid://e151ad6f7856" path="res://resources/cats/cat_43.tres" id="94_31it2"]
+[ext_resource type="Texture2D" uid="uid://3bsivjh4nskl" path="res://assets/images/cats/painting/Untitled-43.png" id="95_ccpi2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1eqy"]
 atlas = ExtResource("1_7pliq")
@@ -45,6 +133,25 @@ shader_parameter/col4 = Color(0.85, 0.2, 1, 1)
 shader_parameter/col5 = Color(1, 0.4, 0.7, 1)
 shader_parameter/col6 = Color(0.1, 0.9, 0.95, 1)
 shader_parameter/col7 = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0ujei"]
+content_margin_left = 149.0
+content_margin_top = 75.0
+content_margin_right = 142.0
+content_margin_bottom = 73.0
+texture = ExtResource("8_wdjne")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rlnm3"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.6, 0.6, 0.6, 0)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
 
 [node name="Overlay" type="Control" unique_id=2132565030]
 layout_mode = 3
@@ -377,7 +484,6 @@ offset_right = 856.0
 offset_bottom = 395.0
 
 [node name="HintBook" type="CenterContainer" parent="." unique_id=1733348007]
-visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -393,110 +499,1605 @@ grow_vertical = 2
 script = ExtResource("8_hintbook")
 
 [node name="PanelContainer" type="PanelContainer" parent="HintBook" unique_id=1777148883]
-custom_minimum_size = Vector2(1400, 800)
+custom_minimum_size = Vector2(1600, 952)
 layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_0ujei")
 
 [node name="TabContainer" type="TabContainer" parent="HintBook/PanelContainer" unique_id=453459271]
 layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_rlnm3")
 current_tab = 0
+tabs_visible = false
 
-[node name="PictureBookTab" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=2043780437]
+[node name="PictureBookTab1" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=774185788]
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab" unique_id=519970693]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1" unique_id=1086699388]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("10_q1n8y")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer" unique_id=630759338]
-layout_mode = 2
-size_flags_horizontal = 3
-
-[node name="CatHint1" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer" unique_id=764273064]
-layout_mode = 2
-size_flags_horizontal = 3
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint" unique_id=526129332]
+layout_mode = 0
+offset_left = 164.0
+offset_top = 19.0
+offset_right = 460.84586
+offset_bottom = 300.0
+size_flags_horizontal = 4
 size_flags_vertical = 3
+texture = ExtResource("11_6a703")
+expand_mode = 2
+stretch_mode = 5
 
-[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint1" unique_id=89832517]
-layout_mode = 2
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint" unique_id=534852397]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 278.0
+offset_right = 635.0
+offset_bottom = 408.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Knock-knock! Who's there?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1" unique_id=1222175816]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("12_6a703")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint2" unique_id=680381422]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 379.0
+offset_right = 497.54886
+offset_bottom = 663.0
+size_flags_horizontal = 4
 size_flags_vertical = 3
+texture = ExtResource("13_rads4")
+expand_mode = 2
+stretch_mode = 5
 
-[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint1" unique_id=1365052269]
-layout_mode = 2
-size_flags_vertical = 3
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint2" unique_id=979994242]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 674.0
+offset_right = 635.0
+offset_bottom = 804.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Stretching is good for health!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
 
-[node name="CatHint2" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer" unique_id=129886992]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint2" unique_id=2038047377]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint2" unique_id=1450602855]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="CatHint3" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer" unique_id=186053933]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint3" unique_id=465281308]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer/CatHint3" unique_id=1269546611]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="VBoxContainer2" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer" unique_id=1604407192]
-layout_mode = 2
-size_flags_horizontal = 3
-
-[node name="CatHint1" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2" unique_id=796941222]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint1" unique_id=294229881]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint1" unique_id=1522313658]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="CatHint2" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2" unique_id=1402205547]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint2" unique_id=1851738394]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint2" unique_id=532474545]
-layout_mode = 2
-size_flags_vertical = 3
-
-[node name="CatHint3" type="VBoxContainer" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2" unique_id=102367586]
-layout_mode = 2
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1" unique_id=2122779392]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("14_72guq")
 
-[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint3" unique_id=399253974]
-layout_mode = 2
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint1" unique_id=847140753]
+layout_mode = 0
+offset_left = 184.0
+offset_right = 450.0
+offset_bottom = 266.0
+size_flags_horizontal = 4
 size_flags_vertical = 3
+texture = ExtResource("9_rlnm3")
+expand_mode = 2
+stretch_mode = 5
 
-[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab/HBoxContainer/VBoxContainer2/CatHint3" unique_id=1957171393]
-layout_mode = 2
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint1" unique_id=789073905]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Lord of the Brick Tower"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1" unique_id=1749073321]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("16_hc7va")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint3" unique_id=361570004]
+layout_mode = 0
+offset_left = 186.5
+offset_top = 1.0
+offset_right = 452.5
+offset_bottom = 267.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("17_b4rdu")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint3" unique_id=2084960803]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Loves to sway."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab2" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=1394281345]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2" unique_id=1044340763]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("18_8r6mq")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint" unique_id=1997209332]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 19.0
+offset_right = 450.0
+offset_bottom = 285.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("19_j5pkw")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint" unique_id=1158233328]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 278.0
+offset_right = 635.0
+offset_bottom = 408.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "A bolt from the blue."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2" unique_id=1587966796]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("20_47cbs")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint2" unique_id=419576086]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 470.0
+offset_right = 447.45728
+offset_bottom = 649.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("21_u3evt")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint2" unique_id=235876060]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 674.0
+offset_right = 635.0
+offset_bottom = 804.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Cooling down on the sill like a bun."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2" unique_id=582892548]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("22_8n3p0")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint1" unique_id=905287027]
+layout_mode = 0
+offset_left = 184.5
+offset_top = 23.0
+offset_right = 450.5
+offset_bottom = 289.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("23_xrnnd")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint1" unique_id=1711217049]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Wouldn't mind a ride with the wind."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2" unique_id=527448545]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("24_lehic")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint3" unique_id=1679208484]
+layout_mode = 0
+offset_left = 472.5
+offset_top = -176.00003
+offset_right = 1001.4344
+offset_bottom = 199.77914
+rotation = 1.4312897
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("25_j4e21")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint3" unique_id=1548734741]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "This one wants to water the plants."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab3" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=1840071847]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3" unique_id=1484344264]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("26_00iso")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint" unique_id=426744199]
+layout_mode = 0
+offset_left = 116.0
+offset_top = -9.0
+offset_right = 522.1842
+offset_bottom = 306.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("27_i4vo0")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint" unique_id=178962420]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 278.0
+offset_right = 635.0
+offset_bottom = 408.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "How nice it is to sleep in the shade of plants!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3" unique_id=1300531618]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("28_4j7uc")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint2" unique_id=1404117490]
+layout_mode = 0
+offset_left = 176.0
+offset_top = 433.0
+offset_right = 555.10614
+offset_bottom = 694.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("29_gvfoi")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint2" unique_id=809095814]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 674.0
+offset_right = 635.0
+offset_bottom = 804.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Surveys the plantations"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3" unique_id=82693304]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("30_3qyss")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint1" unique_id=151819809]
+layout_mode = 0
+offset_left = 121.5
+offset_top = 11.0
+offset_right = 517.5
+offset_bottom = 335.56854
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("31_yx1h3")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint1" unique_id=61968481]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Fluffy feet in the dirt not so deep, hiding where the carrots sleep."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3" unique_id=1222551344]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("32_r7bqa")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint3" unique_id=564993764]
+layout_mode = 0
+offset_left = 108.49996
+offset_top = 11.999997
+offset_right = 491.94388
+offset_bottom = 284.41608
+rotation = -0.00611417
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("33_32arg")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint3" unique_id=76116624]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "On his way from the loo"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab4" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=465512605]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4" unique_id=1920422473]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("34_3qyss")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint" unique_id=558743063]
+layout_mode = 0
+offset_left = 169.0
+offset_top = 29.0
+offset_right = 494.5439
+offset_bottom = 276.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("35_yx1h3")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint" unique_id=1467894805]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 278.0
+offset_right = 635.0
+offset_bottom = 408.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Turn the ground or find a spot, for a cozy nap in a perfect lot."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4" unique_id=2109334718]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("36_r7bqa")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint2" unique_id=107638752]
+layout_mode = 0
+offset_left = 113.0
+offset_top = 398.0
+offset_right = 558.92175
+offset_bottom = 705.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("37_32arg")
+expand_mode = 2
+stretch_mode = 5
+flip_h = true
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint2" unique_id=1229192060]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 674.0
+offset_right = 635.0
+offset_bottom = 804.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Watch out, little birdie!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4" unique_id=1377017744]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("38_r761h")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint1" unique_id=343602731]
+layout_mode = 0
+offset_left = 119.5
+offset_top = -6.0
+offset_right = 515.5
+offset_bottom = 318.56854
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("39_iq0uf")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint1" unique_id=309237886]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Do you wanna ride with me on my wheelbarrow?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4" unique_id=1053410440]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("40_0ulma")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint3" unique_id=1380553089]
+layout_mode = 0
+offset_left = 86.500015
+offset_top = -12.000016
+offset_right = 521.8349
+offset_bottom = 297.28177
+rotation = -0.00611417
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("41_voeep")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint3" unique_id=1737593677]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Is this a branch or a cat?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab5" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=901939298]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 4
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5" unique_id=486389533]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("42_0ulma")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint" unique_id=1960978499]
+layout_mode = 0
+offset_left = 149.0
+offset_top = 45.0
+offset_right = 474.5439
+offset_bottom = 292.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("43_voeep")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint" unique_id=56212518]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 278.0
+offset_right = 635.0
+offset_bottom = 408.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "*croak* *ribbit*"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5" unique_id=1132593754]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("44_kp1uj")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint2" unique_id=1246423419]
+layout_mode = 0
+offset_left = 135.0
+offset_top = 446.0
+offset_right = 483.60333
+offset_bottom = 686.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("45_4c7me")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint2" unique_id=1179011681]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 674.0
+offset_right = 635.0
+offset_bottom = 804.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Rushes faster than the wind."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5" unique_id=374755161]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("46_nptge")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint1" unique_id=375121715]
+layout_mode = 0
+offset_left = 155.5
+offset_top = 37.0
+offset_right = 488.0558
+offset_bottom = 309.56854
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("47_mjc5u")
+expand_mode = 2
+stretch_mode = 5
+flip_h = true
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint1" unique_id=813016134]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Guard of the glass palace"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5" unique_id=1053834762]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("48_nrskm")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint3" unique_id=773885114]
+layout_mode = 0
+offset_left = 86.500015
+offset_top = -4.0000153
+offset_right = 521.8349
+offset_bottom = 305.2818
+rotation = -0.00611417
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("49_wx6i5")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint3" unique_id=2023273950]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Quietly lying, hoping for a sip, from the earth’s deep, hidden grip."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab6" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=196735525]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 5
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6" unique_id=1107639655]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("50_6vdt5")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint" unique_id=943991146]
+layout_mode = 0
+offset_left = 44.999992
+offset_top = 418.00003
+offset_right = 452.9572
+offset_bottom = 727.5294
+rotation = -1.591022
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("51_f18cs")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint" unique_id=437110577]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 36.0
+offset_top = 204.0
+offset_right = 671.0
+offset_bottom = 334.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Sits high, looks far."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6" unique_id=543514909]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("52_rtuoh")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint2" unique_id=413662531]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 454.0
+offset_right = 486.98325
+offset_bottom = 686.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("53_41t5x")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint2" unique_id=1499409345]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 2.0
+offset_top = 643.0
+offset_right = 637.0
+offset_bottom = 773.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Likes the roar of the engine."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6" unique_id=775665718]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("54_pk4nf")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint1" unique_id=837690083]
+layout_mode = 0
+offset_left = 155.5
+offset_top = 37.0
+offset_right = 488.0558
+offset_bottom = 309.56854
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("55_g6e25")
+expand_mode = 2
+stretch_mode = 5
+flip_h = true
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint1" unique_id=703988068]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Cleanliness is next to godliness."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6" unique_id=1793784832]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("56_rtuoh")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint3" unique_id=720997748]
+layout_mode = 0
+offset_left = 196.47101
+offset_top = 78.24893
+offset_right = 443.4243
+offset_bottom = 249.66318
+rotation = -0.00611417
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("57_41t5x")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint3" unique_id=1060057129]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 0.5
+offset_top = 235.0
+offset_right = 635.5
+offset_bottom = 365.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Soft kitty, warm kitty, little ball of fur. Happy kitty, sleepy kitty, purr purr purr..."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab7" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=1157213481]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 6
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7" unique_id=1590051347]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("58_ts60d")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint" unique_id=2095297282]
+layout_mode = 0
+offset_left = 200.99998
+offset_top = 15.0
+offset_right = 510.52936
+offset_bottom = 248.5499
+rotation = 0.18210666
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("59_2f30r")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint" unique_id=455710252]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 252.0
+offset_right = 639.0
+offset_bottom = 382.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Daydream, I fell asleep amid the flowers for a couple of hours."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7" unique_id=1960292715]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("60_avg4n")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint2" unique_id=1194256909]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 454.0
+offset_right = 486.98325
+offset_bottom = 686.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("61_pa8dg")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint2" unique_id=949643190]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 2.0
+offset_top = 643.0
+offset_right = 637.0
+offset_bottom = 773.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Little narcissus"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7" unique_id=107109197]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("62_3g5oi")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint1" unique_id=390017409]
+layout_mode = 0
+offset_left = 139.5
+offset_top = -1.0
+offset_right = 526.9595
+offset_bottom = 316.56854
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("63_hxafm")
+expand_mode = 2
+stretch_mode = 5
+flip_h = true
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint1" unique_id=183478021]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_top = 270.0
+offset_right = 635.0
+offset_bottom = 400.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "All in all, it’s just another cat in the wall."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7" unique_id=1042903286]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("64_ylb7k")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint3" unique_id=96317028]
+layout_mode = 0
+offset_left = 42.499958
+offset_top = -45.0
+offset_right = 600.0738
+offset_bottom = 287.3676
+rotation = -0.00611417
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("65_7ru2i")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint3" unique_id=36568185]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 0.5
+offset_top = 258.0
+offset_right = 635.5
+offset_bottom = 388.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Dancer in the Park"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab8" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=1199674508]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 7
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8" unique_id=1513857646]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("66_n216x")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint" unique_id=41510767]
+layout_mode = 0
+offset_left = 171.00002
+offset_right = 501.85907
+offset_bottom = 249.64383
+rotation = 0.18210666
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("67_hyc1p")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint" unique_id=1692445980]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 252.0
+offset_right = 639.0
+offset_bottom = 382.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "These sheets are like a tent!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8" unique_id=1568678849]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("68_3isxh")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint2" unique_id=375513593]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 377.0
+offset_right = 560.30164
+offset_bottom = 676.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("69_vm5ho")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint2" unique_id=1694063076]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 2.0
+offset_top = 643.0
+offset_right = 637.0
+offset_bottom = 773.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "There are barrel cucumbers, but what about barrel cats?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8" unique_id=1414190121]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("70_eq0e6")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint1" unique_id=777091790]
+layout_mode = 0
+offset_left = 127.5
+offset_right = 514.9595
+offset_bottom = 317.56854
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("71_ed7l2")
+expand_mode = 2
+stretch_mode = 5
+flip_h = true
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint1" unique_id=1516976]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = -4.5
+offset_top = 286.0
+offset_right = 630.5
+offset_bottom = 416.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Such fluffy fur is enviable!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8" unique_id=2013537757]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("72_cy7h7")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint3" unique_id=553486392]
+layout_mode = 0
+offset_left = 34.50001
+offset_top = -21.000025
+offset_right = 521.48883
+offset_bottom = 269.2921
+rotation = -0.00611417
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("73_8yn50")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint3" unique_id=2133085364]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 0.5
+offset_top = 258.0
+offset_right = 635.5
+offset_bottom = 388.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "This cat is not as fearful as garden birds."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab9" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=1418621683]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 8
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9" unique_id=231292794]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("74_fbkrl")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint" unique_id=1477988847]
+layout_mode = 0
+offset_left = 173.0
+offset_top = 5.000022
+offset_right = 483.73148
+offset_bottom = 239.45692
+rotation = 0.10166343
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("75_bwmlx")
+expand_mode = 2
+stretch_mode = 5
+flip_h = true
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint" unique_id=183447173]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 252.0
+offset_right = 639.0
+offset_bottom = 382.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Siamese twins don’t stray too far from each other."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9" unique_id=712555848]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("76_5pa0x")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint2" unique_id=272689248]
+layout_mode = 0
+offset_left = 138.0
+offset_top = 374.0
+offset_right = 544.70386
+offset_bottom = 654.0
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("10_rlnm3")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint2" unique_id=1437943802]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 2.0
+offset_top = 643.0
+offset_right = 637.0
+offset_bottom = 773.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "I'm not sure that this mechanic knows what he's doing."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9" unique_id=568326438]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("78_u2bus")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint1" unique_id=174033536]
+layout_mode = 0
+offset_left = 133.5
+offset_top = 1.0
+offset_right = 501.43817
+offset_bottom = 302.56854
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("79_6kr1t")
+expand_mode = 2
+stretch_mode = 5
+flip_h = true
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint1" unique_id=531735407]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = -4.5
+offset_top = 278.0
+offset_right = 630.5
+offset_bottom = 408.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Two glowing eyes are watching you from the dark."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9" unique_id=1353912570]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("80_dndfq")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint3" unique_id=1889638494]
+layout_mode = 0
+offset_left = 43.49995
+offset_top = -12.999982
+offset_right = 512.4188
+offset_bottom = 266.52075
+rotation = -0.00611417
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("81_ycbg4")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint3" unique_id=1235383845]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 0.5
+offset_top = 258.0
+offset_right = 635.5
+offset_bottom = 388.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Cats don’t grow on trees, but may grow in bushes."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab10" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=1541413250]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 9
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10" unique_id=468163533]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("82_pnm6w")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint" unique_id=880261391]
+layout_mode = 0
+offset_left = 130.99998
+offset_top = -6.000004
+offset_right = 494.92896
+offset_bottom = 268.59613
+rotation = 0.051653203
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("83_omy5k")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint" unique_id=683878886]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 252.0
+offset_right = 639.0
+offset_bottom = 382.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Give him a steering wheel and he thinks he owns the road."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10" unique_id=1063686812]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("84_jrp0w")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint2" unique_id=575198305]
+layout_mode = 0
+offset_left = 204.0
+offset_top = 368.0
+offset_right = 580.63837
+offset_bottom = 627.301
+rotation = 0.38339278
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("85_y5xni")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint2" unique_id=809200255]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 2.0
+offset_top = 643.0
+offset_right = 637.0
+offset_bottom = 773.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Jumps like a grasshopper in a summer meadow."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10" unique_id=569608961]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("86_vw6o8")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint1" unique_id=1166217176]
+layout_mode = 0
+offset_left = 152.42934
+offset_top = 17.96303
+offset_right = 494.66638
+offset_bottom = 298.46652
+rotation = 0.098457195
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("87_gsm2b")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint1" unique_id=1662647656]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = -4.5
+offset_top = 278.0
+offset_right = 630.5
+offset_bottom = 408.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Little gardener with his tools."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint3" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10" unique_id=715422404]
+anchors_preset = 0
+offset_left = 683.5
+offset_top = 404.0
+offset_right = 1318.5
+offset_bottom = 804.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("88_1m1og")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint3" unique_id=51011138]
+layout_mode = 0
+offset_left = 428.5
+offset_top = -83.99999
+offset_right = 897.4189
+offset_bottom = 195.52072
+rotation = 1.5639799
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("89_1sieo")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint3" unique_id=416012536]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 0.5
+offset_top = 258.0
+offset_right = 635.5
+offset_bottom = 388.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "This one is a greenhouse fruit."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PictureBookTab11" type="Control" parent="HintBook/PanelContainer/TabContainer" unique_id=1647391131]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 10
+
+[node name="CatHint" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11" unique_id=1312086287]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("90_jrp0w")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint" unique_id=1992145718]
+layout_mode = 0
+offset_left = 130.99998
+offset_top = -6.000004
+offset_right = 488.44012
+offset_bottom = 263.7001
+rotation = 0.051653203
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("91_y5xni")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint" unique_id=634621548]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 252.0
+offset_right = 639.0
+offset_bottom = 382.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "Who doesn't like to drink tea in the fresh air?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint2" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11" unique_id=2024669848]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("92_1m1og")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint2" unique_id=1182201471]
+layout_mode = 0
+offset_left = 189.00005
+offset_top = 329.16006
+offset_right = 567.44885
+offset_bottom = 592.9497
+rotation = 0.38339278
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("93_1sieo")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint2" unique_id=335645299]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = 2.0
+offset_top = 643.0
+offset_right = 637.0
+offset_bottom = 773.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "They brought this one from the store."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatHint1" type="Control" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11" unique_id=1684019014]
+anchors_preset = 0
+offset_left = 683.5
+offset_right = 1318.5
+offset_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("9_jbhiu")
+cat_data = ExtResource("94_31it2")
+
+[node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint1" unique_id=1452899470]
+layout_mode = 0
+offset_left = 143.50003
+offset_top = 11.999997
+offset_right = 486.91605
+offset_bottom = 293.4698
+rotation = 0.014075719
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("95_ccpi2")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="HintLabel" type="Label" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint1" unique_id=676546535]
+custom_minimum_size = Vector2(1, 130)
+layout_mode = 0
+offset_left = -4.5
+offset_top = 278.0
+offset_right = 630.5
+offset_bottom = 408.0
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
+theme_override_font_sizes/font_size = 23
+text = "This one is not afraid to get wet, but isn’t happy about it either."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
 
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]

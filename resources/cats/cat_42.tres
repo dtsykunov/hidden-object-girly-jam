@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CatData" format=3 uid="uid://267dad17fb38"]
+
+[ext_resource type="Script" uid="uid://d023x1ca5xm8r" path="res://resources/cat_data.gd" id="1_cdscript"]
+[ext_resource type="Texture2D" uid="uid://mw1djkwl3i1t" path="res://assets/images/cats/painting/Untitled-42.png" id="2_sprite"]
+
+[resource]
+script = ExtResource("1_cdscript")
+sprite = ExtResource("2_sprite")
+hint = "They brought this one from the store."

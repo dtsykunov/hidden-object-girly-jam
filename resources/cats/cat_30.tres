@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CatData" format=3 uid="uid://c1k3qqrm070vh"]
+
+[ext_resource type="Script" uid="uid://d023x1ca5xm8r" path="res://resources/cat_data.gd" id="1_cdscript"]
+[ext_resource type="Texture2D" uid="uid://c468okppf23g1" path="res://assets/images/cats/painting/Untitled-30.png" id="2_sprite"]
+
+[resource]
+script = ExtResource("1_cdscript")
+sprite = ExtResource("2_sprite")
+hint = "Such fluffy fur is enviable!"

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CatData" format=3 uid="uid://c7561o8cyv1o"]
+
+[ext_resource type="Script" uid="uid://d023x1ca5xm8r" path="res://resources/cat_data.gd" id="1_cdscript"]
+[ext_resource type="Texture2D" uid="uid://df4d1io0sk13t" path="res://assets/images/cats/painting/Untitled-28.png" id="2_sprite"]
+
+[resource]
+script = ExtResource("1_cdscript")
+sprite = ExtResource("2_sprite")
+hint = "These sheets are like a tent!"
