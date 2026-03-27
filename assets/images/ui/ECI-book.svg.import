@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://l2bxyq1ebgsh"
 path.bptc="res://.godot/imported/ECI-book.svg-82969c9b4dcabc1dab9358223252857d.bptc.ctex"
+path.astc="res://.godot/imported/ECI-book.svg-82969c9b4dcabc1dab9358223252857d.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/ui/ECI-book.svg"
-dest_files=["res://.godot/imported/ECI-book.svg-82969c9b4dcabc1dab9358223252857d.bptc.ctex"]
+dest_files=["res://.godot/imported/ECI-book.svg-82969c9b4dcabc1dab9358223252857d.bptc.ctex", "res://.godot/imported/ECI-book.svg-82969c9b4dcabc1dab9358223252857d.astc.ctex"]
 
 [params]
 

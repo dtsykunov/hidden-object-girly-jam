@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn511sryg7qmc"
 path.bptc="res://.godot/imported/koryto.png-f1c84e8610d883a894be29a466ff37cf.bptc.ctex"
+path.astc="res://.godot/imported/koryto.png-f1c84e8610d883a894be29a466ff37cf.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/objects/koryto.png"
-dest_files=["res://.godot/imported/koryto.png-f1c84e8610d883a894be29a466ff37cf.bptc.ctex"]
+dest_files=["res://.godot/imported/koryto.png-f1c84e8610d883a894be29a466ff37cf.bptc.ctex", "res://.godot/imported/koryto.png-f1c84e8610d883a894be29a466ff37cf.astc.ctex"]
 
 [params]
 

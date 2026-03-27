@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8gnv0hjjbqjg"
 path.bptc="res://.godot/imported/full-cross.png-1539a7218f7ca58cadf9dc1db333ffdd.bptc.ctex"
+path.astc="res://.godot/imported/full-cross.png-1539a7218f7ca58cadf9dc1db333ffdd.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/ui/full-cross.png"
-dest_files=["res://.godot/imported/full-cross.png-1539a7218f7ca58cadf9dc1db333ffdd.bptc.ctex"]
+dest_files=["res://.godot/imported/full-cross.png-1539a7218f7ca58cadf9dc1db333ffdd.bptc.ctex", "res://.godot/imported/full-cross.png-1539a7218f7ca58cadf9dc1db333ffdd.astc.ctex"]
 
 [params]
 

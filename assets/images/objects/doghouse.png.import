@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwjyvrq50l6tu"
 path.bptc="res://.godot/imported/doghouse.png-f1cdee3604bd1c4c7d5dd21ed054e3db.bptc.ctex"
+path.astc="res://.godot/imported/doghouse.png-f1cdee3604bd1c4c7d5dd21ed054e3db.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/objects/doghouse.png"
-dest_files=["res://.godot/imported/doghouse.png-f1cdee3604bd1c4c7d5dd21ed054e3db.bptc.ctex"]
+dest_files=["res://.godot/imported/doghouse.png-f1cdee3604bd1c4c7d5dd21ed054e3db.bptc.ctex", "res://.godot/imported/doghouse.png-f1cdee3604bd1c4c7d5dd21ed054e3db.astc.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtfvk5ieed62d"
 path.bptc="res://.godot/imported/barrel-bush.png-edf18873ca588951c09665d5bc287f75.bptc.ctex"
+path.astc="res://.godot/imported/barrel-bush.png-edf18873ca588951c09665d5bc287f75.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/objects/barrel-bush.png"
-dest_files=["res://.godot/imported/barrel-bush.png-edf18873ca588951c09665d5bc287f75.bptc.ctex"]
+dest_files=["res://.godot/imported/barrel-bush.png-edf18873ca588951c09665d5bc287f75.bptc.ctex", "res://.godot/imported/barrel-bush.png-edf18873ca588951c09665d5bc287f75.astc.ctex"]
 
 [params]
 

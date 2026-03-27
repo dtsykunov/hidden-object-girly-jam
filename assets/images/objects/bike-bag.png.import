@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cexkotsn5on1"
 path.bptc="res://.godot/imported/bike-bag.png-3abdfb1dbd8cf745daca5e1e49eb2b31.bptc.ctex"
+path.astc="res://.godot/imported/bike-bag.png-3abdfb1dbd8cf745daca5e1e49eb2b31.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/objects/bike-bag.png"
-dest_files=["res://.godot/imported/bike-bag.png-3abdfb1dbd8cf745daca5e1e49eb2b31.bptc.ctex"]
+dest_files=["res://.godot/imported/bike-bag.png-3abdfb1dbd8cf745daca5e1e49eb2b31.bptc.ctex", "res://.godot/imported/bike-bag.png-3abdfb1dbd8cf745daca5e1e49eb2b31.astc.ctex"]
 
 [params]
 

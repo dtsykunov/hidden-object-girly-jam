@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://orgmq14tg3mm"
 path.bptc="res://.godot/imported/right-arrow-with-border.png-f7cb353e6c1b1b2eaf01d23362e9981a.bptc.ctex"
+path.astc="res://.godot/imported/right-arrow-with-border.png-f7cb353e6c1b1b2eaf01d23362e9981a.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/ui/right-arrow-with-border.png"
-dest_files=["res://.godot/imported/right-arrow-with-border.png-f7cb353e6c1b1b2eaf01d23362e9981a.bptc.ctex"]
+dest_files=["res://.godot/imported/right-arrow-with-border.png-f7cb353e6c1b1b2eaf01d23362e9981a.bptc.ctex", "res://.godot/imported/right-arrow-with-border.png-f7cb353e6c1b1b2eaf01d23362e9981a.astc.ctex"]
 
 [params]
 

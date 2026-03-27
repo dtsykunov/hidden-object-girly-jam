@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://kwieakwkslrx"
 path.bptc="res://.godot/imported/glass_door.png-d4420b87b9e4c4ed9a0596a999592dab.bptc.ctex"
+path.astc="res://.godot/imported/glass_door.png-d4420b87b9e4c4ed9a0596a999592dab.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/objects/glass_door.png"
-dest_files=["res://.godot/imported/glass_door.png-d4420b87b9e4c4ed9a0596a999592dab.bptc.ctex"]
+dest_files=["res://.godot/imported/glass_door.png-d4420b87b9e4c4ed9a0596a999592dab.bptc.ctex", "res://.godot/imported/glass_door.png-d4420b87b9e4c4ed9a0596a999592dab.astc.ctex"]
 
 [params]
 

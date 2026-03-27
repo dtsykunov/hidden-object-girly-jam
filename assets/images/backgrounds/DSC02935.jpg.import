@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://4x0ynmd343kr"
 path.bptc="res://.godot/imported/DSC02935.jpg-c857678e900799b23c66d54b86d43818.bptc.ctex"
+path.astc="res://.godot/imported/DSC02935.jpg-c857678e900799b23c66d54b86d43818.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/backgrounds/DSC02935.jpg"
-dest_files=["res://.godot/imported/DSC02935.jpg-c857678e900799b23c66d54b86d43818.bptc.ctex"]
+dest_files=["res://.godot/imported/DSC02935.jpg-c857678e900799b23c66d54b86d43818.bptc.ctex", "res://.godot/imported/DSC02935.jpg-c857678e900799b23c66d54b86d43818.astc.ctex"]
 
 [params]
 

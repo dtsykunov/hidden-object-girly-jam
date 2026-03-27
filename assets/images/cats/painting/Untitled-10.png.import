@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://u5sngww1f3nr"
 path.bptc="res://.godot/imported/Untitled-10.png-943b222cf0538a3223259605d10820d0.bptc.ctex"
+path.astc="res://.godot/imported/Untitled-10.png-943b222cf0538a3223259605d10820d0.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/cats/painting/Untitled-10.png"
-dest_files=["res://.godot/imported/Untitled-10.png-943b222cf0538a3223259605d10820d0.bptc.ctex"]
+dest_files=["res://.godot/imported/Untitled-10.png-943b222cf0538a3223259605d10820d0.bptc.ctex", "res://.godot/imported/Untitled-10.png-943b222cf0538a3223259605d10820d0.astc.ctex"]
 
 [params]
 

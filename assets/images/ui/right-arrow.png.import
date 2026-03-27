@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxrluukgd5qv4"
 path.bptc="res://.godot/imported/right-arrow.png-83bc8733bf2c919fdf18944710c0a48c.bptc.ctex"
+path.astc="res://.godot/imported/right-arrow.png-83bc8733bf2c919fdf18944710c0a48c.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/ui/right-arrow.png"
-dest_files=["res://.godot/imported/right-arrow.png-83bc8733bf2c919fdf18944710c0a48c.bptc.ctex"]
+dest_files=["res://.godot/imported/right-arrow.png-83bc8733bf2c919fdf18944710c0a48c.bptc.ctex", "res://.godot/imported/right-arrow.png-83bc8733bf2c919fdf18944710c0a48c.astc.ctex"]
 
 [params]
 

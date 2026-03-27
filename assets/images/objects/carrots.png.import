@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://y8ukoah0cn1o"
 path.bptc="res://.godot/imported/carrots.png-0fbef6138ab358f8e768c671af8d82fe.bptc.ctex"
+path.astc="res://.godot/imported/carrots.png-0fbef6138ab358f8e768c671af8d82fe.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/objects/carrots.png"
-dest_files=["res://.godot/imported/carrots.png-0fbef6138ab358f8e768c671af8d82fe.bptc.ctex"]
+dest_files=["res://.godot/imported/carrots.png-0fbef6138ab358f8e768c671af8d82fe.bptc.ctex", "res://.godot/imported/carrots.png-0fbef6138ab358f8e768c671af8d82fe.astc.ctex"]
 
 [params]
 

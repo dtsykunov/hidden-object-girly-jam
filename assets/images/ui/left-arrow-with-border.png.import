@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cv3k8ik2ekrcm"
 path.bptc="res://.godot/imported/left-arrow-with-border.png-87166112f1ace4a2f9c2ce7b9d5a94b0.bptc.ctex"
+path.astc="res://.godot/imported/left-arrow-with-border.png-87166112f1ace4a2f9c2ce7b9d5a94b0.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/ui/left-arrow-with-border.png"
-dest_files=["res://.godot/imported/left-arrow-with-border.png-87166112f1ace4a2f9c2ce7b9d5a94b0.bptc.ctex"]
+dest_files=["res://.godot/imported/left-arrow-with-border.png-87166112f1ace4a2f9c2ce7b9d5a94b0.bptc.ctex", "res://.godot/imported/left-arrow-with-border.png-87166112f1ace4a2f9c2ce7b9d5a94b0.astc.ctex"]
 
 [params]
 
