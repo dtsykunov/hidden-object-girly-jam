@@ -59,11 +59,14 @@ func _on_mouse_exited() -> void:
 
 
 func _on_input_event(_viewport: Node, event: InputEvent, _shape_idx: int) -> void:
-	if not GameState.started or _is_found:
+	if not GameState.started:
 		return
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
 		get_viewport().set_input_as_handled()
-		_discover()
+		if _is_found:
+			_bounce()
+		else:
+			_discover()
 
 
 func _discover() -> void:
@@ -86,4 +89,5 @@ func _set_glow(target: float) -> void:
 
 
 func _bounce() -> void:
+	_anim.stop()
 	_anim.play("bounce")

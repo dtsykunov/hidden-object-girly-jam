@@ -574,7 +574,7 @@ cat_data = ExtResource("cat34_res")
 
 [node name="212Cccd76e6545c796291Bd68428b07d" parent="OverlayCats" unique_id=1932971119 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_mve03")
-position = Vector2(-5131.872, -1761.4438)
+position = Vector2(-5090.015, -1781.7871)
 rotation = -0.4228974
 scale = Vector2(1.369436, 1.1070348)
 skew = 0.0011321306
