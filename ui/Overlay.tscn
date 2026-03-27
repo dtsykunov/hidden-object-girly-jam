@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://dlhgnigb04dsk" path="res://assets/icons/vector_whiteIcons.svg" id="1_7pliq"]
 [ext_resource type="Theme" uid="uid://h1f7iqhh7ycb" path="res://assets/theme/FlatUI4/kenneyUI-yellow.tres" id="1_7qdid"]
 [ext_resource type="Script" uid="uid://b8ssp3j5k0847" path="res://ui/overlay.gd" id="2_overlay"]
-[ext_resource type="Shader" uid="uid://ds0k65d6jjvd5" path="res://ui/confetti.gdshader" id="3_confetti"]
 [ext_resource type="PackedScene" uid="uid://dpk0vokm5np3y" path="res://ui/logo.tscn" id="5_67jpi"]
 [ext_resource type="Texture2D" uid="uid://l2bxyq1ebgsh" path="res://assets/images/ui/ECI-book.svg" id="5_bpy4a"]
 [ext_resource type="Texture2D" uid="uid://dem7bnleinpk0" path="res://assets/images/ui/book-no-arrows.png" id="8_ccpi2"]
@@ -119,23 +118,13 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 corner_detail = 5
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_confetti"]
-shader = ExtResource("3_confetti")
-shader_parameter/speed = 120.0
-shader_parameter/sway_strength = 60.0
-shader_parameter/sway_speed = 1.4
-shader_parameter/spin_speed = 3.5
-shader_parameter/piece_size = 10.0
-shader_parameter/aspect_ratio = 2.0
-shader_parameter/resolution = Vector2(1920, 1080)
-shader_parameter/col0 = Color(1, 0.2, 0.2, 1)
-shader_parameter/col1 = Color(1, 0.75, 0.1, 1)
-shader_parameter/col2 = Color(0.1, 0.8, 0.3, 1)
-shader_parameter/col3 = Color(0.15, 0.55, 1, 1)
-shader_parameter/col4 = Color(0.85, 0.2, 1, 1)
-shader_parameter/col5 = Color(1, 0.4, 0.7, 1)
-shader_parameter/col6 = Color(0.1, 0.9, 0.95, 1)
-shader_parameter/col7 = Color(1, 1, 1, 1)
+[sub_resource type="Gradient" id="Gradient_confetti_fade"]
+offsets = PackedFloat32Array(0, 0.75, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="Gradient" id="Gradient_confetti_colors"]
+offsets = PackedFloat32Array(0, 0.143, 0.286, 0.429, 0.571, 0.714, 0.857, 1)
+colors = PackedColorArray(1, 0.2, 0.2, 1, 1, 0.75, 0.1, 1, 0.1, 0.8, 0.3, 1, 0.15, 0.55, 1, 1, 0.85, 0.2, 1, 1, 1, 0.4, 0.7, 1, 0.1, 0.9, 0.95, 1, 1, 1, 1, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0ujei"]
 content_margin_left = 149.0
@@ -442,16 +431,25 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 45
 text = "Cancel"
 
-[node name="Confetti" type="ColorRect" parent="." unique_id=1837462901]
-visible = false
-material = SubResource("ShaderMaterial_confetti")
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-mouse_filter = 2
+[node name="Confetti" type="CPUParticles2D" parent="." unique_id=1837462901]
+position = Vector2(960, -10)
+emitting = false
+amount = 200
+lifetime = 7.0
+randomness = 0.5
+emission_shape = 3
+emission_rect_extents = Vector2(960, 5)
+direction = Vector2(0, 1)
+spread = 25.0
+gravity = Vector2(0, 120)
+initial_velocity_min = 40.0
+initial_velocity_max = 140.0
+angular_velocity_min = -250.0
+angular_velocity_max = 250.0
+scale_amount_min = 7.31
+scale_amount_max = 38.75
+color_ramp = SubResource("Gradient_confetti_fade")
+color_initial_ramp = SubResource("Gradient_confetti_colors")
 
 [node name="VictoryPanel" type="CenterContainer" parent="." unique_id=-2094967286]
 visible = false

@@ -110,23 +110,6 @@
 [ext_resource type="Resource" uid="uid://e151ad6f7856" path="res://resources/cats/cat_43.tres" id="cat43_res"]
 [ext_resource type="PackedScene" uid="uid://bwum8rpkg5ajb" path="res://scenes/hidden_object/HiddenObject.tscn" id="ho_1"]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [sub_resource type="Animation" id="Animation_4dvvg"]
 length = 0.001
 tracks/0/type = "value"
@@ -166,32 +149,6 @@ _data = {
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_04qyp"]
 size = Vector2(125, 125)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [node name="World" type="Node2D" unique_id=893542957]
 

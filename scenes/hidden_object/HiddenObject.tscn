@@ -90,4 +90,5 @@ libraries/ = SubResource("AnimationLibrary_hidden")
 bus = &"SFX"
 
 [node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="." unique_id=49537097]
-rect = Rect2(-64, -68, 128, 130)
+position = Vector2(-56, 28)
+rect = Rect2(-87, -175, 307, 290)

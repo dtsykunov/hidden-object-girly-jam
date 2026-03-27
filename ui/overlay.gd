@@ -13,7 +13,7 @@ enum State {
 @onready var _victory_panel: CenterContainer = $VictoryPanel
 @onready var _hint_book: HintBook = $HintBook
 @onready var _cat_counter: Label = $CatCounter
-@onready var _confetti: ColorRect = $Confetti
+@onready var _confetti: CPUParticles2D = $Confetti
 @onready var _master_slider: HSlider = %MasterSlider
 @onready var _music_slider: HSlider = %MusicSlider
 @onready var _sfx_slider: HSlider = %SFXSlider
@@ -146,9 +146,7 @@ func _on_cat_discovered(found: int, total: int) -> void:
 
 
 func _on_all_cats_found() -> void:
-	var vp_size := get_viewport_rect().size
-	_confetti.material.set_shader_parameter("resolution", vp_size)
-	_confetti.show()
+	_confetti.emitting = true
 	PanelAnimator.show(_victory_panel)
 
 
