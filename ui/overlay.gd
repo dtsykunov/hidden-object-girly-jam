@@ -25,6 +25,7 @@ func _ready() -> void:
 	_init_sliders()
 	GameState.cat_discovered.connect(_on_cat_discovered)
 	GameState.all_cats_found.connect(_on_all_cats_found)
+	_hint_book.close_requested.connect(_on_hints_book_button_pressed)
 
 
 func _on_options_button_pressed() -> void:

@@ -6,6 +6,8 @@ extends Control
 ## Found cats show their normal image with no label.
 ## Call populate() each time the book is opened to reflect the latest state.
 
+signal close_requested
+
 @onready var _tabs: TabContainer = $PanelContainer/TabContainer
 
 func _ready() -> void:
@@ -29,4 +31,4 @@ func _on_tab_changed(tab_idx: int) -> void:
 		%RightButton.show()
 
 func _on_close_button_pressed() -> void:
-	print("close button")
+	close_requested.emit()
