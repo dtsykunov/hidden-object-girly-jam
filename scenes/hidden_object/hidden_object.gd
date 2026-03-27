@@ -7,7 +7,7 @@ signal cat_found
 @export var cat_data: CatData
 @export var purr_sound: AudioStream
 @export var meow_sound: AudioStream
-@export var MAX_GLOW: float = 10.0
+@export var MAX_GLOW: float = 20.0
 
 @onready var _area: Area2D = $Area2D
 @onready var _collision: CollisionShape2D = $Area2D/CollisionShape2D

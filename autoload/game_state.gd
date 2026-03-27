@@ -41,6 +41,13 @@ func on_cat_found(index: int) -> void:
 		all_cats_found.emit()
 
 
+func is_cat_found(cat: CatData) -> bool:
+	for entry in cat_entries:
+		if entry.cat_data == cat:
+			return entry.is_found
+	return false
+
+
 func reset() -> void:
 	started = false
 	ui_open = false

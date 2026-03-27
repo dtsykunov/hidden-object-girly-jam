@@ -487,6 +487,7 @@ offset_right = 856.0
 offset_bottom = 395.0
 
 [node name="HintBook" type="Control" parent="." unique_id=1145284643]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
