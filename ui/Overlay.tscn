@@ -555,10 +555,10 @@ cat_data = ExtResource("12_6a703")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint2" unique_id=680381422]
 layout_mode = 0
-offset_left = 126.0
-offset_top = 379.0
-offset_right = 497.54886
-offset_bottom = 663.0
+offset_left = 117.0
+offset_top = 410.0
+offset_right = 488.54886
+offset_bottom = 694.0
 size_flags_horizontal = 4
 size_flags_vertical = 3
 texture = ExtResource("13_rads4")
@@ -591,9 +591,10 @@ cat_data = ExtResource("14_72guq")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint1" unique_id=847140753]
 layout_mode = 0
-offset_left = 184.0
-offset_right = 450.0
-offset_bottom = 266.0
+offset_left = 174.5
+offset_top = 19.0
+offset_right = 440.5
+offset_bottom = 285.0
 size_flags_horizontal = 4
 size_flags_vertical = 3
 texture = ExtResource("9_rlnm3")
@@ -627,10 +628,10 @@ cat_data = ExtResource("16_hc7va")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint3" unique_id=361570004]
 layout_mode = 0
-offset_left = 186.5
-offset_top = 1.0
-offset_right = 452.5
-offset_bottom = 267.0
+offset_left = 118.5
+offset_top = -36.0
+offset_right = 537.8835
+offset_bottom = 298.0
 size_flags_horizontal = 4
 size_flags_vertical = 3
 texture = ExtResource("17_b4rdu")
