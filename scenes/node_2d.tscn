@@ -842,9 +842,10 @@ texture = ExtResource("44_avk7w")
 cat_data = ExtResource("cat03_res")
 
 [node name="47Ecee99Cf504186B701Dc4Fcfbb3b4b" parent="HiddenObjectRest" unique_id=136123717 instance=ExtResource("ho_1")]
+self_modulate = Color(0.8397671, 0.79284424, 0.9546816, 1)
 material = SubResource("ShaderMaterial_jmluk")
-position = Vector2(-1279.9999, -660.99994)
-scale = Vector2(0.735, 0.735)
+position = Vector2(-1323.4261, -704.6853)
+scale = Vector2(0.5623307, 0.56233066)
 texture = ExtResource("45_h3hrn")
 cat_data = ExtResource("cat04_res")
 
@@ -973,9 +974,9 @@ cat_data = ExtResource("cat27_res")
 
 [node name="HaresLeap" parent="HiddenObjectRest" unique_id=423057077 instance=ExtResource("ho_1")]
 material = SubResource("ShaderMaterial_2rugy")
-position = Vector2(-1382.9999, 215.00012)
+position = Vector2(-1413, 205.00003)
 rotation = 0.73208106
-scale = Vector2(0.39666957, 0.39666957)
+scale = Vector2(0.23609643, 0.2360964)
 texture = ExtResource("62_v2a8d")
 cat_data = ExtResource("cat38_res")
 

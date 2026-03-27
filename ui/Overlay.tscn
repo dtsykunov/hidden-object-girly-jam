@@ -5,7 +5,7 @@
 [ext_resource type="Script" uid="uid://b8ssp3j5k0847" path="res://ui/overlay.gd" id="2_overlay"]
 [ext_resource type="Shader" uid="uid://ds0k65d6jjvd5" path="res://ui/confetti.gdshader" id="3_confetti"]
 [ext_resource type="PackedScene" uid="uid://dpk0vokm5np3y" path="res://ui/logo.tscn" id="5_67jpi"]
-[ext_resource type="Texture2D" uid="uid://dkbv2rg1oc713" path="res://assets/icons/Hand holding book (white).svg" id="7_0ujei"]
+[ext_resource type="Texture2D" uid="uid://l2bxyq1ebgsh" path="res://assets/images/ui/ECI-book.svg" id="5_bpy4a"]
 [ext_resource type="Texture2D" uid="uid://dem7bnleinpk0" path="res://assets/images/ui/book-no-arrows.png" id="8_ccpi2"]
 [ext_resource type="Script" uid="uid://c3325kmss0kd" path="res://ui/hint_book.gd" id="8_hintbook"]
 [ext_resource type="Script" uid="uid://cohrgr43dyu6u" path="res://ui/cat_hint.gd" id="9_jbhiu"]
@@ -193,8 +193,8 @@ anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
 offset_left = -1879.0
-offset_top = 858.0
-offset_right = -1709.0
+offset_top = 872.0
+offset_right = -1723.0
 offset_bottom = 1028.0
 grow_horizontal = 0
 texture_normal = SubResource("AtlasTexture_x1eqy")
@@ -207,10 +207,10 @@ anchor_left = 1.0
 anchor_right = 1.0
 offset_left = -1846.0
 offset_top = 38.0
-offset_right = -1671.0
-offset_bottom = 257.0
+offset_right = -1691.0
+offset_bottom = 231.97144
 grow_horizontal = 0
-texture_normal = ExtResource("7_0ujei")
+texture_normal = ExtResource("5_bpy4a")
 stretch_mode = 5
 
 [node name="FullscreenButton" type="TextureButton" parent="." unique_id=1381456293]
@@ -529,6 +529,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("10_q1n8y")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint" unique_id=526129332]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 164.0
 offset_top = 19.0
@@ -562,6 +563,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("12_6a703")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint2" unique_id=680381422]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 117.0
 offset_top = 410.0
@@ -598,6 +600,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("14_72guq")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint1" unique_id=847140753]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 174.5
 offset_top = 19.0
@@ -635,6 +638,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("16_hc7va")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab1/CatHint3" unique_id=361570004]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 118.5
 offset_top = -36.0
@@ -673,6 +677,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("18_8r6mq")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint" unique_id=1997209332]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 184.0
 offset_top = 19.0
@@ -706,6 +711,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("20_47cbs")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint2" unique_id=419576086]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 192.0
 offset_top = 470.0
@@ -742,6 +748,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("22_8n3p0")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint1" unique_id=905287027]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 184.5
 offset_top = 23.0
@@ -779,6 +786,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("24_lehic")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab2/CatHint3" unique_id=1679208484]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 472.5
 offset_top = -176.00003
@@ -818,6 +826,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("26_00iso")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint" unique_id=426744199]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 116.0
 offset_top = -9.0
@@ -851,6 +860,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("28_4j7uc")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint2" unique_id=1404117490]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 176.0
 offset_top = 433.0
@@ -887,6 +897,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("30_3qyss")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint1" unique_id=151819809]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 121.5
 offset_top = 11.0
@@ -924,6 +935,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("32_r7bqa")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab3/CatHint3" unique_id=564993764]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 108.49996
 offset_top = 11.999997
@@ -945,7 +957,7 @@ offset_bottom = 400.0
 size_flags_vertical = 1
 theme_override_colors/font_color = Color(0.36282945, 0.36282945, 0.36282945, 1)
 theme_override_font_sizes/font_size = 23
-text = "On his way from the loo"
+text = "Hissing one."
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
@@ -963,6 +975,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("34_3qyss")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint" unique_id=558743063]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 169.0
 offset_top = 29.0
@@ -996,6 +1009,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("36_r7bqa")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint2" unique_id=107638752]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 113.0
 offset_top = 398.0
@@ -1033,6 +1047,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("38_r761h")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint1" unique_id=343602731]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 119.5
 offset_top = -6.0
@@ -1070,6 +1085,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("40_0ulma")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab4/CatHint3" unique_id=1380553089]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 86.500015
 offset_top = -12.000016
@@ -1109,6 +1125,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("42_0ulma")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint" unique_id=1960978499]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 149.0
 offset_top = 45.0
@@ -1142,6 +1159,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("44_kp1uj")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint2" unique_id=1246423419]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 135.0
 offset_top = 446.0
@@ -1178,6 +1196,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("46_nptge")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint1" unique_id=375121715]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 155.5
 offset_top = 37.0
@@ -1216,6 +1235,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("48_nrskm")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab5/CatHint3" unique_id=773885114]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 86.500015
 offset_top = -4.0000153
@@ -1255,6 +1275,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("50_6vdt5")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint" unique_id=943991146]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 44.999992
 offset_top = 418.00003
@@ -1290,6 +1311,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("52_rtuoh")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint2" unique_id=413662531]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 150.0
 offset_top = 454.0
@@ -1327,6 +1349,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("54_pk4nf")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint1" unique_id=837690083]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 155.5
 offset_top = 37.0
@@ -1365,6 +1388,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("56_rtuoh")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab6/CatHint3" unique_id=720997748]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 196.47101
 offset_top = 78.24893
@@ -1405,6 +1429,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("58_ts60d")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint" unique_id=2095297282]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 200.99998
 offset_top = 15.0
@@ -1440,6 +1465,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("60_avg4n")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint2" unique_id=1194256909]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 150.0
 offset_top = 454.0
@@ -1477,6 +1503,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("62_3g5oi")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint1" unique_id=390017409]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 139.5
 offset_top = -1.0
@@ -1515,6 +1542,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("64_ylb7k")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab7/CatHint3" unique_id=96317028]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 42.499958
 offset_top = -45.0
@@ -1555,6 +1583,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("66_n216x")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint" unique_id=41510767]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 171.00002
 offset_right = 501.85907
@@ -1589,6 +1618,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("68_3isxh")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint2" unique_id=375513593]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 126.0
 offset_top = 377.0
@@ -1626,6 +1656,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("70_eq0e6")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint1" unique_id=777091790]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 127.5
 offset_right = 514.9595
@@ -1664,6 +1695,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("72_cy7h7")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab8/CatHint3" unique_id=553486392]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 34.50001
 offset_top = -21.000025
@@ -1704,6 +1736,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("74_fbkrl")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint" unique_id=1477988847]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 173.0
 offset_top = 5.000022
@@ -1740,6 +1773,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("76_5pa0x")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint2" unique_id=272689248]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 138.0
 offset_top = 374.0
@@ -1777,6 +1811,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("78_u2bus")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint1" unique_id=174033536]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 133.5
 offset_top = 1.0
@@ -1816,6 +1851,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("80_dndfq")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab9/CatHint3" unique_id=1889638494]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 43.49995
 offset_top = -12.999982
@@ -1856,6 +1892,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("82_pnm6w")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint" unique_id=880261391]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 130.99998
 offset_top = -6.000004
@@ -1891,6 +1928,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("84_jrp0w")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint2" unique_id=575198305]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 204.0
 offset_top = 368.0
@@ -1929,6 +1967,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("86_vw6o8")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint1" unique_id=1166217176]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 152.42934
 offset_top = 17.96303
@@ -1968,6 +2007,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("88_1m1og")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab10/CatHint3" unique_id=51011138]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 428.5
 offset_top = -83.99999
@@ -2008,6 +2048,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("90_jrp0w")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint" unique_id=1992145718]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 130.99998
 offset_top = -6.000004
@@ -2043,6 +2084,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("92_1m1og")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint2" unique_id=1182201471]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 189.00005
 offset_top = 329.16006
@@ -2081,6 +2123,7 @@ script = ExtResource("9_jbhiu")
 cat_data = ExtResource("94_31it2")
 
 [node name="HiddenObjectTexture" type="TextureRect" parent="HintBook/PanelContainer/TabContainer/PictureBookTab11/CatHint1" unique_id=1452899470]
+modulate = Color(0, 0, 0, 1)
 layout_mode = 0
 offset_left = 143.50003
 offset_top = 11.999997
@@ -2135,10 +2178,10 @@ stretch_mode = 5
 
 [node name="CloseButton" type="TextureButton" parent="HintBook" unique_id=1588770079]
 layout_mode = 0
-offset_left = 1451.0001
-offset_top = 88.00001
-offset_right = 1572.7932
-offset_bottom = 178.48712
+offset_left = 1449.0001
+offset_top = 93.00001
+offset_right = 1574.8303
+offset_bottom = 186.48651
 scale = Vector2(1.1552471, 1.1552471)
 texture_normal = ExtResource("98_ccpi2")
 ignore_texture_size = true
