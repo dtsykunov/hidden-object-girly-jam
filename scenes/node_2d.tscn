@@ -1020,4 +1020,4 @@ cat_data = ExtResource("cat17_res")
 
 [node name="Camera2D" parent="." unique_id=1673285300 instance=ExtResource("4_4urfc")]
 position = Vector2(984, 538)
-max_zoom = 1.4
+max_zoom = 1.7
