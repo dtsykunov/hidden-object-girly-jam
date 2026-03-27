@@ -358,10 +358,10 @@ text = "Continue"
 
 [node name="CatCounter" type="Label" parent="." unique_id=-2094967295]
 layout_mode = 1
-offset_left = 1506.0
-offset_top = 60.0
-offset_right = 1856.0
-offset_bottom = 135.0
+offset_left = 1459.0
+offset_top = 62.0
+offset_right = 1809.0
+offset_bottom = 137.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.5)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
