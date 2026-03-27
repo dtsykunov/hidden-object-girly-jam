@@ -6,8 +6,8 @@
 [ext_resource type="Shader" uid="uid://ds0k65d6jjvd5" path="res://ui/confetti.gdshader" id="3_confetti"]
 [ext_resource type="PackedScene" uid="uid://dpk0vokm5np3y" path="res://ui/logo.tscn" id="5_67jpi"]
 [ext_resource type="Texture2D" uid="uid://dkbv2rg1oc713" path="res://assets/icons/Hand holding book (white).svg" id="7_0ujei"]
+[ext_resource type="Texture2D" uid="uid://dem7bnleinpk0" path="res://assets/images/ui/book-no-arrows.png" id="8_ccpi2"]
 [ext_resource type="Script" uid="uid://c3325kmss0kd" path="res://ui/hint_book.gd" id="8_hintbook"]
-[ext_resource type="Texture2D" uid="uid://cg612ulm56x28" path="res://assets/images/ui/book-lores.png" id="8_wdjne"]
 [ext_resource type="Script" uid="uid://cohrgr43dyu6u" path="res://ui/cat_hint.gd" id="9_jbhiu"]
 [ext_resource type="Texture2D" uid="uid://kl2hte42ed0b" path="res://assets/images/cats/painting/Untitled-2.png" id="9_rlnm3"]
 [ext_resource type="Resource" uid="uid://dym25nrb1o8kc" path="res://resources/cats/oiie_cat.tres" id="10_q1n8y"]
@@ -95,6 +95,9 @@
 [ext_resource type="Texture2D" uid="uid://mw1djkwl3i1t" path="res://assets/images/cats/painting/Untitled-42.png" id="93_1sieo"]
 [ext_resource type="Resource" uid="uid://e151ad6f7856" path="res://resources/cats/cat_43.tres" id="94_31it2"]
 [ext_resource type="Texture2D" uid="uid://3bsivjh4nskl" path="res://assets/images/cats/painting/Untitled-43.png" id="95_ccpi2"]
+[ext_resource type="Texture2D" uid="uid://cv3k8ik2ekrcm" path="res://assets/images/ui/left-arrow-with-border.png" id="96_ccpi2"]
+[ext_resource type="Texture2D" uid="uid://orgmq14tg3mm" path="res://assets/images/ui/right-arrow-with-border.png" id="97_bpy4a"]
+[ext_resource type="Texture2D" uid="uid://c8gnv0hjjbqjg" path="res://assets/images/ui/full-cross.png" id="98_ccpi2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1eqy"]
 atlas = ExtResource("1_7pliq")
@@ -139,7 +142,7 @@ content_margin_left = 149.0
 content_margin_top = 75.0
 content_margin_right = 142.0
 content_margin_bottom = 73.0
-texture = ExtResource("8_wdjne")
+texture = ExtResource("8_ccpi2")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rlnm3"]
 content_margin_left = 0.0
@@ -483,24 +486,26 @@ offset_top = 355.0
 offset_right = 856.0
 offset_bottom = 395.0
 
-[node name="HintBook" type="CenterContainer" parent="." unique_id=1733348007]
+[node name="HintBook" type="Control" parent="." unique_id=1145284643]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -20.0
-offset_right = 20.0
-offset_bottom = 20.0
+offset_left = -800.0
+offset_top = -476.0
+offset_right = 800.0
+offset_bottom = 476.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("8_hintbook")
 
 [node name="PanelContainer" type="PanelContainer" parent="HintBook" unique_id=1777148883]
 custom_minimum_size = Vector2(1600, 952)
-layout_mode = 2
+layout_mode = 0
+offset_right = 1600.0
+offset_bottom = 952.0
 theme_override_styles/panel = SubResource("StyleBoxTexture_0ujei")
 
 [node name="TabContainer" type="TabContainer" parent="HintBook/PanelContainer" unique_id=453459271]
@@ -2100,6 +2105,42 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
 
+[node name="LeftButton" type="TextureButton" parent="HintBook" unique_id=868310240]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_left = -7.0
+offset_top = 520.0
+offset_right = 147.83325
+offset_bottom = 635.0346
+texture_normal = ExtResource("96_ccpi2")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="RightButton" type="TextureButton" parent="HintBook" unique_id=1102412924]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1453.0
+offset_top = 520.0
+offset_right = 1607.8333
+offset_bottom = 635.0346
+rotation = 0.014028665
+scale = Vector2(1.0591733, 1.0591733)
+texture_normal = ExtResource("97_bpy4a")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="CloseButton" type="TextureButton" parent="HintBook" unique_id=1588770079]
+layout_mode = 0
+offset_left = 1451.0001
+offset_top = 88.00001
+offset_right = 1572.7932
+offset_bottom = 178.48712
+scale = Vector2(1.1552471, 1.1552471)
+texture_normal = ExtResource("98_ccpi2")
+ignore_texture_size = true
+stretch_mode = 5
+
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="OptionsButton" to="." method="_on_options_button_pressed"]
 [connection signal="pressed" from="HintsBookButton" to="." method="_on_hints_book_button_pressed"]
@@ -2112,3 +2153,6 @@ autowrap_mode = 3
 [connection signal="pressed" from="ConfirmPanel/Panel/MarginContainer/VBoxContainer/ButtonRow/RestartButton" to="." method="_on_confirm_restart_pressed"]
 [connection signal="pressed" from="ConfirmPanel/Panel/MarginContainer/VBoxContainer/ButtonRow/CancelButton" to="." method="_on_confirm_cancel_pressed"]
 [connection signal="pressed" from="VictoryPanel/Panel/MarginContainer/VBoxContainer/PlayAgainButton" to="." method="_on_victory_play_again_pressed"]
+[connection signal="pressed" from="HintBook/LeftButton" to="HintBook" method="_on_left_button_pressed"]
+[connection signal="pressed" from="HintBook/RightButton" to="HintBook" method="_on_right_button_pressed"]
+[connection signal="pressed" from="HintBook/CloseButton" to="HintBook" method="_on_close_button_pressed"]

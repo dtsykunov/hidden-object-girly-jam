@@ -55,7 +55,6 @@ func _on_hints_book_button_pressed() -> void:
 	else:
 		if _state == State.OPTIONS:
 			await PanelAnimator.hide(_options_menu)
-		_hint_book.populate()
 		_state = State.HINTS
 		GameState.ui_open = true
 		PanelAnimator.show(_hint_book)

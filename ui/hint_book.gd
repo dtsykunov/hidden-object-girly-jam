@@ -1,5 +1,5 @@
 class_name HintBook
-extends CenterContainer
+extends Control
 ## Picture book showing all cats.
 ##
 ## Unfound cats appear as black silhouettes with a hint label.
@@ -8,78 +8,25 @@ extends CenterContainer
 
 @onready var _tabs: TabContainer = $PanelContainer/TabContainer
 
-const CATS_PER_PAGE := 3
-const CATS_PER_SPREAD := CATS_PER_PAGE * 2
+func _ready() -> void:
+	_tabs.tab_changed.connect(_on_tab_changed)
 
+func _on_left_button_pressed() -> void:
+	_tabs.select_previous_available()
 
-func populate() -> void:
-	for child in _tabs.get_children():
-		_tabs.remove_child(child)
-		child.queue_free()
+func _on_right_button_pressed() -> void:
+	_tabs.select_next_available()
 
-	var entries: Array = GameState.cat_entries
-	if entries.is_empty():
-		return
+func _on_tab_changed(tab_idx: int) -> void:
+	if tab_idx == 0:
+		%LeftButton.hide()
+	else:
+		%LeftButton.show()
 
-	var spread_count := ceili(entries.size() / float(CATS_PER_SPREAD))
-	for spread_idx in spread_count:
-		_tabs.add_child(_make_spread(spread_idx, entries))
+	if tab_idx == 10:
+		%RightButton.hide()
+	else:
+		%RightButton.show()
 
-
-func _make_spread(spread_idx: int, entries: Array) -> Control:
-	var start := spread_idx * CATS_PER_SPREAD
-	var end := mini(start + CATS_PER_SPREAD, entries.size())
-
-	var tab := Control.new()
-	tab.name = "Cats%d_%d" % [start + 1, end]
-
-	var hbox := HBoxContainer.new()
-	hbox.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	tab.add_child(hbox)
-
-	for page_idx in 2:
-		var vbox := VBoxContainer.new()
-		vbox.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		vbox.size_flags_vertical = Control.SIZE_EXPAND_FILL
-		hbox.add_child(vbox)
-
-		for slot_idx in CATS_PER_PAGE:
-			var global_idx := start + page_idx * CATS_PER_PAGE + slot_idx
-			if global_idx < entries.size():
-				var entry: Dictionary = entries[global_idx]
-				_add_cat_slot(vbox, entry.cat_data, entry.is_found)
-			else:
-				_add_empty_slot(vbox)
-
-	return tab
-
-
-func _add_cat_slot(parent: VBoxContainer, cat_data: CatData, is_found: bool) -> void:
-	var slot := VBoxContainer.new()
-	slot.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	slot.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	parent.add_child(slot)
-
-	var tex_rect := TextureRect.new()
-	tex_rect.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	tex_rect.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
-	tex_rect.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-	if cat_data:
-		tex_rect.texture = cat_data.sprite
-	if not is_found:
-		tex_rect.modulate = Color.BLACK
-	slot.add_child(tex_rect)
-
-	if not is_found:
-		var label := Label.new()
-		label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-		label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-		label.text = cat_data.hint if (cat_data and not cat_data.hint.is_empty()) else "???"
-		slot.add_child(label)
-
-
-func _add_empty_slot(parent: VBoxContainer) -> void:
-	var spacer := Control.new()
-	spacer.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	spacer.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	parent.add_child(spacer)
+func _on_close_button_pressed() -> void:
+	print("close button")
