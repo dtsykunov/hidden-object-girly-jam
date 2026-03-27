@@ -31,10 +31,10 @@ func _input(event: InputEvent):
 			dragging = event.pressed
 			last_pointer = event.position
 
-		if event.pressed and event.button_index == MOUSE_BUTTON_WHEEL_UP:
+		if event.pressed and event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
 			_zoom_at(event.position, -zoom_step)
 
-		if event.pressed and event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
+		if event.pressed and event.button_index == MOUSE_BUTTON_WHEEL_UP:
 			_zoom_at(event.position, zoom_step)
 
 	elif event is InputEventMouseMotion and dragging:
