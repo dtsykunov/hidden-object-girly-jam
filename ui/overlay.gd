@@ -29,7 +29,8 @@ func _ready() -> void:
 	GameState.all_cats_found.connect(_on_all_cats_found)
 	_hint_book.close_requested.connect(_on_hints_book_button_pressed)
 
-	if not OS.has_feature("mobile"):
+	var is_mobile := OS.has_feature("mobile") or OS.has_feature("web_android") or OS.has_feature("web_ios")
+	if not is_mobile:
 		_how_to_play_container = %HowToPlayContainerDesktop
 		%HowToPlayContainerMobile.hide()
 	else:
