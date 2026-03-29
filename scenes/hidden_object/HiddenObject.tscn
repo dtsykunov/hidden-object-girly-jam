@@ -2,6 +2,21 @@
 
 [ext_resource type="Script" uid="uid://15qusner1abe" path="res://scenes/hidden_object/hidden_object.gd" id="1_script"]
 [ext_resource type="Texture2D" uid="uid://c7727rny27lwy" path="res://assets/images/objects/leika.png" id="2_d5b1r"]
+[ext_resource type="AudioStream" uid="uid://dwmusogue5ebx" path="res://assets/music/sfx/262313-cat-meow2-wav.mp3" id="3_4o2tu"]
+[ext_resource type="AudioStream" uid="uid://vohak17t4m3k" path="res://assets/music/sfx/553375-kitty-purr-aif.mp3" id="3_d5b1r"]
+[ext_resource type="AudioStream" uid="uid://hukeg65iuilq" path="res://assets/music/sfx/362652-cat-meow.mp3" id="4_x2a7e"]
+[ext_resource type="AudioStream" uid="uid://dq80nlx50w35k" path="res://assets/music/sfx/381761-mr-spock-meow.mp3" id="5_xei0p"]
+[ext_resource type="AudioStream" uid="uid://biicasy3yh70i" path="res://assets/music/sfx/385892-262312-steffcaffrey-cat-meow1-mp3.mp3" id="6_cr68r"]
+[ext_resource type="AudioStream" uid="uid://b805p2s1ilsfc" path="res://assets/music/sfx/698633-meow51252153-2-ogg.mp3" id="7_jq3jk"]
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_8jvl3"]
+playback_mode = 2
+streams_count = 5
+stream_0/stream = ExtResource("3_4o2tu")
+stream_1/stream = ExtResource("4_x2a7e")
+stream_2/stream = ExtResource("5_xei0p")
+stream_3/stream = ExtResource("6_cr68r")
+stream_4/stream = ExtResource("7_jq3jk")
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_glow"]
 blend_mode = 1
@@ -71,6 +86,8 @@ _data = {
 modulate = Color(0.92535293, 0.9253528, 0.9253529, 1)
 texture = ExtResource("2_d5b1r")
 script = ExtResource("1_script")
+purr_sound = ExtResource("3_d5b1r")
+meow_sound = SubResource("AudioStreamRandomizer_8jvl3")
 
 [node name="GlowSprite" type="Sprite2D" parent="." unique_id=987654321]
 visible = false

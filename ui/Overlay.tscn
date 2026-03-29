@@ -107,6 +107,10 @@
 [ext_resource type="Texture2D" uid="uid://orgmq14tg3mm" path="res://assets/images/ui/right-arrow-with-border.png" id="97_bpy4a"]
 [ext_resource type="Texture2D" uid="uid://c8gnv0hjjbqjg" path="res://assets/images/ui/full-cross.png" id="98_ccpi2"]
 [ext_resource type="Texture2D" uid="uid://17fa64mriqvu" path="res://assets/icons/mouse_scroll_up.svg" id="103_eh8xc"]
+[ext_resource type="AudioStream" uid="uid://cjton81dt5jpy" path="res://assets/music/sfx/page-turn-1.wav" id="108_byyns"]
+[ext_resource type="AudioStream" uid="uid://cxkdxrku5xslm" path="res://assets/music/sfx/page-turn-2.wav" id="109_7hn0u"]
+[ext_resource type="AudioStream" uid="uid://balrubf1kgapp" path="res://assets/music/sfx/page-turn-3.wav" id="110_dete2"]
+[ext_resource type="AudioStream" uid="uid://dqqtm2t75phuh" path="res://assets/music/sfx/page-turn-4.wav" id="111_45p8f"]
 
 [sub_resource type="Animation" id="Animation_xp0wo"]
 length = 0.001
@@ -429,6 +433,13 @@ colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
 [sub_resource type="Gradient" id="Gradient_confetti_colors"]
 offsets = PackedFloat32Array(0, 0.143, 0.286, 0.429, 0.571, 0.714, 0.857, 1)
 colors = PackedColorArray(1, 0.2, 0.2, 1, 1, 0.75, 0.1, 1, 0.1, 0.8, 0.3, 1, 0.15, 0.55, 1, 1, 0.85, 0.2, 1, 1, 1, 0.4, 0.7, 1, 0.1, 0.9, 0.95, 1, 1, 1, 1, 1)
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_cewf1"]
+streams_count = 4
+stream_0/stream = ExtResource("108_byyns")
+stream_1/stream = ExtResource("109_7hn0u")
+stream_2/stream = ExtResource("110_dete2")
+stream_3/stream = ExtResource("111_45p8f")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0ujei"]
 content_margin_left = 149.0
@@ -1162,6 +1173,11 @@ offset_bottom = 476.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("8_hintbook")
+
+[node name="PageSound" type="AudioStreamPlayer" parent="HintBook" unique_id=1728758296]
+unique_name_in_owner = true
+stream = SubResource("AudioStreamRandomizer_cewf1")
+bus = &"SFX"
 
 [node name="PanelContainer" type="PanelContainer" parent="HintBook" unique_id=1777148883]
 custom_minimum_size = Vector2(1600, 952)

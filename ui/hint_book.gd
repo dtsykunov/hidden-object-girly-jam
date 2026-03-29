@@ -14,9 +14,11 @@ func _ready() -> void:
 	_tabs.tab_changed.connect(_on_tab_changed)
 
 func _on_left_button_pressed() -> void:
+	%PageSound.play()
 	_tabs.select_previous_available()
 
 func _on_right_button_pressed() -> void:
+	%PageSound.play()
 	_tabs.select_next_available()
 
 func _on_tab_changed(tab_idx: int) -> void:

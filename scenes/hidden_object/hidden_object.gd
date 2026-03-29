@@ -54,20 +54,22 @@ func _ready() -> void:
 
 
 func _on_mouse_entered() -> void:
-	if not GameState.started or _is_found:
+	if not GameState.started:
 		return
-	var tween := create_tween()
-	tween.tween_property(self, "modulate", Color(1.3, 1.2, 1.0, 1.0), 0.15)
+	if not _is_found:
+		var tween := create_tween()
+		tween.tween_property(self, "modulate", Color(1.3, 1.2, 1.0, 1.0), 0.15)
 	if purr_sound and not _purr_player.playing:
 		_purr_player.stream = purr_sound
 		_purr_player.play()
 
 
 func _on_mouse_exited() -> void:
-	if not GameState.started or _is_found:
+	if not GameState.started:
 		return
-	var tween := create_tween()
-	tween.tween_property(self, "modulate", _base_modulate, 0.15)
+	if not _is_found:
+		var tween := create_tween()
+		tween.tween_property(self, "modulate", _base_modulate, 0.15)
 	_purr_player.stop()
 
 
