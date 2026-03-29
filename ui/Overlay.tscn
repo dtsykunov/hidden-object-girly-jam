@@ -2,17 +2,26 @@
 
 [ext_resource type="Texture2D" uid="uid://dlhgnigb04dsk" path="res://assets/icons/vector_whiteIcons.svg" id="1_7pliq"]
 [ext_resource type="Theme" uid="uid://h1f7iqhh7ycb" path="res://assets/theme/FlatUI4/kenneyUI-yellow.tres" id="1_7qdid"]
-[ext_resource type="Script" uid="uid://b8ssp3j5k0847" path="res://ui/overlay.gd" id="2_overlay"]
+[ext_resource type="Script" uid="uid://ctsl3cgulxgft" path="res://ui/overlay.gd" id="2_overlay"]
+[ext_resource type="Texture2D" uid="uid://b7xyocn5uxmon" path="res://assets/icons/pointer_c.svg" id="4_bpy4a"]
 [ext_resource type="PackedScene" uid="uid://dpk0vokm5np3y" path="res://ui/logo.tscn" id="5_67jpi"]
 [ext_resource type="Texture2D" uid="uid://l2bxyq1ebgsh" path="res://assets/images/ui/ECI-book.svg" id="5_bpy4a"]
+[ext_resource type="StyleBox" uid="uid://djtqjc5hdlcm5" path="res://assets/theme/purple-box-flat.tres" id="5_ccpi2"]
+[ext_resource type="Texture2D" uid="uid://chid28vg80hd4" path="res://assets/icons/mouse.svg" id="6_qbg37"]
+[ext_resource type="Texture2D" uid="uid://cdeadjamm0ky6" path="res://assets/icons/mouse_left.svg" id="7_xp0wo"]
 [ext_resource type="Texture2D" uid="uid://dem7bnleinpk0" path="res://assets/images/ui/book-no-arrows.png" id="8_ccpi2"]
 [ext_resource type="Script" uid="uid://c3325kmss0kd" path="res://ui/hint_book.gd" id="8_hintbook"]
+[ext_resource type="Texture2D" uid="uid://c3ga1qrxa3cds" path="res://assets/icons/mouse_scroll_down.svg" id="8_perkf"]
 [ext_resource type="Script" uid="uid://cohrgr43dyu6u" path="res://ui/cat_hint.gd" id="9_jbhiu"]
 [ext_resource type="Texture2D" uid="uid://kl2hte42ed0b" path="res://assets/images/cats/painting/Untitled-2.png" id="9_rlnm3"]
+[ext_resource type="Texture2D" uid="uid://bl0ioreadd7ov" path="res://assets/icons/touch_finger_one.svg" id="10_31i4y"]
 [ext_resource type="Resource" uid="uid://dym25nrb1o8kc" path="res://resources/cats/oiie_cat.tres" id="10_q1n8y"]
 [ext_resource type="Texture2D" uid="uid://cjlu886enjhp6" path="res://assets/images/cats/painting/Untitled-33.png" id="10_rlnm3"]
 [ext_resource type="Texture2D" uid="uid://b886060ct7c2u" path="res://assets/images/cats/painting/Untitled-35.png" id="11_6a703"]
+[ext_resource type="Texture2D" uid="uid://h238bshueibc" path="res://assets/icons/touch_tap.svg" id="11_kamfy"]
 [ext_resource type="Resource" uid="uid://b5748uogck82s" path="res://resources/cats/cat_01.tres" id="12_6a703"]
+[ext_resource type="Texture2D" uid="uid://cm40nm1jbrdmx" path="res://assets/icons/touch_zoom_out.svg" id="12_cewf1"]
+[ext_resource type="Texture2D" uid="uid://de71eyn4bp37m" path="res://assets/icons/touch_zoom_in.svg" id="13_iaysp"]
 [ext_resource type="Texture2D" uid="uid://bj42br8w47wxm" path="res://assets/images/cats/painting/Untitled-1.png" id="13_rads4"]
 [ext_resource type="Resource" uid="uid://bcbe18ba0cab4" path="res://resources/cats/cat_02.tres" id="14_72guq"]
 [ext_resource type="Resource" uid="uid://b4d4e4523cd33" path="res://resources/cats/cat_03.tres" id="16_hc7va"]
@@ -97,6 +106,313 @@
 [ext_resource type="Texture2D" uid="uid://cv3k8ik2ekrcm" path="res://assets/images/ui/left-arrow-with-border.png" id="96_ccpi2"]
 [ext_resource type="Texture2D" uid="uid://orgmq14tg3mm" path="res://assets/images/ui/right-arrow-with-border.png" id="97_bpy4a"]
 [ext_resource type="Texture2D" uid="uid://c8gnv0hjjbqjg" path="res://assets/images/ui/full-cross.png" id="98_ccpi2"]
+[ext_resource type="Texture2D" uid="uid://17fa64mriqvu" path="res://assets/icons/mouse_scroll_up.svg" id="103_eh8xc"]
+
+[sub_resource type="Animation" id="Animation_xp0wo"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MouseLeft2:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(55.5, 43.60251)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Mouse:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Mouse2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("MouseLeft2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_qbg37"]
+resource_name = "click-and-drag"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MouseLeft2:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8666667, 2.0333333, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(55.5, 43.60251), Vector2(55.5, 43.60251), Vector2(225, 43.603), Vector2(225, 43.603)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Mouse:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(2.5, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Mouse2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.51),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("MouseLeft2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.51, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xp0wo"]
+_data = {
+&"RESET": SubResource("Animation_xp0wo"),
+&"click-and-drag": SubResource("Animation_qbg37")
+}
+
+[sub_resource type="Animation" id="Animation_eh8xc"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D3:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.17239271, 0.17239271)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MouseScrollDown:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MouseLeft2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("MouseScrollUp:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_perkf"]
+resource_name = "tutorial-scroll"
+length = 3.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D3:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6666667, 1.5, 2.5, 3.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.17239271, 0.17239271), Vector2(0.17239271, 0.17239271), Vector2(0.072, 0.072), Vector2(0.072, 0.072), Vector2(0.17239271, 0.17239271)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MouseScrollDown:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.66, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MouseLeft2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.66, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [true, false, true, false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("MouseScrollUp:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(2.5, 3.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_eh8xc"]
+_data = {
+&"RESET": SubResource("Animation_eh8xc"),
+&"tutorial-scroll": SubResource("Animation_perkf")
+}
+
+[sub_resource type="Animation" id="Animation_kamfy"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MouseKeyboard/TouchFingerOne:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(529.5, 40)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MouseKeyboard/TouchTap:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MouseKeyboard/TouchFingerOne:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_31i4y"]
+resource_name = "tutorial-tap"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MouseKeyboard/TouchFingerOne:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(529.5, 40), Vector2(404.5, 43), Vector2(404.5, 43)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MouseKeyboard/TouchTap:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.3, 1.6667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MouseKeyboard/TouchFingerOne:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.3, 1.6667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kamfy"]
+_data = {
+&"RESET": SubResource("Animation_kamfy"),
+&"tutorial-tap": SubResource("Animation_31i4y")
+}
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1eqy"]
 atlas = ExtResource("1_7pliq")
@@ -105,18 +421,6 @@ region = Rect2(1965, 306, 96, 96)
 [sub_resource type="AtlasTexture" id="AtlasTexture_7qdid"]
 atlas = ExtResource("1_7pliq")
 region = Rect2(765, 156, 96.83905, 94.217255)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7qdid"]
-content_margin_left = 0.0
-content_margin_top = 0.0
-content_margin_right = 0.0
-content_margin_bottom = 0.0
-bg_color = Color(0.6872063, 0.70431215, 0.8919519, 1)
-corner_radius_top_left = 10
-corner_radius_top_right = 10
-corner_radius_bottom_right = 10
-corner_radius_bottom_left = 10
-corner_detail = 5
 
 [sub_resource type="Gradient" id="Gradient_confetti_fade"]
 offsets = PackedFloat32Array(0, 0.75, 1)
@@ -167,22 +471,357 @@ grow_horizontal = 2
 mouse_filter = 2
 color = Color(0, 0, 0, 0)
 
-[node name="PlayButton" type="Button" parent="." unique_id=667169842]
+[node name="HowToPlayContainerDesktop" type="PanelContainer" parent="." unique_id=614166172]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(1000, 753.205)
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -20.5
-offset_top = -15.5
-offset_right = 20.5
-offset_bottom = 15.5
+offset_left = -160.66206
+offset_top = -63.1255
+offset_right = 160.66206
+offset_bottom = 63.1255
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_styles/panel = ExtResource("5_ccpi2")
+
+[node name="MarginContainer" type="MarginContainer" parent="HowToPlayContainerDesktop" unique_id=1502157790]
+layout_mode = 2
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 25
+theme_override_constants/margin_bottom = 25
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HowToPlayContainerDesktop/MarginContainer" unique_id=1773077251]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer" unique_id=1726922753]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 55
+text = "How to play"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer" unique_id=1948661088]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TitleLabel2" type="Label" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer" unique_id=1758209377]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 38
+text = "Click on cats you find"
+horizontal_alignment = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer" unique_id=2066416753]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="MouseKeyboard" type="Node2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer" unique_id=483130752]
+position = Vector2(-335, -3.3974915)
+
+[node name="Sprite2D2" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer/MouseKeyboard" unique_id=840197817]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(402.99997, 44.60251)
+scale = Vector2(0.17239271, 0.17239271)
+texture = ExtResource("21_u3evt")
+
+[node name="Sprite2D" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer/MouseKeyboard" unique_id=1756271008]
+position = Vector2(425, 48)
+texture = ExtResource("4_bpy4a")
+
+[node name="MouseLeft" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer/MouseKeyboard" unique_id=231874263]
+position = Vector2(537, 46)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_xp0wo")
+
+[node name="TitleLabel3" type="Label" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer" unique_id=307226039]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 38
+text = "Click and drag to move around the map"
+horizontal_alignment = 1
+
+[node name="PanelContainer2" type="PanelContainer" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer" unique_id=722905570]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="MouseLeft2" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer2" unique_id=2034366014]
+visible = false
+position = Vector2(55.5, 43.60251)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_xp0wo")
+
+[node name="Mouse" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer2" unique_id=861122462]
+visible = false
+position = Vector2(224.49997, 43.60251)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6_qbg37")
+
+[node name="Mouse2" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer2" unique_id=1913905395]
+position = Vector2(55.5, 43.60251)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6_qbg37")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer2" unique_id=1433719182]
+libraries/ = SubResource("AnimationLibrary_xp0wo")
+autoplay = &"click-and-drag"
+
+[node name="TitleLabel4" type="Label" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer" unique_id=1502925654]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 38
+text = "scroll to zoom in and out"
+horizontal_alignment = 1
+
+[node name="PanelContainer3" type="PanelContainer" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer" unique_id=1399763340]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=863970422]
+libraries/ = SubResource("AnimationLibrary_eh8xc")
+autoplay = &"tutorial-scroll"
+
+[node name="MouseLeft2" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=207226882]
+visible = false
+position = Vector2(201.5, 39.60252)
+scale = Vector2(0.49706957, 0.49706957)
+texture = ExtResource("6_qbg37")
+
+[node name="Sprite2D3" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=1715522209]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(68, 43.377563)
+scale = Vector2(0.17239271, 0.17239271)
+texture = ExtResource("21_u3evt")
+
+[node name="MouseScrollUp" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=1016015608]
+visible = false
+position = Vector2(201.5, 39.60254)
+scale = Vector2(0.497, 0.497)
+texture = ExtResource("103_eh8xc")
+
+[node name="MouseScrollDown" type="Sprite2D" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=180601361]
+visible = false
+position = Vector2(201.49995, 39.60256)
+scale = Vector2(0.49706957, 0.49706957)
+texture = ExtResource("8_perkf")
+
+[node name="MarginContainer" type="MarginContainer" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer" unique_id=1346732394]
+layout_mode = 2
+theme_override_constants/margin_top = 28
+
+[node name="PlayButtonDesktop" type="Button" parent="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/MarginContainer" unique_id=667169842]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 90
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 61
+text = "Play"
+
+[node name="HowToPlayContainerMobile" type="PanelContainer" parent="." unique_id=1413254955]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(1000, 753.205)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.66206
+offset_top = -63.1255
+offset_right = 160.66206
+offset_bottom = 63.1255
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = ExtResource("5_ccpi2")
+
+[node name="MarginContainer" type="MarginContainer" parent="HowToPlayContainerMobile" unique_id=1282159762]
+layout_mode = 2
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 25
+theme_override_constants/margin_bottom = 25
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HowToPlayContainerMobile/MarginContainer" unique_id=641560025]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer" unique_id=1522644012]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 55
+text = "How to play"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer" unique_id=1409110573]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TitleLabel2" type="Label" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer" unique_id=2013482584]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 38
+text = "Tap on cats you find"
+horizontal_alignment = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer" unique_id=153547473]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="MouseKeyboard" type="Node2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer" unique_id=1293269024]
+position = Vector2(-335, -3.3974915)
+
+[node name="Sprite2D2" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer/MouseKeyboard" unique_id=485687224]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(403, 44.60251)
+scale = Vector2(0.17239271, 0.17239271)
+texture = ExtResource("21_u3evt")
+
+[node name="TouchTap" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer/MouseKeyboard" unique_id=1871874714]
+position = Vector2(404.5, 43)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("11_kamfy")
+
+[node name="TouchFingerOne" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer/MouseKeyboard" unique_id=2081892976]
+position = Vector2(529.5, 40)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_31i4y")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer" unique_id=145058883]
+libraries/ = SubResource("AnimationLibrary_kamfy")
+autoplay = &"tutorial-tap"
+
+[node name="TitleLabel3" type="Label" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer" unique_id=1750588495]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 38
+text = "Tap and drag to move around the map"
+horizontal_alignment = 1
+
+[node name="PanelContainer2" type="PanelContainer" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer" unique_id=1432209002]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="MouseLeft2" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer2" unique_id=64665647]
+visible = false
+position = Vector2(55.5, 43.60251)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("11_kamfy")
+
+[node name="Mouse" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer2" unique_id=122928862]
+visible = false
+position = Vector2(224.49997, 43.60251)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_31i4y")
+
+[node name="Mouse2" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer2" unique_id=2005664940]
+position = Vector2(55.5, 43.60251)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_31i4y")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer2" unique_id=941843536]
+libraries/ = SubResource("AnimationLibrary_xp0wo")
+autoplay = &"click-and-drag"
+
+[node name="TitleLabel4" type="Label" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer" unique_id=735793504]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 38
+text = "Pinch to zoom in and out"
+horizontal_alignment = 1
+
+[node name="PanelContainer3" type="PanelContainer" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer" unique_id=1174944557]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=1210707938]
+libraries/ = SubResource("AnimationLibrary_eh8xc")
+autoplay = &"tutorial-scroll"
+
+[node name="MouseLeft2" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=1035571888]
+visible = false
+position = Vector2(201.5, 39.60252)
+scale = Vector2(0.49706957, 0.49706957)
+texture = ExtResource("10_31i4y")
+
+[node name="Sprite2D3" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=414609869]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(68, 43.377563)
+scale = Vector2(0.17239271, 0.17239271)
+texture = ExtResource("21_u3evt")
+
+[node name="MouseScrollUp" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=1310166541]
+visible = false
+position = Vector2(201.5, 39.60254)
+scale = Vector2(0.497, 0.497)
+texture = ExtResource("12_cewf1")
+
+[node name="MouseScrollDown" type="Sprite2D" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/VBoxContainer/PanelContainer3" unique_id=1514820585]
+visible = false
+position = Vector2(201.49995, 39.60256)
+scale = Vector2(0.49706957, 0.49706957)
+texture = ExtResource("13_iaysp")
+
+[node name="MarginContainer" type="MarginContainer" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer" unique_id=463959992]
+layout_mode = 2
+theme_override_constants/margin_top = 28
+
+[node name="PlayButtonMobile" type="Button" parent="HowToPlayContainerMobile/MarginContainer/VBoxContainer/MarginContainer" unique_id=1506145810]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 61
 text = "Play"
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=1892826560]
@@ -253,7 +892,7 @@ grow_vertical = 2
 
 [node name="Panel" type="PanelContainer" parent="OptionsMenu" unique_id=1902359427]
 layout_mode = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_7qdid")
+theme_override_styles/panel = ExtResource("5_ccpi2")
 
 [node name="MarginContainer" type="MarginContainer" parent="OptionsMenu/Panel" unique_id=475621727]
 layout_mode = 2
@@ -363,6 +1002,7 @@ theme_override_font_sizes/font_size = 45
 text = "Continue"
 
 [node name="CatCounter" type="Label" parent="." unique_id=-2094967295]
+visible = false
 layout_mode = 1
 offset_left = 49.0
 offset_top = 45.0
@@ -388,7 +1028,7 @@ grow_vertical = 2
 
 [node name="Panel" type="PanelContainer" parent="ConfirmPanel" unique_id=2001000002]
 layout_mode = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_7qdid")
+theme_override_styles/panel = ExtResource("5_ccpi2")
 
 [node name="MarginContainer" type="MarginContainer" parent="ConfirmPanel/Panel" unique_id=2001000003]
 layout_mode = 2
@@ -468,7 +1108,7 @@ grow_vertical = 2
 
 [node name="Panel" type="PanelContainer" parent="VictoryPanel" unique_id=-2094967285]
 layout_mode = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_7qdid")
+theme_override_styles/panel = ExtResource("5_ccpi2")
 
 [node name="MarginContainer" type="MarginContainer" parent="VictoryPanel/Panel" unique_id=-2094967284]
 layout_mode = 2
@@ -2206,7 +2846,8 @@ texture_normal = ExtResource("98_ccpi2")
 ignore_texture_size = true
 stretch_mode = 5
 
-[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="HowToPlayContainerDesktop/MarginContainer/VBoxContainer/MarginContainer/PlayButtonDesktop" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="HowToPlayContainerMobile/MarginContainer/VBoxContainer/MarginContainer/PlayButtonMobile" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/HintsBookButton" to="." method="_on_hints_book_button_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/MarginContainer/OptionsButton" to="." method="_on_options_button_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/MarginContainer2/FullscreenButton" to="." method="_on_fullscreen_button_pressed"]

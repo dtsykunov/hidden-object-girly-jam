@@ -7,7 +7,7 @@ enum State {
 	HINTS,
 }
 
-@onready var _play_button: Button = $PlayButton
+@onready var _how_to_play_container: Control
 @onready var _options_menu: CenterContainer = $OptionsMenu
 @onready var _confirm_panel: CenterContainer = $ConfirmPanel
 @onready var _victory_panel: CenterContainer = $VictoryPanel
@@ -28,6 +28,14 @@ func _ready() -> void:
 	GameState.cat_discovered.connect(_on_cat_discovered)
 	GameState.all_cats_found.connect(_on_all_cats_found)
 	_hint_book.close_requested.connect(_on_hints_book_button_pressed)
+
+	if not OS.has_feature("mobile"):
+		_how_to_play_container = %HowToPlayContainerDesktop
+		%HowToPlayContainerMobile.hide()
+	else:
+		_how_to_play_container = %HowToPlayContainerMobile
+		%HowToPlayContainerDesktop.hide()
+	_how_to_play_container.show()
 
 
 func _on_options_button_pressed() -> void:
@@ -98,7 +106,7 @@ func _to_db(value: float) -> float:
 func _on_play_button_pressed() -> void:
 	GameState.start()
 	_state = State.GAME
-	await PanelAnimator.dismiss(_play_button)
+	await PanelAnimator.dismiss(_how_to_play_container)
 	_cat_counter.text = "Found: 0 / %d" % GameState.total_cats
 	_cat_counter.show()
 
