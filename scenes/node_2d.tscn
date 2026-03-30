@@ -253,8 +253,8 @@ texture = ExtResource("15_af4el")
 cat_data = ExtResource("cat05_res")
 
 [node name="huhcat" parent="OverlayCats" unique_id=1500044289 instance=ExtResource("ho_1")]
-modulate = Color(0.7764706, 0.7921569, 0.81960785, 1)
-position = Vector2(-16150.659, 2008.6624)
+modulate = Color(1, 1, 1, 1)
+position = Vector2(-16268.621, 1783.6451)
 scale = Vector2(1.1983467, 1.1983469)
 texture = ExtResource("16_h3hrn")
 cat_data = ExtResource("cat36_res")
@@ -316,7 +316,7 @@ rotation = -0.0021949306
 scale = Vector2(0.97, 0.97)
 
 [node name="BushFlower" type="Sprite2D" parent="OverlayObjects" unique_id=492103776]
-position = Vector2(-2358.2827, 248.43275)
+position = Vector2(-2393.391, 274.12897)
 rotation = 0.0021949306
 texture = ExtResource("14_p421j")
 
