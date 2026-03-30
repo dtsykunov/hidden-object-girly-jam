@@ -321,11 +321,6 @@ position = Vector2(-2358.2827, 248.43275)
 rotation = 0.0021949306
 texture = ExtResource("14_p421j")
 
-[node name="BarrelBush" type="Sprite2D" parent="OverlayObjects" unique_id=1725906361]
-position = Vector2(-2492.0645, -330.21277)
-rotation = 0.0021949306
-texture = ExtResource("39_j5ee5")
-
 [node name="Tractor" type="Sprite2D" parent="OverlayObjects" unique_id=766709352]
 position = Vector2(-111.58887, 113.15752)
 rotation = 0.002145314
@@ -393,6 +388,12 @@ texture = ExtResource("29_af4el")
 position = Vector2(-549.0342, -675.4332)
 rotation = 0.0021949306
 texture = ExtResource("32_dj3rm")
+
+[node name="BarrelBush" type="Sprite2D" parent="OverlayObjects" unique_id=1725906361]
+position = Vector2(-2492.0647, -330.21277)
+rotation = 0.0021949306
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("39_j5ee5")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=908766690]
 visible = false
