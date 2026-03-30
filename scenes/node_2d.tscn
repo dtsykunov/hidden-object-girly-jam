@@ -154,7 +154,6 @@ size = Vector2(125, 125)
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1513615707]
 
 [node name="Overlay" parent="CanvasLayer" unique_id=2132565030 instance=ExtResource("4_4vge2")]
-visible = false
 
 [node name="Background" type="Sprite2D" parent="." unique_id=1566050030]
 position = Vector2(567, 1034)
