@@ -108,4 +108,4 @@ bus = &"SFX"
 
 [node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="." unique_id=49537097]
 position = Vector2(-56, 28)
-rect = Rect2(-87, -175, 307, 290)
+rect = Rect2(-627, -783, 1446, 1351)

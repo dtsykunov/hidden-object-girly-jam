@@ -36,7 +36,6 @@
 [ext_resource type="Texture2D" uid="uid://b3nklu0qdnq0i" path="res://assets/images/objects/garden-tools.png" id="25_l28v8"]
 [ext_resource type="Texture2D" uid="uid://kwieakwkslrx" path="res://assets/images/objects/glass_door.png" id="26_dj3rm"]
 [ext_resource type="Texture2D" uid="uid://c7727rny27lwy" path="res://assets/images/objects/leika.png" id="27_iajyf"]
-[ext_resource type="Texture2D" uid="uid://byilpmp5oqwk4" path="res://assets/images/objects/small-window.png" id="28_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://dpvx3c264qiov" path="res://assets/images/objects/window.png" id="29_af4el"]
 [ext_resource type="Texture2D" uid="uid://gt3ap4mfypig" path="res://assets/images/objects/vedro.png" id="32_dj3rm"]
 [ext_resource type="Texture2D" uid="uid://bj42br8w47wxm" path="res://assets/images/cats/painting/Untitled-1.png" id="42_kksrm"]
@@ -169,14 +168,14 @@ scale = Vector2(0.14350204, 0.14682096)
 
 [node name="F30Dab3624Ef45049f3f9222Ec2Fa78e" parent="OverlayCats" unique_id=608873721 instance=ExtResource("ho_1")]
 modulate = Color(0.37101305, 0.53474456, 0.42848927, 1)
-position = Vector2(-27.951077, 33.99628)
+position = Vector2(41.704433, 47.76778)
 scale = Vector2(1.0523258, 1.0523256)
 texture = ExtResource("5_h3hrn")
 cat_data = ExtResource("cat37_res")
 
 [node name="HiddenObject" parent="OverlayCats" unique_id=1610696968 instance=ExtResource("ho_1")]
 modulate = Color(0.39308554, 0.3930855, 0.39308548, 1)
-position = Vector2(-1742.6299, -2884.8044)
+position = Vector2(-1645.0094, -2911.839)
 scale = Vector2(0.9850231, 0.9850231)
 texture = ExtResource("7_h3hrn")
 flip_h = true
@@ -193,7 +192,7 @@ cat_data = ExtResource("cat14_res")
 
 [node name="HiddenObject2" parent="OverlayCats" unique_id=1161988212 instance=ExtResource("ho_1")]
 modulate = Color(0.52906674, 0.5290667, 0.5290667, 1)
-position = Vector2(-11556.645, 1235.2494)
+position = Vector2(-11682.2, 1289.4684)
 rotation = 0.64225394
 scale = Vector2(0.7160213, 0.7160213)
 texture = ExtResource("9_h3hrn")
@@ -218,7 +217,7 @@ cat_data = ExtResource("cat33_res")
 
 [node name="Cd8881388c3d4f11B78f2f145Ce3Eae1" parent="OverlayCats" unique_id=1076978209 instance=ExtResource("ho_1")]
 modulate = Color(0.69135684, 0.6913568, 0.69135684, 1)
-position = Vector2(-19078.553, -6811.096)
+position = Vector2(-19287.531, -6845.599)
 rotation = 0.0021453137
 scale = Vector2(1.7718452, 1.9085467)
 skew = 0.00010037422
@@ -286,7 +285,7 @@ cat_data = ExtResource("cat18_res")
 
 [node name="Cat(1)" parent="OverlayCats" unique_id=1228456605 instance=ExtResource("ho_1")]
 self_modulate = Color(0.6560605, 0.49566442, 0.36959913, 1)
-position = Vector2(1792.6611, -3878.4412)
+position = Vector2(1834.4569, -3871.542)
 rotation = 0.033891436
 scale = Vector2(1.2544557, 1.3090842)
 skew = 0.0015844107
@@ -322,43 +321,43 @@ rotation = 0.0021949306
 texture = ExtResource("14_p421j")
 
 [node name="BarrelBush" type="Sprite2D" parent="OverlayObjects" unique_id=1725906361]
-position = Vector2(-2488.9834, -325.05133)
+position = Vector2(-2489.9937, -334.33218)
 rotation = 0.0021949306
 texture = ExtResource("12_x4k2d")
 
 [node name="Tractor" type="Sprite2D" parent="OverlayObjects" unique_id=766709352]
-position = Vector2(-128.07915, 111.05946)
+position = Vector2(-111.58887, 113.15752)
 rotation = 0.002145314
 skew = 0.00010037422
 texture = ExtResource("5_rntdg")
 
 [node name="Doghouse" type="Sprite2D" parent="OverlayObjects" unique_id=184317867]
-position = Vector2(-230.9105, -477.8276)
+position = Vector2(-215.42627, -487.07175)
 rotation = 0.002145314
 skew = 0.00010037422
 texture = ExtResource("6_hiivq")
 
 [node name="Koryto" type="Sprite2D" parent="OverlayObjects" unique_id=1554733259]
-position = Vector2(-767.5347, -231.582)
+position = Vector2(-692.27264, -233.47867)
 texture = ExtResource("8_w8l5x")
 
 [node name="BikeBag" type="Sprite2D" parent="OverlayObjects" unique_id=7870286]
-position = Vector2(-1706.6158, 194.19276)
+position = Vector2(-1723.122, 199.31119)
 rotation = 0.0021949306
 texture = ExtResource("10_1wuir")
 
 [node name="Carrots" type="Sprite2D" parent="OverlayObjects" unique_id=1809273649]
-position = Vector2(-1778.9087, -217.30698)
+position = Vector2(-1793.3326, -221.46222)
 rotation = 0.0021949306
 texture = ExtResource("12_uo1ep")
 
 [node name="SheetFront" type="Sprite2D" parent="OverlayObjects" unique_id=1334756755]
-position = Vector2(-2924.3938, -1101.2668)
+position = Vector2(-2894.4585, -1118.7268)
 rotation = 0.0021949306
 texture = ExtResource("14_xksap")
 
 [node name="Bricks" type="Sprite2D" parent="OverlayObjects" unique_id=495607988]
-position = Vector2(137.39224, -596.60706)
+position = Vector2(149.78596, -606.889)
 rotation = 0.0021949306
 texture = ExtResource("19_jws35")
 
@@ -367,34 +366,30 @@ position = Vector2(-2051.6157, 968.6951)
 texture = ExtResource("23_p6t5t")
 
 [node name="BushTree" type="Sprite2D" parent="OverlayObjects" unique_id=1775283093]
-position = Vector2(-1944.2079, -997.05316)
+position = Vector2(-1948.275, -1022.8353)
 texture = ExtResource("24_byhed")
 
 [node name="GardenTools" type="Sprite2D" parent="OverlayObjects" unique_id=1478889576]
-position = Vector2(-1024.9733, -835.2413)
+position = Vector2(-1022.89557, -842.4531)
 rotation = 0.0021949306
 texture = ExtResource("25_l28v8")
 
 [node name="GlassDoor" type="Sprite2D" parent="OverlayObjects" unique_id=1937234393]
-position = Vector2(-2803.5918, -245.32935)
+position = Vector2(-2933.1921, -380.66565)
 texture = ExtResource("26_dj3rm")
 
 [node name="Leika" type="Sprite2D" parent="OverlayObjects" unique_id=1666720155]
-position = Vector2(-1556.3804, -147.74622)
+position = Vector2(-1570.8066, -150.87068)
 rotation = 0.0021949306
 texture = ExtResource("27_iajyf")
 
-[node name="SmallWindow" type="Sprite2D" parent="OverlayObjects" unique_id=929392190]
-position = Vector2(-449.00427, -1158.72)
-texture = ExtResource("28_h3hrn")
-
 [node name="Window" type="Sprite2D" parent="OverlayObjects" unique_id=923305947]
-position = Vector2(-1143.0432, -1057.1505)
+position = Vector2(-1143.0183, -1068.4905)
 rotation = 0.0021949306
 texture = ExtResource("29_af4el")
 
 [node name="Vedro" type="Sprite2D" parent="OverlayObjects" unique_id=1251415361]
-position = Vector2(-551.1324, -658.94293)
+position = Vector2(-549.0342, -675.4332)
 rotation = 0.0021949306
 texture = ExtResource("32_dj3rm")
 
@@ -474,7 +469,7 @@ texture = ExtResource("50_h3hrn")
 cat_data = ExtResource("cat15_res")
 
 [node name="986c166c559c41e09f5a8Eb364c19Fd0" parent="HiddenObjectRest" unique_id=494703940 instance=ExtResource("ho_1")]
-position = Vector2(1658.0001, 2462)
+position = Vector2(1673.0001, 2483)
 rotation = -0.005242732
 scale = Vector2(0.19425151, 0.19425152)
 texture = ExtResource("51_af4el")
@@ -507,7 +502,7 @@ texture = ExtResource("55_h3hrn")
 cat_data = ExtResource("cat23_res")
 
 [node name="BlackCatBreedBombayOnWhiteFeaturingCat,Black,AndWhite" parent="HiddenObjectRest" unique_id=2119788139 instance=ExtResource("ho_1")]
-position = Vector2(-251, 929)
+position = Vector2(-268, 916)
 rotation = 0.11087677
 scale = Vector2(0.16308539, 0.16308539)
 texture = ExtResource("56_7yks5")
