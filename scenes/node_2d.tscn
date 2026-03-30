@@ -17,7 +17,6 @@
 [ext_resource type="Texture2D" uid="uid://cjlu886enjhp6" path="res://assets/images/cats/painting/Untitled-33.png" id="11_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://df4d1io0sk13t" path="res://assets/images/cats/painting/Untitled-28.png" id="12_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://y8ukoah0cn1o" path="res://assets/images/objects/carrots.png" id="12_uo1ep"]
-[ext_resource type="Texture2D" uid="uid://dtfvk5ieed62d" path="res://assets/images/objects/barrel-bush.png" id="12_x4k2d"]
 [ext_resource type="Texture2D" uid="uid://nu7tx1h3025m" path="res://assets/images/cats/painting/Untitled-32.png" id="13_h3hrn"]
 [ext_resource type="Texture2D" uid="uid://c4h55j0vht7q8" path="res://assets/images/cats/painting/Untitled-13.png" id="14_af4el"]
 [ext_resource type="Texture2D" uid="uid://fms68vnxygfx" path="res://assets/images/objects/bush-flower.png" id="14_p421j"]
@@ -38,6 +37,7 @@
 [ext_resource type="Texture2D" uid="uid://c7727rny27lwy" path="res://assets/images/objects/leika.png" id="27_iajyf"]
 [ext_resource type="Texture2D" uid="uid://dpvx3c264qiov" path="res://assets/images/objects/window.png" id="29_af4el"]
 [ext_resource type="Texture2D" uid="uid://gt3ap4mfypig" path="res://assets/images/objects/vedro.png" id="32_dj3rm"]
+[ext_resource type="Texture2D" uid="uid://c8vg4xf4r1hvc" path="res://assets/images/objects/barell-bush.png" id="39_j5ee5"]
 [ext_resource type="Texture2D" uid="uid://bj42br8w47wxm" path="res://assets/images/cats/painting/Untitled-1.png" id="42_kksrm"]
 [ext_resource type="Texture2D" uid="uid://cq3otow2y4pin" path="res://assets/images/cats/painting/Untitled-41.png" id="43_jdup0"]
 [ext_resource type="Texture2D" uid="uid://c85tooj8wkdg" path="res://assets/images/cats/painting/Untitled-3.png" id="44_avk7w"]
@@ -154,6 +154,7 @@ size = Vector2(125, 125)
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1513615707]
 
 [node name="Overlay" parent="CanvasLayer" unique_id=2132565030 instance=ExtResource("4_4vge2")]
+visible = false
 
 [node name="Background" type="Sprite2D" parent="." unique_id=1566050030]
 position = Vector2(567, 1034)
@@ -208,7 +209,7 @@ cat_data = ExtResource("cat10_res")
 
 [node name="Ec1286b77c59404cAd1a1c84f91d522a" parent="OverlayCats" unique_id=342534354 instance=ExtResource("ho_1")]
 modulate = Color(0.46618086, 0.4661808, 0.4661808, 1)
-position = Vector2(199.54837, 1131.0603)
+position = Vector2(227.20833, 1226.4741)
 rotation = -0.17656873
 scale = Vector2(1.5164057, 1.3943495)
 skew = 0.001365304
@@ -226,7 +227,7 @@ cat_data = ExtResource("cat28_res")
 
 [node name="Siameseシャム猫" parent="OverlayCats" unique_id=1194996290 instance=ExtResource("ho_1")]
 modulate = Color(0.5211406, 0.5211406, 0.5211405, 1)
-position = Vector2(-17242.328, -2162.0315)
+position = Vector2(-17242.16, -2236.9524)
 rotation = 0.0021453137
 scale = Vector2(1.1886296, 1.1617604)
 skew = 0.00010037422
@@ -267,7 +268,7 @@ texture = ExtResource("17_h3hrn")
 cat_data = ExtResource("cat43_res")
 
 [node name="HiddenObject4" parent="OverlayCats" unique_id=149786492 instance=ExtResource("ho_1")]
-position = Vector2(-6678.8633, -4877.406)
+position = Vector2(-6685.6177, -4972.774)
 rotation = 0.5427596
 scale = Vector2(1.1367266, 1.1367267)
 texture = ExtResource("18_h3hrn")
@@ -294,7 +295,7 @@ cat_data = ExtResource("cat26_res")
 
 [node name="3c215e9bF1f745c6Aeb55Fc297Ad0d6d" parent="OverlayCats" unique_id=826039765 instance=ExtResource("ho_1")]
 modulate = Color(0.646029, 0.646029, 0.646029, 1)
-position = Vector2(-13875.66, 6767.6445)
+position = Vector2(-13931.683, 6890.123)
 rotation = 0.15912169
 scale = Vector2(2.0942266, 2.0468867)
 skew = 0.00010037422
@@ -303,7 +304,7 @@ cat_data = ExtResource("cat08_res")
 
 [node name="29683a7fBcda4Ec5B4485a52682a0c23" parent="OverlayCats" unique_id=1482502502 instance=ExtResource("ho_1")]
 self_modulate = Color(0.7666196, 0.76661956, 0.76661956, 1)
-position = Vector2(-10444.016, -826.1067)
+position = Vector2(-10541.62, -805.883)
 rotation = -1.7180454
 scale = Vector2(1.4855664, 1.4519401)
 skew = 0.00649333
@@ -321,9 +322,9 @@ rotation = 0.0021949306
 texture = ExtResource("14_p421j")
 
 [node name="BarrelBush" type="Sprite2D" parent="OverlayObjects" unique_id=1725906361]
-position = Vector2(-2489.9937, -334.33218)
+position = Vector2(-2492.0645, -330.21277)
 rotation = 0.0021949306
-texture = ExtResource("12_x4k2d")
+texture = ExtResource("39_j5ee5")
 
 [node name="Tractor" type="Sprite2D" parent="OverlayObjects" unique_id=766709352]
 position = Vector2(-111.58887, 113.15752)
@@ -417,14 +418,14 @@ texture = ExtResource("42_kksrm")
 cat_data = ExtResource("cat01_res")
 
 [node name="35b581d32Fec42d998d73Fc34a0f6e41" parent="HiddenObjectRest" unique_id=1905212036 instance=ExtResource("ho_1")]
-position = Vector2(-578.00006, 551.00006)
+position = Vector2(-591, 534.00006)
 scale = Vector2(0.14944011, 0.14944011)
 texture = ExtResource("43_jdup0")
 cat_data = ExtResource("cat41_res")
 
 [node name="45f7e974Ffc14d1c8FcaB0681Dd018f8" parent="HiddenObjectRest" unique_id=850110405 instance=ExtResource("ho_1")]
-position = Vector2(89, 405)
-scale = Vector2(0.13549626, 0.13549626)
+position = Vector2(82, 391)
+scale = Vector2(0.16403107, 0.16403107)
 texture = ExtResource("44_avk7w")
 cat_data = ExtResource("cat03_res")
 
@@ -448,7 +449,7 @@ texture = ExtResource("47_7yks5")
 cat_data = ExtResource("cat12_res")
 
 [node name="64Ed99Fc8d214e76A452Ab601969080e" parent="HiddenObjectRest" unique_id=972336723 instance=ExtResource("ho_1")]
-position = Vector2(414.00003, 1724)
+position = Vector2(403.00003, 1723.9999)
 scale = Vector2(0.1894523, 0.1894523)
 texture = ExtResource("48_3r6mh")
 cat_data = ExtResource("cat06_res")
@@ -476,7 +477,7 @@ texture = ExtResource("51_af4el")
 cat_data = ExtResource("cat16_res")
 
 [node name="A740Da9bEe0343b1Ace110a70Ad0943d" parent="HiddenObjectRest" unique_id=1329087148 instance=ExtResource("ho_1")]
-position = Vector2(1740.9999, -78.00001)
+position = Vector2(1735, -103)
 rotation = -1.5011904
 scale = Vector2(0.21213998, 0.21214)
 texture = ExtResource("52_h3hrn")
@@ -490,7 +491,7 @@ texture = ExtResource("53_h3hrn")
 cat_data = ExtResource("cat22_res")
 
 [node name="B4a84a36F97d4c5f83435e80f8Fda115" parent="HiddenObjectRest" unique_id=149552151 instance=ExtResource("ho_1")]
-position = Vector2(1928.0001, 839.99994)
+position = Vector2(1935.0001, 818.99994)
 scale = Vector2(0.14753096, 0.14753096)
 texture = ExtResource("54_fm2cn")
 cat_data = ExtResource("cat02_res")
@@ -502,34 +503,34 @@ texture = ExtResource("55_h3hrn")
 cat_data = ExtResource("cat23_res")
 
 [node name="BlackCatBreedBombayOnWhiteFeaturingCat,Black,AndWhite" parent="HiddenObjectRest" unique_id=2119788139 instance=ExtResource("ho_1")]
-position = Vector2(-268, 916)
-rotation = 0.11087677
+position = Vector2(-267, 919)
+rotation = 0.05364529
 scale = Vector2(0.16308539, 0.16308539)
 texture = ExtResource("56_7yks5")
 cat_data = ExtResource("cat19_res")
 
 [node name="Cat" parent="HiddenObjectRest" unique_id=763704818 instance=ExtResource("ho_1")]
-position = Vector2(1639.9999, 1618)
+position = Vector2(1647.9999, 1621.0002)
 rotation = -0.64931387
 scale = Vector2(0.16102138, 0.17388509)
 texture = ExtResource("57_af4el")
 cat_data = ExtResource("cat21_res")
 
 [node name="D467c30105Be43AeB8846b2b0955d4e6" parent="HiddenObjectRest" unique_id=1578354674 instance=ExtResource("ho_1")]
-position = Vector2(-585, 1095.0001)
+position = Vector2(-590, 1081)
 rotation = 0.026983233
 scale = Vector2(0.18091573, 0.18091573)
 texture = ExtResource("58_h3hrn")
 cat_data = ExtResource("cat29_res")
 
 [node name="DrawOverAMemeForThePersonAbove!OnToyhouse" parent="HiddenObjectRest" unique_id=670675773 instance=ExtResource("ho_1")]
-position = Vector2(-1127.0001, 2656)
+position = Vector2(-1141, 2668.0002)
 scale = Vector2(0.2205242, 0.20861772)
 texture = ExtResource("59_af4el")
 cat_data = ExtResource("cat24_res")
 
 [node name="E915192fF2Ba4041B8353c71304b2c96" parent="HiddenObjectRest" unique_id=145446140 instance=ExtResource("ho_1")]
-position = Vector2(-793.00006, 2326)
+position = Vector2(-799, 2322)
 rotation = -0.015225202
 scale = Vector2(0.25736797, 0.22636405)
 texture = ExtResource("60_h3hrn")
